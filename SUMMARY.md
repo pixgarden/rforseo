@@ -48,4 +48,5 @@
 
 * [joins](analysis/joins.md)
 * [Duplicate content analysis](analysis/duplicate-content-analysis.md)
+* [Page ranks](analysis/page-ranks.md)
 
