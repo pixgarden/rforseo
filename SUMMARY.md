@@ -2,7 +2,7 @@
 
 * [Intro - R for SEO](README.md)
 * [Whys](intro.md)
-* [About R](r-intro.md)
+* [it's an R World](r-intro.md)
 * [Classic R operations](classic-r-operations.md)
 * [Classic SEO Utilities](classic-seo-utilities.md)
 

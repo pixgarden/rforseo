@@ -2,19 +2,19 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# About R
+# it's an R World
 
-### The power of R. What's different about it?
+## The power of R. What's different about it?
 
 
 
-### There is a package for that
+## 'There is a package for that'
 
 
 
 ## The confusing things about R
 
-#### The name
+### The name
 
 "R" is not the most Google-friendly name. So here a few sources to help:
 
@@ -23,9 +23,9 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 * [https://www.bigbookofr.com/](https://www.bigbookofr.com/) all the R free books
 * [https://github.com/search?l=R&q=seo&type=code](https://github.com/search?l=R&q=seo&type=code) github r source code search
 
-#### &lt;- 
+### &lt;- 
 
-If you've seen some R' code before and you might have been surprised to see that this. it's just a legacy thing, historically R differentiate  "assignation"  and "comparison", example:
+If you've seen some R' code before and you might have been surprised to see this &lt;-  being used . it's just a legacy thing, historically R differentiate  "assignation"  and "comparison", example:
 
 If you want to set the value of X to 3.   
 
