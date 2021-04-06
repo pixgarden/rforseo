@@ -46,7 +46,7 @@
 
 ## analysis
 
-* [joins](analysis/joins.md)
+* [How to join datasets](analysis/joins.md)
 * [Duplicate content analysis](analysis/duplicate-content-analysis.md)
 * [Page ranks](analysis/page-ranks.md)
 

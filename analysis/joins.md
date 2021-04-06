@@ -2,5 +2,5 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# joins
+# How to join datasets
 
