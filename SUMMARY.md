@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Intro - R for SEO](README.md)
+* [Intro - R for SEO ✔️](README.md)
 * [Whys](intro.md)
-* [it's an R World](r-intro.md)
+* [it's an R World X](r-intro.md)
 * [Classic R operations X](classic-r-operations.md)
 * [Classic SEO Utilities X](classic-seo-utilities.md)
 
