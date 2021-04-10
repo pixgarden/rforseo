@@ -50,6 +50,8 @@ Of course, this is just some silly example there is countless way to do this thi
 
 ## _'There is a package for that'_
 
+The power of R becomes more obvious is when you learn that is a... tbc
+
 ### lubridate
 
 ### urltools
