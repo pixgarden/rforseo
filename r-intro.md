@@ -6,9 +6,58 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 ## The power of R. What's different about it?
 
+if we were to talk about only one benefit, R is a language High-level programming language that mainly focuses on data. Meaning it's "specialized" with one or a few lines of code you can do a lot. Let me give you an example:
+
+```r
+View(read.csv(file.choose()))
+```
+
+This line of code, executed inside RStudio, will 
+
+* prompt a select file menu for you to select a CSV  \(_file.choose_\)
+* It will import inside R \(_read.csv_\) 
+* Display it \(_View_\)
+
+![this is a file of internal linking](.gitbook/assets/tfobxabjri%20%281%29.gif)
+
+This is how you browse a file with 2.6 Million rows. Noticed to small search icon on the top right? Yes, you can search within it quite easily too.
+
+![search for dead links using http code](.gitbook/assets/screenshot-2021-04-10-at-12.45.14-pm.png)
+
+Want to count HTTP code?  
+we will do this in two steps, first we load the CSV file and save it as a variable. Nearly the same as before.
+
+```r
+internal_linking = read.csv(file.choose())
+```
+
+Then we are going to display the count of Status column values
+
+```r
+View(table(internal_linking$Status))
+```
+
+you can recognize the _View_ function from before. the table function just count values.
+
+It displays
+
+![count of http code](.gitbook/assets/screenshot-2021-04-10-at-12.55.52-pm.png)
+
+This is 20 secondes job. the most time-consuming part was to find the file on the hard disk. 
+
+Of course, this is just some silly example there is countless way to do this thing \(third party app, terminal, excel pivot\) but it gives nice intro of possibilities.
+
+## _'There is a package for that'_
+
+### lubridate
+
+### urltools
 
 
-## 'There is a package for that'
+
+
+
+\_\_
 
 
 

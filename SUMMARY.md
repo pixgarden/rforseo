@@ -3,7 +3,7 @@
 * [Intro - R for SEO ✔️](README.md)
 * [Whys](intro.md)
 * [it's an R World X](r-intro.md)
-* [Classic R operations X](classic-r-operations.md)
+* [Getting started X](classic-r-operations.md)
 * [Classic SEO Utilities X](classic-seo-utilities.md)
 
 ## Crawl and extract data <a id="crawl"></a>
