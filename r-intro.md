@@ -26,7 +26,7 @@ This is how open and browse a file with 2.6 Million rows effortlessly. Noticed t
 
 ![search for dead links using http code](.gitbook/assets/screenshot-2021-04-10-at-12.45.14-pm.png)
 
-Want to count HTTP code? We will do this in two steps, first we load the CSV file and save it as a variable. Nearly the same as before.
+Want to count HTTP code? We will do this in two steps, first we load the CSV file and save it as a variable. Nearly the same as before:
 
 ```r
 internal_linking = read.csv(file.choose())
