@@ -38,7 +38,7 @@ Then we are going to display the count of Status column values
 View(table(internal_linking$Status))
 ```
 
-you can recognize the _View_ function from before. the table function just count values.
+you can recognize the _View_ function from before. the table function just count values. the **$** is a shortcut to access a column.
 
 It displays
 
