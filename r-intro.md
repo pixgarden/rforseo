@@ -44,7 +44,7 @@ It displays
 
 ![count of http code](.gitbook/assets/screenshot-2021-04-10-at-12.55.52-pm.png)
 
-This is 20 secondes job. the most time-consuming part was to find the file on the hard disk. 
+This is 30 secondes job. the most time-consuming part was to find the file on the hard disk. 
 
 Of course, this is just some silly example there is countless way to do this thing \(third party app, terminal, excel pivot\) but it gives nice intro of possibilities.
 
