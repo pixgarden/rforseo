@@ -2,13 +2,65 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# it's an R World
+# it's an R World X
 
 ## The power of R. What's different about it?
 
+if we were to talk about only one benefit, R is a language High-level programming language that mainly focuses on data. Meaning it's "specialized". With one or a few lines of code, you can do a lot. Let me give you an example:
+
+```r
+View(read.csv(file.choose()))
+```
+
+This line of code, executed inside [RStudio](classic-r-operations.md#install-and-rstudio), will 
+
+* prompt a select file menu for you to select a CSV  \(_file.choose_\)
+* It will import inside R \(_read.csv_\) 
+* Display it \(_View_\)
+
+Let's do it with a website internal linking file
+
+![this is a file of internal linking](.gitbook/assets/tfobxabjri%20%281%29.gif)
+
+This is how open and browse a file with 2.6 Million rows effortlessly. Noticed the small search icon on the top right? Yes, you can search within it quite easily too.
+
+![search for dead links using http code](.gitbook/assets/screenshot-2021-04-10-at-12.45.14-pm.png)
+
+Want to count HTTP code? We will do this in two steps, first we load the CSV file and save it as a variable. Nearly the same as before:
+
+```r
+internal_linking = read.csv(file.choose())
+```
+
+Then we are going to display the count of Status column values
+
+```r
+View(table(internal_linking$Status))
+```
+
+You can recognize the _View_ function from before. the table function just count values. the **$** is a shortcut to access a column.
+
+It displays
+
+![count of http code](.gitbook/assets/screenshot-2021-04-10-at-12.55.52-pm.png)
+
+This is 20 secondes job. the most time-consuming part was to find the file on the hard disk. 
+
+Of course, this is just some silly example there is countless way to do this thing \(third party app, terminal, excel pivot\) but it gives nice intro of possibilities.
+
+## _'There is a package for that'_
+
+The power of R becomes more obvious is when you learn that is a... tbc
+
+### lubridate
+
+### urltools
 
 
-## 'There is a package for that'
+
+
+
+\_\_
 
 
 
@@ -16,7 +68,9 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 ### The name
 
-"R" is not the most Google-friendly name. So here a few sources to help:
+"R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name. 
+
+So here a few sources to help find ressources
 
 * [https://rseek.org/](https://rseek.org/) r search engine
 * [https://www.r-bloggers.com/](https://www.r-bloggers.com/) r blogs aggregator
@@ -65,4 +119,6 @@ mean(abs(1))
 
 It seems a bit silly like that its   
 more info on this [https://r4ds.had.co.nz/pipes.html](https://r4ds.had.co.nz/pipes.html)
+
+### it can be slow
 

@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Intro - R for SEO
+# Intro - R for SEO ✔️
 
 _François JOLY_
 

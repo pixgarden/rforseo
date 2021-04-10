@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# types / class
+# types / class & packages x
 
 because you are trying to manipulate an object when it is not the right type. Its good practice to check that you are dealing with
 
@@ -24,6 +24,16 @@ class(y)
 
 
 ## xml\_document
+
+## advanced types
+
+## Classic Packages
+
+see [why packages matters](../r-intro.md#there-is-a-package-for-that)
+
+### Lubridate
+
+
 
 
 

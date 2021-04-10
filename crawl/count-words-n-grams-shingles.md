@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Count words, n-grams, shingles
+# Count words, n-grams, shingles x
 
 ```text
 library(stringr)

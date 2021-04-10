@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Perform automatic browser tests with RSelenium
+# Perform automatic browser tests with RSelenium ✔️
 
 ## What's **Selenium?**
 
