@@ -15,7 +15,7 @@ View(read.csv(file.choose()))
 This line of code, executed inside [RStudio](classic-r-operations.md#install-and-rstudio), will 
 
 * prompt a select file menu for you to select a CSV  \(_file.choose_\)
-* It will import inside R \(_read.csv_\) 
+* It will import data inside R \(_read.csv_\) 
 * Display it \(_View_\)
 
 Let's do it with a website internal linking file
