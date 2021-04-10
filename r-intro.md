@@ -68,7 +68,9 @@ The power of R becomes more obvious is when you learn that is a... tbc
 
 ### The name
 
-"R" is not the most Google-friendly name. So here a few sources to help:
+"R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name. 
+
+So here a few sources to help find ressources
 
 * [https://rseek.org/](https://rseek.org/) r search engine
 * [https://www.r-bloggers.com/](https://www.r-bloggers.com/) r blogs aggregator
