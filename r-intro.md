@@ -46,7 +46,7 @@ It displays
 
 This is 30 secondes job. the most time-consuming part was to find the file on the hard disk. 
 
-Of course, this is just some silly example there is countless way to do this thing \(third party app, terminal, excel pivot\) but it gives nice intro of possibilities.
+Of course, this is just some silly example. There is countless way to do this thing \(third party app, terminal, excel pivot\) but it gives nice intro of possibilities.
 
 ## _'There is a package for that'_
 
