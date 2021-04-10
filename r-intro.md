@@ -120,3 +120,5 @@ mean(abs(1))
 It seems a bit silly like that its   
 more info on this [https://r4ds.had.co.nz/pipes.html](https://r4ds.had.co.nz/pipes.html)
 
+### it can be slow
+
