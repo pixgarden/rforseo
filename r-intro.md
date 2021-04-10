@@ -12,7 +12,7 @@ if we were to talk about only one benefit, R is a language High-level programmin
 View(read.csv(file.choose()))
 ```
 
-This line of code, executed inside RStudio, will 
+This line of code, executed inside [RStudio](classic-r-operations.md#install-and-rstudio), will 
 
 * prompt a select file menu for you to select a CSV  \(_file.choose_\)
 * It will import inside R \(_read.csv_\) 
