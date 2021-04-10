@@ -18,9 +18,9 @@ This line of code, executed inside [RStudio](classic-r-operations.md#install-and
 * It will import data inside R \(_read.csv_\) 
 * Display it \(_View_\)
 
-Let's do it with a website internal linking file
+Let's do it with a website links file
 
-![this is a file of internal linking](.gitbook/assets/tfobxabjri%20%281%29.gif)
+![this is a file of hyperlinks ](.gitbook/assets/tfobxabjri%20%281%29.gif)
 
 This is how open and browse a file with 2.6 Million rows effortlessly. Noticed the small search icon on the top right? Yes, you can search within it quite easily too.
 
