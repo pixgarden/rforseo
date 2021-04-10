@@ -39,7 +39,7 @@
 
 ## Ressources
 
-* [types / class x](ressources/types-class.md)
+* [types / class & packages x](ressources/types-class.md)
 * [Datasets x](ressources/datasets.md)
 * [SEO Tools x](ressources/seo-tools.md)
 * [SEO & R People x](ressources/seo-and-r-people.md)
