@@ -25,7 +25,7 @@ gs4_get(demo)
 
 ```
 
-This package is also  
+This package is also interesting to reach 
 
 ```text
 
