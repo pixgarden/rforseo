@@ -13,7 +13,7 @@ library(googlesheets4)
 
 
 gs4_auth()
-(demo <- gs4_create("fluffy-bunny", sheets = list(flowers = head(iris))))
+(demo <- gs4_create("demo", sheets = list(flowers = head(iris))))
 
 
 class(demo)
@@ -25,11 +25,14 @@ gs4_get(demo)
 
 ```
 
-publicly available dataset
+This package is also  
 
 ```text
 
 gs4_deauth()
+
 salary <- read_sheet("https://docs.google.com/spreadsheets/d/1rGCKXIKt-7l5gX06NAwO3pjqEHh-oPXtB8ihkp0vGWo/view", skip = 1)
+
+
 ```
 
