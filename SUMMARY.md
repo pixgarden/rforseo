@@ -19,7 +19,7 @@
 
 * [Why this is important? x](export-data/why-this-is-important.md)
 * [Send and read SEO data to Excel ✔️](export-data/send-and-read-seo-data-to-excel.md)
-* [Send your data by email](export-data/send-your-data-by-email.md)
+* [Send your data by email x](export-data/send-your-data-by-email.md)
 * [Send and read  SEO data to Google Sheet x](export-data/send-and-read-seo-data-to-google-sheet.md)
 
 ## Grabbing data from APIs <a id="apis"></a>

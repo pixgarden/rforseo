@@ -1,4 +1,4 @@
-# Send your data by email
+# Send your data by email x
 
 If the data to send is not too big, another interesting idea is to send it by email using the ‘gmailr’ package.
 
