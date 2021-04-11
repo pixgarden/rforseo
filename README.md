@@ -18,7 +18,7 @@ This guide is not here to deliver a course about R, there are plenty already. Th
 
 ### 1.3 Project home
 
-All documents, markdown files, scripts, and project images are publicly available in this repository \(tba\)
+All documents, markdown files, scripts, and project images are also publicly available in [this repository](https://github.com/pixgarden/rforseo)
 
 All errors are my own. All comments are welcome to improve this guide.
 
