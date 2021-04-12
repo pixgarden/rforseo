@@ -12,8 +12,13 @@
 * [Download XML sitemaps ✔️](crawl/download-xml-sitemaps.md)
 * [Crawling with rvest ✔️](crawl/untitled.md)
 * [SEO Crawling with Rcrawler ✔️](crawl/rcrawler.md)
-* [Count words, n-grams, shingles x](crawl/count-words-n-grams-shingles.md)
 * [Perform automatic browser tests with RSelenium ✔️](crawl/perform-automatic-browser-tests-with-rselenium.md)
+
+## Grabbing data from APIs <a id="apis"></a>
+
+* [Export Google Analytics using googleAnalyticsR](apis/web-analytics-google-analytics.md)
+* [DataForSeo](apis/dataforseo.md)
+* [ahrefs API](apis/ahref.md)
 
 ## Export and read Data <a id="export-data"></a>
 
@@ -22,11 +27,12 @@
 * [Send your data by email x](export-data/send-your-data-by-email.md)
 * [Send and read  SEO data to Google Sheet x](export-data/send-and-read-seo-data-to-google-sheet.md)
 
-## Grabbing data from APIs <a id="apis"></a>
+## analysis
 
-* [Export Google Analytics using googleAnalyticsR](apis/web-analytics-google-analytics.md)
-* [DataForSeo](apis/dataforseo.md)
-* [ahrefs API](apis/ahref.md)
+* [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
+* [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
+* [How to join datasets x](analysis/joins.md)
+* [Page ranks x](analysis/page-ranks.md)
 
 ## Data Viz
 
@@ -43,10 +49,4 @@
 * [Datasets x](ressources/datasets.md)
 * [SEO Tools x](ressources/seo-tools.md)
 * [SEO & R People x](ressources/seo-and-r-people.md)
-
-## analysis
-
-* [How to join datasets x](analysis/joins.md)
-* [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
-* [Page ranks x](analysis/page-ranks.md)
 
