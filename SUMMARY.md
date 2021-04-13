@@ -4,7 +4,6 @@
 * [Whys](intro.md)
 * [it's an R World X](r-intro.md)
 * [Getting started X](classic-r-operations.md)
-* [Classic SEO Utilities X](classic-seo-utilities.md)
 
 ## Crawl and extract data <a id="crawl"></a>
 
