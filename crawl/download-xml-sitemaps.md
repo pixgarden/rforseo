@@ -2,12 +2,18 @@
 
 this one is quite straightforward
 
-### Install xsitemap R’ Package
+### Install xsitemap R’ Package \(to be done once\)
 
 ```r
 install.packages("devtools")
-library(devtools)
 install_github("pixgarden/xsitemap")
+
+```
+
+### Load Packages
+
+```r
+library(devtools)
 library(xsitemap)
 ```
 
