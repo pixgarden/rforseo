@@ -6,7 +6,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 ## Install & rstudio
 
-[https://www.rstudio.com/](https://www.rstudio.com/)
+[https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
 
 ### Use RStudio Cloud 
 
