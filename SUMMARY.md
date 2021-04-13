@@ -28,9 +28,9 @@
 
 ## analysis
 
+* [How to join datasets x](analysis/joins.md)
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
-* [How to join datasets x](analysis/joins.md)
 * [Page ranks x](analysis/page-ranks.md)
 
 ## Data Viz
