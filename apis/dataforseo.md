@@ -13,7 +13,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 ```text
 require(httr)
 
-# those can be found here https://app.dataforseo.com/api-dashboard
+# credentials can be found here https://app.dataforseo.com/api-dashboard
 username <- "APILOGIN"
 password <- "APIPWD"
 
