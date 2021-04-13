@@ -35,7 +35,7 @@ If it’s an index XML sitemap, the process will get back from the start with ev
 
 This will produce a data frame with all the information extracted. This works for index XML sitemaps too.
 
-#### \(optional\) Check submitted URLs
+#### \(optional\) Check URLs HTTP code
 
 Another interesting function allows you to crawl the sitemap URLs and verify if your web pages send proper 200 HTTP codes.
 
