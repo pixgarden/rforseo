@@ -2,22 +2,17 @@
 
 this one is quite straightforward
 
-### Install xsitemap R’ Package \(to be done once\)
+### Install xsitemap R’ Package \(to be done once\) and Load
 
 ```r
 install.packages("devtools")
-install_github("pixgarden/xsitemap")
-
-```
-
-### Load Packages
-
-```r
 library(devtools)
+install_github("pixgarden/xsitemap")
 library(xsitemap)
+
 ```
 
-#### Find and fetch XML sitemaps
+### Find and fetch XML sitemaps
 
 ```r
 xsitemap_urls <- xsitemapGet("https://www.nationalarchives.gov.uk/")
