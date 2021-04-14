@@ -56,7 +56,7 @@ The real power of R relies on R packages. What's a package you may ask?  It's an
 
 ### ggplot2
 
-its one most famous 
+it's one most famous package, it allows to build advanced plots. \(silly name again, there is no ggplot1 is non-story\)
 
   
 
