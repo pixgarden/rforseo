@@ -6,7 +6,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 ## The power of R. What's different about it?
 
-> _Oh you do '_R programming'_, is it like_ Air Guitar? you do fake programming?  
+> _Oh you do '_R programming'_, that's cool. Is it like_ Air Guitar? You do fake programming?  
 > - An anonymous member of my family
 
 if we were to talk about only one benefit of R, it's a language High-level programming language that mainly focuses on data. Meaning it's "specialized". With one or a few lines of code, you can do a lot. Let me give you an example:
