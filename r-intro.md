@@ -20,8 +20,6 @@ This line of code, executed inside [RStudio](classic-r-operations.md#install-and
 
 Let's do it with a website links file
 
->
-
 ![internal hyperlinks ](.gitbook/assets/tfobxabjri%20%281%29.gif)
 
 This is how open and browse a file with 2.6 Million rows effortlessly. Noticed the small search icon on the top right? Yes, you can search within it quite easily too.
@@ -90,7 +88,7 @@ Let's take another packages.
 
 This [package](https://lubridate.tidyverse.org/) will help to deal with our timestamp values.
 
-After the now classic installing and loading
+After the now-classic installing and loading
 
 ```r
 install.packages("lubridate")
@@ -103,7 +101,7 @@ We can use it to guess and transform the `Time.stamp`into a real date
 internal_linking$real_date <- dmy_hms(internal_linking$Time.stamp)
 ```
 
-The Format has been transformed to a classic format. No more "at" in the middle or "am/pm". It's now easy to read and sort.
+The Format has been transformed to a classic format. No more "at" in the middle or "am/pm". It's now easy to read and to sort.
 
 ![](.gitbook/assets/screenshot-2021-04-14-at-11.27.50-pm.png)
 
