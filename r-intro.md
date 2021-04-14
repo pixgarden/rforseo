@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# it's an R World ✔️
+# it's an R World
 
 ## The power of R. What's different about it?
 
