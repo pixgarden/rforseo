@@ -52,7 +52,12 @@ Of course, this is just some silly examples. There is countless way to do this t
 
 ## _'There is a package for that'_
 
-The real power of R relies on R packages. What's a package you may ask?  It's an on-demand library of functions you can load to help you in specialised tasks. Again let's take some example.  
+The real power of R relies on R packages. What's a package you may ask?  It's an on-demand library of functions you can load to help you in specialised tasks. Again let's take some examples.
+
+### ggplot2
+
+its one most famous 
+
   
 
 
