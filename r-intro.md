@@ -43,9 +43,8 @@ View(table(internal_linking$Status))
 
 You can recognize the _View_ function from before. the table function just count values. the **$** is a shortcut to access a column.
 
-It displays
+It displays:
 
-* 
 ![count of http code](.gitbook/assets/screenshot-2021-04-10-at-12.55.52-pm.png)
 
 This is 30 secondes job. the most time-consuming part was to find the file on the hard disk. 
