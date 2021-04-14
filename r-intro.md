@@ -82,19 +82,64 @@ ggplot(internal_linking)+
 
 ![http code plot with a log axis](.gitbook/assets/rplot.png)
 
-Let's go into details for now, but believe it or not, I'm not capable of writing this code, I just googled : "Bar charts chart ggplot" , "flip axis ggplot", "log axis ggplot", ... shamelessly copy paste the codes.
+Let's not go into details for now, but believe it or not, I'm not capable of writing this code, I just googled : "Bar charts chart ggplot" , "flip axis ggplot", "log axis ggplot", ... shamelessly copy paste the codes.
 
-Let's take another one
+Let's take another packages.
 
-### lubridate
+### Lubridate
+
+This [package](https://lubridate.tidyverse.org/) will help to deal with our timestamp values.
+
+After the now classic installing and loading
+
+```r
+install.packages("lubridate")
+library("lubridate")
+```
+
+We can use it to guess and transform the `Time.stamp`into a real date
+
+```r
+internal_linking$real_date <- dmy_hms(internal_linking$Time.stamp)
+```
+
+The Format has been transformed to a classic format. No more "at" in the middle or "am/pm". It's now easy to read and sort.
+
+![](.gitbook/assets/screenshot-2021-04-14-at-11.27.50-pm.png)
+
+now that those are real dates and not string, we can plot them
+
+```r
+ggplot(internal_linking) +
+   aes(x = real_date) +
+   geom_histogram() +
+   theme_minimal()
+```
+
+![](.gitbook/assets/rplot02.png)
 
 
+
+This powerful package can also help with duration, time zone, intervals, ...
 
 ### urltools
 
+'Want to extract links domains? You can use regex, or even try to split the string using "/" as a separator or you can use more reliably the `urltools` package which as a dedicated `domain()` function.
 
+```r
+install.packages("urltools")
+library("urltools")
+internal_linking$domain <- domain(internal_linking$URL)
 
+```
 
+Let's check out the values, same code as before
+
+```r
+View(table(internal_linking$domain))
+```
+
+![top domains](.gitbook/assets/screenshot-2021-04-14-at-11.46.52-pm.png)
 
 \_\_
 
