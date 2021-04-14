@@ -56,7 +56,17 @@ The real power of R relies on R packages. What's a package you may ask?  It's an
 
 ### ggplot2
 
-it's one most famous package, it allows to build advanced plots. \(silly name again, there is no ggplot1 is non-story\)
+It's one most famous package, it allows to build advanced plots. To use it you just have to install it once like this
+
+```r
+install.packages("ggplot2")
+```
+
+and to load it
+
+```r
+library("ggplot2")
+```
 
   
 
