@@ -22,11 +22,10 @@ Let's do it with a website links file
 
 >
 
-![this is a file of hyperlinks ](.gitbook/assets/tfobxabjri%20%281%29.gif)
+![internal hyperlinks ](.gitbook/assets/tfobxabjri%20%281%29.gif)
 
 This is how open and browse a file with 2.6 Million rows effortlessly. Noticed the small search icon on the top right? Yes, you can search within it quite easily too.
 
-* 
 ![search for dead links using http code](.gitbook/assets/screenshot-2021-04-10-at-12.45.14-pm.png)
 
 Want to count HTTP code? We will do this in two steps, first we load the CSV file and save it as a variable. Nearly the same as before:
@@ -41,7 +40,7 @@ Then we are going to display the count of Status column values
 View(table(internal_linking$Status))
 ```
 
-You can recognize the _View_ function from before. the table function just count values. the **$** is a shortcut to access a column.
+You can recognize the _View_ function from before. the table function just a count of values. the **$** is a shortcut to access a column.
 
 It displays:
 
