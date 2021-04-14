@@ -82,22 +82,13 @@ ggplot(internal_linking)+
 
 ![http code plot with a log axis](.gitbook/assets/rplot.png)
 
-Believe it or not, I'm not capable of writing this code, I just googled :
+Let's go into details for now, but believe it or not, I'm not capable of writing this code, I just googled : "Bar charts chart ggplot" , "flip axis ggplot", "log axis ggplot", ... shamelessly copy paste the codes.
 
-* "Bar charts chart ggplot" 
-* "flip axis ggplot"
-* "log axis ggplot"
-
-I can make it work because I just follow the basic rules of ggplot:
-
-First, you add the `ggplot` function with the full variable name, here it's  `internal_linking`
-
-
-
-  
-
+Let's take another one
 
 ### lubridate
+
+
 
 ### urltools
 
