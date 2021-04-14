@@ -46,13 +46,15 @@ It displays:
 
 ![count of http code](.gitbook/assets/screenshot-2021-04-10-at-12.55.52-pm.png)
 
-This is 30 secondes job. the most time-consuming part was to find the file on the hard disk. 
+This is 30 secondes job. The most time-consuming part was to find the file on the hard disk. 
 
-Of course, this is just some silly example. There is countless way to do this thing \(third party app, terminal, excel pivot\) but it gives nice intro of possibilities.
+Of course, this is just some silly examples. There is countless way to do this thing \(third party app, terminal, excel pivot\) but it gives nice intro of possibilities.
 
 ## _'There is a package for that'_
 
-The power of R becomes more obvious is when you learn that is a... tbc
+The real power of R relies on R packages. What's a package you may ask?  It's an on-demand library of functions you can load to help you in specialised tasks. Again let's take some example.  
+  
+
 
 ### lubridate
 
