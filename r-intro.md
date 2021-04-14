@@ -6,9 +6,6 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 ## The power of R. What's different about it?
 
-> _Oh you do '_R programming'_, that's cool. Is it like_ Air Guitar? You do fake programming?  
-> - An anonymous member of my family
-
 if we were to talk about only one benefit of R, it's a language High-level programming language that mainly focuses on data. Meaning it's "specialized". With one or a few lines of code, you can do a lot. Let me give you an example:
 
 ```r
@@ -23,10 +20,13 @@ This line of code, executed inside [RStudio](classic-r-operations.md#install-and
 
 Let's do it with a website links file
 
+>
+
 ![this is a file of hyperlinks ](.gitbook/assets/tfobxabjri%20%281%29.gif)
 
 This is how open and browse a file with 2.6 Million rows effortlessly. Noticed the small search icon on the top right? Yes, you can search within it quite easily too.
 
+* 
 ![search for dead links using http code](.gitbook/assets/screenshot-2021-04-10-at-12.45.14-pm.png)
 
 Want to count HTTP code? We will do this in two steps, first we load the CSV file and save it as a variable. Nearly the same as before:
@@ -45,6 +45,7 @@ You can recognize the _View_ function from before. the table function just count
 
 It displays
 
+* 
 ![count of http code](.gitbook/assets/screenshot-2021-04-10-at-12.55.52-pm.png)
 
 This is 30 secondes job. the most time-consuming part was to find the file on the hard disk. 
@@ -70,6 +71,9 @@ The power of R becomes more obvious is when you learn that is a... tbc
 ## The confusing things about R
 
 ### The name
+
+> _Oh you do '_R programming'_, that's cool. Is it like_ Air Guitar? You do fake programming?  
+> - An anonymous member of my family
 
 "R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name. 
 
