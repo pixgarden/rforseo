@@ -1,3 +1,7 @@
+---
+description: ⚠️ THIS IS A WORK IN PROGRESS
+---
+
 # Send and read SEO data to Excel ✔️
 
 CSV and Excel file remain one of amongst the most well-used file formats for exchange data.
