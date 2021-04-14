@@ -68,6 +68,32 @@ and to load it
 library("ggplot2")
 ```
 
+and after that, you can now use one of [the hundreds ggplot2 functions](https://ggplot2.tidyverse.org/reference/#section-layers), let's try it out
+
+```r
+ggplot(internal_linking)+
+    aes(x = Status, fill = Status) +
+    geom_bar() +
+    scale_fill_hue() +
+    coord_flip() +
+    theme_minimal() +
+    scale_y_log10()
+```
+
+![http code plot with a log axis](.gitbook/assets/rplot.png)
+
+Believe it or not, I'm not capable of writing this code, I just googled :
+
+* "Bar charts chart ggplot" 
+* "flip axis ggplot"
+* "log axis ggplot"
+
+I can make it work because I just follow the basic rules of ggplot:
+
+First, you add the `ggplot` function with the full variable name, here it's  `internal_linking`
+
+
+
   
 
 
