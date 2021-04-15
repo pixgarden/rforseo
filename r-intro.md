@@ -80,15 +80,15 @@ ggplot(internal_linking)+
 
 ![http code plot with a log axis](.gitbook/assets/rplot.png)
 
-Let's not go into details for now, but believe it or not, I'm not capable of writing this code, I just googled : "Bar charts chart ggplot" , "flip axis ggplot", "log axis ggplot", ... shamelessly copy paste the codes.
+Let's not go into details for now, but believe it or not, I'm not capable of writing this code, I just googled: "Bar charts chart ggplot" , "flip axis ggplot", "log axis ggplot", ... shamelessly copy-paste the codes.  
+  
+[This website](https://www.r-graph-gallery.com/) is amazing to see what ggplot2 is capable of
 
-Let's take another packages.
+Let's look at another package
 
 ### Lubridate
 
-This [package](https://lubridate.tidyverse.org/) will help to deal with our timestamp values.
-
-After the now-classic installing and loading
+[Lubridate](https://lubridate.tidyverse.org/) will help to deal with our timestamp values. After the now-classic installing and loading
 
 ```r
 install.packages("lubridate")
@@ -101,11 +101,11 @@ We can use it to guess and transform the `Time.stamp`into a real date
 internal_linking$real_date <- dmy_hms(internal_linking$Time.stamp)
 ```
 
-The Format has been transformed to a classic format. No more "at" in the middle or "am/pm". It's now easy to read and to sort.
+The Format has been transformed to a classic format. No more "at" in the middle or "am/pm". It's now easy to read and to sort.  the function guessed sucessfully that the "at" was useless.
 
-![](.gitbook/assets/screenshot-2021-04-14-at-11.27.50-pm.png)
+![before and after using Lubridate function](.gitbook/assets/screenshot-2021-04-14-at-11.27.50-pm.png)
 
-now that those are real dates and not string, we can plot them
+now that those are real dates and not string, we can plot them using ggplot
 
 ```r
 ggplot(internal_linking) +
@@ -118,11 +118,11 @@ ggplot(internal_linking) +
 
 
 
-This powerful package can also help with duration, time zone, intervals, ...
+Lubridate package can also help with duration, time zone, intervals, ... Have a look at the [cheatsheets](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf) it is bit complexe to get into but so much less than trying to do it yourself. I tried a couple of time 
 
 ### urltools
 
-'Want to extract links domains? You can use regex, or even try to split the string using "/" as a separator or you can use more reliably the `urltools` package which as a dedicated `domain()` function.
+'Want to extract links domains? You can use regex, or even try to split the string using "/" as a separator OR you can use the more reliably `urltools` package which as a dedicated `domain()` function to do exactly that.
 
 ```r
 install.packages("urltools")
@@ -141,7 +141,10 @@ View(table(internal_linking$domain))
 
 \_\_
 
+### Where to find packages?
 
+All the previous package has been downloaded from CRAN that contains [thousands of packages](https://cran.r-project.org/web/packages/available_packages_by_date.html).  
+github is also a great source of great packages. 
 
 ## The confusing things about R
 
