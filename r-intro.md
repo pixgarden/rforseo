@@ -233,5 +233,3 @@ I'm going to quote [Hadley Wickham](http://adv-r.had.co.nz/Performance.html) on 
 
 My personal experience is all the times my code was really slow it was doing something it shouldn't have done.
 
-
-
