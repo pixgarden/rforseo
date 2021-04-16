@@ -205,19 +205,33 @@ x <- 3
 
 #### The %&gt;%
 
- **%&gt;%** operator, introduced by [magrittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) package, is like the **&gt;** \( “pipe”\) for terminal command line. The operations are carried out successively. Meaning the results of the previous command are the entries for the next one.
+ **%&gt;%** operator, introduced by [magrittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) package, allow operations to be carried out successively. Meaning the results of the previous command are the entries for the next one. Like the **&gt;** \( “pipe”\) command line for terminal if some know about it.
 
-Always better with an example:
+Always better with an example, let's take the first line of code of this page
 
 ```r
-# those are equivalent
-mean(abs(1))
-#
-1 %>% abs() %>% mean()
+View(read.csv(file.choose()))
 ```
 
-It seems a bit silly like that its   
-more info on this [https://r4ds.had.co.nz/pipes.html](https://r4ds.had.co.nz/pipes.html)
+It's 3 functions being used on top of each other. It is not great but the readability decent. I wouldn't recommend adding a fourth.  the **%&gt;%** operator fix this problem.
 
-### it can be slow
+```r
+# equivalent to the previous instruction
+file.choose() %>% read.csv() %>% View()
+
+# equivalent
+file.choose() %>%
+ read.csv() %>%
+ View()
+```
+
+### R can be slow
+
+I'm going to quote [Hadley Wickham](http://adv-r.had.co.nz/Performance.html) on this one:
+
+> R is not a fast language. This is not an accident. R was purposely designed to make data analysis and statistics easier for you to do. It was not designed to make life easier for your computer. While R is slow compared to other programming languages, for most purposes, it’s fast enough.
+
+While R is slow compared to other programming languages, for most purposes, it’s fast enough.
+
+
 
