@@ -225,13 +225,13 @@ file.choose() %>%
  View()
 ```
 
-### R can be slow
+### R' can be slow
 
 I'm going to quote [Hadley Wickham](http://adv-r.had.co.nz/Performance.html) on this one:
 
 > R is not a fast language. This is not an accident. R was purposely designed to make data analysis and statistics easier for you to do. It was not designed to make life easier for your computer. While R is slow compared to other programming languages, for most purposes, it’s fast enough.
 
-While R is slow compared to other programming languages, for most purposes, it’s fast enough.
+My personal experience is all the times my code was really slow it was doing something it shouldn't have done.
 
 
 
