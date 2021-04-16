@@ -15,7 +15,7 @@
 
 ## Grabbing data from APIs <a id="apis"></a>
 
-* [Export Google Analytics using googleAnalyticsR](apis/web-analytics-google-analytics.md)
+* [Export Google Analytics Data using googleAnalyticsR](apis/web-analytics-google-analytics.md)
 * [DataForSeo](apis/dataforseo.md)
 * [ahrefs API](apis/ahref.md)
 
