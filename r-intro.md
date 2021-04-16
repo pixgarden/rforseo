@@ -66,7 +66,7 @@ and to load it
 library("ggplot2")
 ```
 
-and after that, you can now use one of [the hundreds of ggplot2 functions](https://ggplot2.tidyverse.org/reference/#section-layers), let's try it out
+and after that, you can now use it
 
 ```r
 ggplot(internal_linking)+
