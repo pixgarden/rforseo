@@ -108,7 +108,7 @@ library("lubridate")
 It can be used to guess and transform this `Time.stamp`into a real date format
 
 ```r
-internal_linking$real_date <- dmy_hms(internal_linking$Time.stamp)
+internal_linking$real_date = dmy_hms(internal_linking$Time.stamp)
 ```
 
 The Format has been transformed to a classic format. No more "at" in the middle or "am/pm". It's now easy to read and to sort.  the function guessed sucessfully that the "at" was useless.
@@ -128,20 +128,22 @@ ggplot(internal_linking) +
 
 
 
-Lubridate package can also help with duration, time zone, intervals, ... Have a look at the [cheatsheets](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf) it is bit complexe to get into but so much less than trying to do it yourself. I tried a couple of time 
+Lubridate package can also help with duration, time zone, intervals, ... Have a look at the [cheatsheets](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf) it is a bit complex to get into but so much less than trying to do it yourself. I've lost literally days of my working life, trying to that this kind of stuff badly in Excel/Google Sheet.
 
 ### urltools
 
-'Want to extract links domains? You can use regex, or even try to split the string using "/" as a separator OR you can use the more reliably `urltools` package which as a dedicated `domain()` function to do exactly that.
+One last example for the road. 'Want to extract links domains? You can sure use regex, or even try to split the string using "/" as a separator OR you can use the more reliably `urltools` package which as a dedicated `domain()` function to do exactly that.
 
 ```r
+# Installing and Loading Package
 install.packages("urltools")
 library("urltools")
+# extract domain and feed it to a new data column called 'domain'
 internal_linking$domain <- domain(internal_linking$URL)
 
 ```
 
-Let's check out the values, same code as before
+Let's check out the values, nearly same code as before:
 
 ```r
 View(table(internal_linking$domain))
@@ -149,12 +151,16 @@ View(table(internal_linking$domain))
 
 ![top domains](.gitbook/assets/screenshot-2021-04-14-at-11.46.52-pm.png)
 
-\_\_
-
 ### Where to find packages?
 
-All the previous package has been downloaded from CRAN that contains [thousands of packages](https://cran.r-project.org/web/packages/available_packages_by_date.html).  
-github is also a great source of great packages. 
+Good question! All the previous package has been downloaded from CRAN that contains [thousands of packages](https://cran.r-project.org/web/packages/available_packages_by_date.html). Github is also a great source of great packages.   
+The problem will be open to pick the right one for you. The best way is usually to ask around using
+
+* Twitter using the \#rstats hashtag
+* [reddit](https://www.reddit.com/r/rstats/) , rstudio [forum](https://community.rstudio.com/) are not a bad option
+* there are some nice slacks
+
+The community is smaller than other programming languages but people are more willing to help, it compensates.
 
 ## The confusing things about R
 
@@ -163,26 +169,24 @@ github is also a great source of great packages.
 > _Oh you do '_R programming'_, that's cool. Is it like_ Air Guitar? You do fake programming?  
 > - An anonymous member of my family
 
-"R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name. 
-
-So here a few sources to help find ressources
+"R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name. So here are few sources to help find resources
 
 * [https://rseek.org/](https://rseek.org/) r search engine
 * [https://www.r-bloggers.com/](https://www.r-bloggers.com/) r blogs aggregator
 * [https://www.bigbookofr.com/](https://www.bigbookofr.com/) all the R free books
 * [https://github.com/search?l=R&q=seo&type=code](https://github.com/search?l=R&q=seo&type=code) github r source code search
 
-### &lt;- 
+### the &lt;- 
 
-If you've seen some R' code before and you might have been surprised to see this &lt;-  being used . it's just a legacy thing, historically R differentiate  "assignation"  and "comparison", example:
+If you've seen some R' code before and you might have been surprised to see this "&lt;-"  being used. it's just a legacy thing, historically R differentiate  "assignation"  and "comparison", example:
 
-If you want to set the value of X to 3.   
+If you want to set the value of X to 3.   _assignation_
 
 ```r
 x <- 3
 ```
 
-if you want to make a comparison
+if you want to make a comparison. _comparison_
 
 ```r
 if (x = 3) {
@@ -190,16 +194,16 @@ if (x = 3) {
 }
 ```
 
-If you want to keep this little _tradition_ alive you can do the same thing or use **=**
+If you want to keep this little _tradition_ alive you can use &lt;- but it is really up to you. Perfectly fine to use **=**
 
 ```r
 x = 3
 x <- 3
 ```
 
-those are actually [nearly](https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-assignment-operators-in-r) equivalent.
+\(these are actually [very little difference](https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-assignment-operators-in-r) between two but if you are new to R it's not important at all.\)
 
-#### %&gt;%
+#### The %&gt;%
 
  **%&gt;%** operator, introduced by [magrittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) package, is like the **&gt;** \( “pipe”\) for terminal command line. The operations are carried out successively. Meaning the results of the previous command are the entries for the next one.
 
