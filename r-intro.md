@@ -105,7 +105,7 @@ install.packages("lubridate")
 library("lubridate")
 ```
 
-We can use it to guess and transform the `Time.stamp`into a real date
+It can be used to guess and transform this `Time.stamp`into a real date format
 
 ```r
 internal_linking$real_date <- dmy_hms(internal_linking$Time.stamp)
