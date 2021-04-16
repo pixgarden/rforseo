@@ -6,7 +6,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 ## The power of R. What's different about it?
 
-if we were to talk about only one benefit of R, it's a language High-level programming language that mainly focuses on data. Meaning it's "specialized". With one or a few lines of code, you can do a lot. Let me give you an example:
+if we were to talk about only one benefit of R, it's a language High-level programming language that mainly focuses on data analysis. Meaning it's "specialized". With one or a few lines of code, you can do a lot. Let me give you an example:
 
 ```r
 View(read.csv(file.choose()))
@@ -22,7 +22,7 @@ Let's do it with a website links file
 
 ![internal hyperlinks ](.gitbook/assets/tfobxabjri%20%281%29.gif)
 
-This is how open and browse a file with 2.6 Million rows effortlessly. Noticed the small search icon on the top right? Yes, you can search within it quite easily too.
+This is how open and **browse a file with 2.6 Million rows effortlessly**. Noticed the small search icon on the top right? Yes, you can search within it quite easily too.
 
 ![search for dead links using http code](.gitbook/assets/screenshot-2021-04-10-at-12.45.14-pm.png)
 
@@ -38,7 +38,7 @@ Then we are going to display the count of Status column values
 View(table(internal_linking$Status))
 ```
 
-You can recognize the _View_ function from before. the table function just a count of values. the **$** is a shortcut to access a column.
+You can recognize the _View_ function from before. the table function just count values. the **$** is a shortcut to access a column.
 
 It displays:
 
@@ -46,7 +46,7 @@ It displays:
 
 This is 30 secondes job. The most time-consuming part was to find the file on the hard disk. 
 
-Of course, this is just some silly examples. There is countless way to do this thing \(third party app, terminal, excel pivot\) but it gives nice intro of possibilities.
+Of course, these are just some silly examples. There is countless way to do this thing \(third party app, terminal, excel pivot, \) but it gives nice intro of possibilities and how simple that is.
 
 ## _'There is a package for that'_
 
@@ -66,7 +66,7 @@ and to load it
 library("ggplot2")
 ```
 
-and after that, you can now use one of [the hundreds ggplot2 functions](https://ggplot2.tidyverse.org/reference/#section-layers), let's try it out
+and after that, you can now use one of [the hundreds of ggplot2 functions](https://ggplot2.tidyverse.org/reference/#section-layers), let's try it out
 
 ```r
 ggplot(internal_linking)+
@@ -80,9 +80,19 @@ ggplot(internal_linking)+
 
 ![http code plot with a log axis](.gitbook/assets/rplot.png)
 
-Let's not go into details for now, but believe it or not, I'm not capable of writing this code, I just googled: "Bar charts chart ggplot" , "flip axis ggplot", "log axis ggplot", ... shamelessly copy-paste the codes.  
-  
-[This website](https://www.r-graph-gallery.com/) is amazing to see what ggplot2 is capable of
+Let's not go into details for now, but believe it or not, I'm not capable of writing this code, I just googled: "Bar charts chart ggplot" , "flip axis ggplot", "log axis ggplot", ... shamelessly copy-paste the codes.
+
+gggplot2 is powerful, it can make basically every chart you can think of
+
+![](.gitbook/assets/screenshot-2021-04-16-at-11.03.24-am.png)
+
+![ggplot + ggplotly](.gitbook/assets/0pscthcioa.gif)
+
+![](.gitbook/assets/screenshot-2021-04-16-at-11.04.16-am.png)
+
+
+
+For a full range of possibilities [see this great website](https://www.r-graph-gallery.com/)
 
 Let's look at another package
 
