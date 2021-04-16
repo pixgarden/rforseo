@@ -2,11 +2,19 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Whys
+# W?
+
+### What is R?
+
+R is a free programming language and software environment for statistical computing and graphics supported by not for profit organization.
+
+### What is SEO?
+
+Search engine optimization \(SEO\) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.
 
 ### Why using R for SEO?
 
-R is a programming language specialized in data mining, statistical and data analysis and data visualization. It also has a very decent capacity for crawling. Basically, everything that useful for SEO.
+R is specialized in data mining, statistical and data analysis and data visualization. It also has a very decent capacity for crawling. Basically, everything that useful for doing some SEO.
 
 When you have understood the fundamentals, R' is also quite easy to read and write. With 3 lines of codes, you can crawl a website or extract some Google Analytics data and export CSV.
 
