@@ -20,7 +20,7 @@ Imagine you want explorer a data frame called MERGED just sent
 toolrpivotTable(MERGED)
 ```
 
-it will open this HTML and drag and droping KPIs from the left column
+it will open this HTML and drag and dropping KPIs from the left column
 
 ![This create a drag &amp; drop pivot explorer](https://www.gokam.co.uk/wp-content/uploads/2020/08/LgfVsFu6NL.gif)
 

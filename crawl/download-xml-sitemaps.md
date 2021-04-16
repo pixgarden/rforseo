@@ -1,17 +1,22 @@
+---
+description: ⚠️ THIS IS A WORK IN PROGRESS
+---
+
 # Download XML sitemaps ✔️
 
 this one is quite straightforward
 
-### Install xsitemap R’ Package
+### Install xsitemap R’ Package \(to be done once\) and Load
 
 ```r
 install.packages("devtools")
 library(devtools)
 install_github("pixgarden/xsitemap")
 library(xsitemap)
+
 ```
 
-#### Find and fetch XML sitemaps
+### Find and fetch XML sitemaps
 
 ```r
 xsitemap_urls <- xsitemapGet("https://www.nationalarchives.gov.uk/")
@@ -29,7 +34,7 @@ If it’s an index XML sitemap, the process will get back from the start with ev
 
 This will produce a data frame with all the information extracted. This works for index XML sitemaps too.
 
-#### \(optional\) Check submitted URLs
+#### \(optional\) Check URLs HTTP code
 
 Another interesting function allows you to crawl the sitemap URLs and verify if your web pages send proper 200 HTTP codes.
 
