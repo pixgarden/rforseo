@@ -36,7 +36,7 @@
 ## Data Viz
 
 * [Why this is important? x](data-viz/why-this-is-important.md)
-* [using Esquisse package x](data-viz/using-esquisse-package-x.md)
+* [Using Esquisse package to create a graph more quickly](data-viz/using-esquisse-package-x.md)
 
 ---
 
