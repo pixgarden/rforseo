@@ -19,9 +19,29 @@ esquisser()
 
 ![esquisse wiward](../.gitbook/assets/screenshot-2021-04-17-at-10.41.50-pm.png)
 
-you picket your dataset, the field you want to import.
+you pick your dataset, the field you want to import and it's now possible to choose what metrics to display on each axis by drag & dropping them into each selector
 
+![](../.gitbook/assets/screenshot-2021-04-17-at-10.55.45-pm.png)
 
+Pick the plot style
 
+![](../.gitbook/assets/screenshot-2021-04-17-at-10.55.54-pm.png)
 
+you can also customise the plot titles and legends
+
+![](../.gitbook/assets/screenshot-2021-04-17-at-10.55.59-pm.png)
+
+you can pick the colors and plot style
+
+![](../.gitbook/assets/screenshot-2021-04-17-at-10.56.04-pm.png)
+
+Filter the values
+
+![](../.gitbook/assets/screenshot-2021-04-17-at-10.56.08-pm.png)
+
+Last and foremost, it gives you the code to generate this plot + some extra export option.
+
+![](../.gitbook/assets/screenshot-2021-04-17-at-10.56.13-pm.png)
+
+Esquisse is not capable of doing every available ggplots but for a simple graph, its great way to speed up everything.
 
