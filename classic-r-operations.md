@@ -14,13 +14,7 @@ After the installation, you can use R on the command line by typing R but it's a
 
 the best way to use R is to use a development environment and most use RStudio. All the example in this book will be using it.
 
-Here
-
-
-
-
-
-[https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
+[Here the webpage to download it](https://www.rstudio.com/products/rstudio/download/). After install, you'll be ready to go.
 
 ### Use RStudio Cloud 
 
