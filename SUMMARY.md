@@ -32,16 +32,16 @@
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
 * [Page ranks x](analysis/page-ranks.md)
+* [Forecast 🚀 x](analysis/forecast.md)
 
 ## Data Viz
 
 * [Why this is important? x](data-viz/why-this-is-important.md)
-* [Using Esquisse package to create a graph more quickly](data-viz/using-esquisse-package-x.md)
+* [Using Esquisse to create a graph more quickly](data-viz/using-esquisse-package-x.md)
 
 ---
 
 * [Explore data with rPivotTable ✔️](rpivottable.md)
-* [Forecast 🚀 x](forecast.md)
 
 ## Ressources
 
