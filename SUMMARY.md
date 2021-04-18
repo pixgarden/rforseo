@@ -17,6 +17,7 @@
 
 * [Export Google Analytics Data using googleAnalyticsR](apis/web-analytics-google-analytics.md)
 * [DataForSeo](apis/dataforseo.md)
+* [searchConsoleR x](apis/searchconsoler-x.md)
 * [ahrefs API](apis/ahref.md)
 
 ## Export and read Data <a id="export-data"></a>
@@ -30,6 +31,7 @@
 
 * [How to join datasets x](analysis/joins.md)
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
+* [Hunt down keyword cannibalization x](analysis/keyword-cannibalization.md)
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
 * [Page ranks x](analysis/page-ranks.md)
 * [Forecast 🚀 x](analysis/forecast.md)
