@@ -4,7 +4,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 # Hunt down keyword cannibalization x
 
-### What the hell is keyword cannibalization?
+### What is keyword cannibalization?
 
 if you put a lot of articles out there, at some point, some article will compete with one another for the same keywords in Google result pages. it’s what SEO people call ‘keyword cannibalization’.
 
