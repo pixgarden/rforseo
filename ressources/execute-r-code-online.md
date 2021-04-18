@@ -31,7 +31,7 @@ x
 
 [more details about this feature](https://towardsdatascience.com/how-to-use-r-in-google-colab-b6e02d736497)
 
-#### Native R on Google Colab
+#### Native R on GoogleColab
 
 [https://youtu.be/huAWa0bqxtA](https://youtu.be/huAWa0bqxtA)
 
