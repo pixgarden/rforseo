@@ -2,11 +2,11 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# searchConsoleR x
+# Export Google Search Console Data x
 
-## install the necessary packages
+## SearchConsoleR
 
-First, we’ll load _searchConsoleR_,  an awesome 🌈 package by [Mark Edmondson](https://github.com/MarkEdmondson1234).  
+First, we’ll load _searchConsoleR_,  an awesome package by [Mark Edmondson](https://github.com/MarkEdmondson1234).  
 This will allow us to send requests to Google ‘Search Console API’ very easily.
 
 ```r
@@ -14,21 +14,14 @@ install.packages("searchConsoleR")
 library(searchConsoleR)
 ```
 
-Then let’s load _tidyverse_.  For those who don’t know about it, it’s a very popular master package that will allow us to work with data frames and in a graceful way.
-
-```r
-install.packages("tidyverse")
-library(tidyverse)
-```
-
-and finally, something to help to deal with Google Account Authentication \(still by Mark Edmondson\). It will spare the pain of having to set up an API Key.
+and to help to deal with Google Account Authentication \(still by Mark Edmondson\). It will spare the pain of having to set up an API Key.
 
 ```r
 install.packages("googleAuthR")
 library(googleAuthR)
 ```
 
-### step 2 – gather DATA
+### Gather DATA
 
 Let’s initiate authentification. This should open a new browser window, asking you to validate access to your GSC account. The script will be allowed to make requests for a limited period of time.
 
@@ -41,7 +34,10 @@ This will create a **sc.oauth** file inside your working directory. It stores yo
 Let’s list all websites we are allowed to send requests about:
 
 ```r
-sc_websites <- list_websites()View(sc_websites)
+# Load
+sc_websites <- list_websites()
+# and display the list
+View(sc_websites)
 ```
 
 and pick one
@@ -52,7 +48,7 @@ hostname <- "https://www.example.com/"
 
 _don’t forget to update this with your hostname_
 
-As you may know, Search Console data is not available right away. That’s why we want to request data for the last _available_ 2 months, so between 3 days ago and 2 months before that… again using a little useful package!
+As you may know, Search Console data is not available right away. If we want, for example, to request data for the last _available_ 2 months, we'll need the date range to be between 3 days ago and 2 months before that… [As seen before](../r-intro.md#lubridate) we will be helped by the Lubridate package
 
 ```r
 install.packages("lubridate")

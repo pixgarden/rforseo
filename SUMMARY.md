@@ -2,12 +2,12 @@
 
 * [Intro - R for SEO](README.md)
 * [The Ws](intro.md)
-* [it's an R World](r-intro.md)
+* [Using R for SEO, what to expect?](r-intro.md)
 * [Getting started](classic-r-operations.md)
 
 ## Crawl and extract data <a id="crawl"></a>
 
-* [Why is it for? X](crawl/purposes.md)
+* [What's crawling and why is it useful? X](crawl/purposes.md)
 * [Download XML sitemaps ✔️](crawl/download-xml-sitemaps.md)
 * [Crawling with rvest ✔️](crawl/untitled.md)
 * [SEO Crawling with Rcrawler ✔️](crawl/rcrawler.md)
@@ -15,9 +15,9 @@
 
 ## Grabbing data from APIs <a id="apis"></a>
 
-* [Export Google Analytics Data using googleAnalyticsR](apis/web-analytics-google-analytics.md)
-* [DataForSeo](apis/dataforseo.md)
-* [searchConsoleR x](apis/searchconsoler-x.md)
+* [Export Google Analytics Data](apis/web-analytics-google-analytics.md)
+* [Use DataForSeo API](apis/dataforseo.md)
+* [Export Google Search Console Data x](apis/searchconsoler-x.md)
 * [ahrefs API](apis/ahref.md)
 
 ## Export and read Data <a id="export-data"></a>
