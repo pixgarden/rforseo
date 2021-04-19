@@ -92,7 +92,8 @@ gggplot2 is powerful, it can make basically every chart you can think of
 
 
 
-For a full range of possibilities [see this great website](https://www.r-graph-gallery.com/)
+For a full range of possibilities [see this great website](https://www.r-graph-gallery.com/)  
+or [https://www.cedricscherer.com/slides/useR2021.pdf](https://www.cedricscherer.com/slides/useR2021.pdf)
 
 Let's look at another package
 
