@@ -133,7 +133,7 @@ Lubridate package can also help with duration, time zone, intervals, ... Have a 
 
 ### urltools
 
-One last example for the road. 'Want to extract links domains? You can sure use regex, or even try to split the string using "/" as a separator OR you can use the more reliably `urltools` package which as a dedicated `domain()` function to do exactly that.
+One last example for the road. 'Want to extract links domains? You can sure use regex, or even try to split the string using "/" as a separator OR you can use the more reliable `urltools` package which as a dedicated `domain()` function to do exactly that.
 
 ```r
 # Installing and Loading Package
