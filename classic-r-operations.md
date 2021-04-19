@@ -22,7 +22,7 @@ After this installation, you are ready to go 🙌
 
 before starting running some R code, I would suggest reading [this small explanation](https://bookdown.org/ndphillips/YaRrr/the-four-rstudio-windows.html) about the RStudio interface.
 
-For your culture, you should know that it is also possible to execute code online using [RStudio Cloude](ressources/execute-r-code-online.md#use-rstudio-cloud) or [Google Colab](ressources/execute-r-code-online.md#use-googlecolab)
+For your culture, you should know that it is also possible to [execute code online.](ressources/execute-r-code-online.md)
 
 
 
