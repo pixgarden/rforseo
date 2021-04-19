@@ -12,7 +12,8 @@ _2021-02-02 - François JOLY_
 
 Even though R'  is a terrific option for SEO, there are simply not enough resources out there. 
 
-This guide is not here to deliver a course about R, there are plenty already. This guide is meant to be as practical as possible. How things should be done in an "R-ish way" is not the purpose of this guide. Grab what you want to grab and feel free to submit your own solution.
+This guide is not here to deliver a course about R, there are plenty already. This guide is meant to be as practical as possible. How things should be done in an "R-ish way" is not the purpose of this guide.   
+Grab what you want to grab and feel free to reach if you have a better solution, I'll add it giving you credit.
 
 ### 1.3 Project home
 
