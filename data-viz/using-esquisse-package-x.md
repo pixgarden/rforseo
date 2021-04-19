@@ -1,4 +1,4 @@
-# Using Esquisse to create a graph more quickly
+# Use Esquisse to create plots quickly
 
 ggplots is great package but it can be a bit overwhelming to deal with. So many options and functions. Lucky for us, thanks to Fanny Meyer & Victor Perrier, there is a shortcut, the [esquisse package](https://dreamrs.github.io/esquisse/index.html). It basically helps explore your data quickly and build a ggplot. 
 
