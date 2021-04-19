@@ -6,7 +6,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 ### What is crawling?
 
-It's the action of automatically fetching the contents of a web page using an app or a script. This is what Google is doing when its bot explores the web and analyze webpage content.
+It's fetching the contents of a web page using an app or a script. This is what Google is doing when its bot explores the web and analyze webpage content.
 
 ### How is it useful?
 
