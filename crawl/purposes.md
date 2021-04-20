@@ -8,13 +8,51 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 It's fetching the contents of a web page using an app or a script. This is what Google is doing when its bot explores the web and analyze webpage content.
 
-### How is it useful?
+### How crawling is useful for SEO?
 
-As someone doing SEO you need to know what you are showing to Google. What your website looks like from a bot perspective. You need the [check the quality of your XML sitemap](download-xml-sitemaps.md) if you are submitting one. You need to [check the website webpages](rcrawler.md). Checking the web server logs is also a good idea, to know what Google bot is doing on your website.
+As someone doing SEO you need to know what you are showing to Google. What your website looks like from a \(Google\) bot perspective. You need the [check the quality of your XML sitemap](download-xml-sitemaps.md) if you are submitting one. You need to [check the website webpages](rcrawler.md). Checking the web server logs is also a good idea, to know what Google bot is doing on your website.
 
-If also useful to grab data. tbc
+You can also respectfully crawl your competitors' website to better understand their SEO strategy.
+
+### Crawling is also interesting to grab data. 
+
+There are some great public datasets out there, even wikipedia is a great source. Let's take this nice recap of [battles between England en France](https://en.wikipedia.org/wiki/List_of_Hundred_Years%27_War_battles) for example, it can be crawled   
 
 
+```r
+library(dplyr)
+library(rvest)
+url <- "https://en.wikipedia.org/wiki/List_of_Hundred_Years%27_War_battles"
+battles <- url %>%
+  read_html() %>%
+  html_nodes(xpath='//*[@id="mw-content-text"]/div[1]/center/table') %>%
+  html_table() %>%
+  as.data.frame()
+
+battles$Year <- as.numeric(battles$Year)
+
+
+
+```
+
+and displayed on a plot
+
+```r
+library(ggplot2)
+library(bbplot)
+
+devtools::install_github('bbc/bbplot')
+
+battles %>%
+ filter(Victor %in% c("England", "France")) %>%
+ ggplot() +
+ aes(x = Year, fill = Victor) +
+ geom_bar() +
+ scale_fill_hue() +
+ bbc_style()
+```
+
+![](../.gitbook/assets/rplot%20%281%29.png)
 
 #### 
 
