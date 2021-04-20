@@ -23,7 +23,7 @@ After this installation, you are ready to go 🙌
 For the real R beginners, Here is a [small explanation](https://bookdown.org/ndphillips/YaRrr/the-four-rstudio-windows.html) about the RStudio panels. Check out in your app where are:
 
 * the Console panel, where you can execute code that is not meant to be store 
-* the Source panel, where you can execute R file code. 
+* the Source panel, where you can execute R file code. Where any piece of code [can be selected and executed](https://www.youtube.com/watch?v=MGHjnpj46IU&t=181s)
 
 For your culture, you should know that it is also possible to [execute code online.](ressources/execute-r-code-online.md)
 
