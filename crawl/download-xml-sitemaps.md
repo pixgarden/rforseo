@@ -24,17 +24,17 @@ library(xsitemap)
 xsitemap_urls <- xsitemapGet("https://www.nationalarchives.gov.uk/")
 ```
 
-This function will first search for XML sitemap urls. It will check the robots.txt file to see if an XML sitemap url is explicitly declared.
+This function will first search for XML sitemap url. It will first check the robots.txt file to see if an XML sitemap url is explicitly declared.
 
-if not the script will do some random guess \(‘sitemap.xml’, ‘sitemap\_index.xml’ , …\) most of the time, it will find the XML sitemap url, if not everything end’s here.
+if not, the script will do some random guess \(‘sitemap.xml’, ‘sitemap\_index.xml’ , …\) most of the time, it will find the XML sitemap url.
 
 Then, the XML sitemap URL is fetched and the URLs extracted.
 
 If it’s a classic XML sitemap, a data frame \(special kind of array\) will be produced and return.
 
-If it’s an index XML sitemap, the process will get back from the start with every XML sitemaps inside.
+If it’s an **index** XML sitemap, the process will get back from the start with every XML sitemaps inside.
 
-This will produce a data frame with all the information extracted. This works for index XML sitemaps too.
+This will produce a data frame with all the information extracted. 
 
 ### \(optional\) Check URLs HTTP code
 
