@@ -8,7 +8,7 @@
 ## Crawl and extract data <a id="crawl"></a>
 
 * [What's crawling and why is it useful? X](crawl/purposes.md)
-* [Download XML sitemaps ✔️](crawl/download-xml-sitemaps.md)
+* [Download and check XML sitemaps ✔️](crawl/download-xml-sitemaps.md)
 * [Crawling with rvest ✔️](crawl/untitled.md)
 * [SEO Crawling with Rcrawler ✔️](crawl/rcrawler.md)
 * [Perform automatic browser tests with RSelenium ✔️](crawl/perform-automatic-browser-tests-with-rselenium.md)
@@ -19,7 +19,7 @@
 * [Use DataForSeo API](apis/dataforseo.md)
 * [Export Google Search Console Data x](apis/searchconsoler-x.md)
 * [ahrefs API](apis/ahref.md)
-* [other APIs](apis/other-apis.md)
+* [other APIs x](apis/other-apis.md)
 
 ## Export and read Data <a id="export-data"></a>
 
