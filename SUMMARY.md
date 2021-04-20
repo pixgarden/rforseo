@@ -19,6 +19,7 @@
 * [Use DataForSeo API](apis/dataforseo.md)
 * [Export Google Search Console Data x](apis/searchconsoler-x.md)
 * [ahrefs API](apis/ahref.md)
+* [other APIs](apis/other-apis.md)
 
 ## Export and read Data <a id="export-data"></a>
 
