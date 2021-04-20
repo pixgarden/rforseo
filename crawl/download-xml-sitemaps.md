@@ -4,7 +4,9 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 # Download XML sitemaps ✔️
 
-this one is quite straightforward
+It's not required to submit an XML sitemap to have a successful but it's a definitely nice to have. 
+
+Nevertheless, if you do submit one, it's best to make sure it's error-free and as you will see its is quite straightforward using R
 
 ### Install xsitemap R’ Package \(to be done once\) and Load
 
@@ -34,9 +36,9 @@ If it’s an index XML sitemap, the process will get back from the start with ev
 
 This will produce a data frame with all the information extracted. This works for index XML sitemaps too.
 
-#### \(optional\) Check URLs HTTP code
+### \(optional\) Check URLs HTTP code
 
-Another interesting function allows you to crawl the sitemap URLs and verify if your web pages send proper 200 HTTP codes.
+Another interesting function allows you to crawl the sitemap URLs and verify if your web pages send proper 200 HTTP codes \(HEAD Requests\)
 
 It can take some time depending on the number of URLs. It took several hours for [https://www.gov.uk/](https://www.gov.uk/) for example.
 
