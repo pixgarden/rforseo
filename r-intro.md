@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# it's an R World
+# Using R for SEO, what to expect?
 
 ## The power of R. What's different about it?
 
@@ -14,9 +14,9 @@ View(read.csv(file.choose()))
 
 This line of code, executed inside [RStudio](classic-r-operations.md#install-and-rstudio), will 
 
-* prompt a select file menu for you to select a CSV  \(_file.choose_\)
-* It will import data inside R \(_read.csv_\) 
-* Display it \(_View_\)
+* prompt a select file menu for you to select a CSV  \(_`file.choose`_\)
+* It will import data inside R \(_`read.csv`_\) 
+* Display it \(_`View`_\)
 
 Let's do it with a website links file
 
@@ -38,7 +38,7 @@ Then we are going to display the count of Status column values
 View(table(internal_linking$Status))
 ```
 
-You can recognize the _View_ function from before. the table function just count values. the **$** is a shortcut to access a column.
+You can recognize the `View` function from before. the `table` function just count values. the **`$`** is a shortcut to access column values
 
 It displays:
 
@@ -46,7 +46,7 @@ It displays:
 
 This is 30 secondes job. The most time-consuming part was to find the file on the hard disk. 
 
-Of course, these are just some silly examples. There is countless way to do this thing \(third party app, terminal, excel pivot, \) but it gives nice intro of possibilities and how simple that is.
+Of course, these are just some silly examples. There is countless way to do this thing \(third party app, terminal, excel pivot and of course python but it gives a nice intro of possibilities and how simple that is.
 
 ## _'There is a package for that'_
 
@@ -60,7 +60,7 @@ It's one most famous package, it allows to build advanced plots. To use it you j
 install.packages("ggplot2")
 ```
 
-and to load it
+and load it
 
 ```r
 library("ggplot2")
@@ -84,15 +84,18 @@ Let's not go into details for now, but believe it or not, I'm not capable of wri
 
 gggplot2 is powerful, it can make basically every chart you can think of
 
-![](.gitbook/assets/screenshot-2021-04-16-at-11.03.24-am.png)
+A few examples of plots done using `ggplot2`
 
 ![ggplot + ggplotly](.gitbook/assets/0pscthcioa.gif)
 
-![](.gitbook/assets/screenshot-2021-04-16-at-11.04.16-am.png)
+![](.gitbook/assets/screenshot-2021-04-16-at-11.03.24-am.png)
 
+![by Thorsten Sprenger https://twitter.com/spren9er](.gitbook/assets/screenshot-2021-04-19-at-6.35.44-pm.png)
 
+More
 
-For a full range of possibilities [see this great website](https://www.r-graph-gallery.com/)
+* [The R Graph Gallery](https://www.r-graph-gallery.com/)
+* [ggplot Wizardry Hands-On](https://z3tt.github.io/OutlierConf2021/)
 
 Let's look at another package
 
@@ -132,7 +135,7 @@ Lubridate package can also help with duration, time zone, intervals, ... Have a 
 
 ### urltools
 
-One last example for the road. 'Want to extract links domains? You can sure use regex, or even try to split the string using "/" as a separator OR you can use the more reliably `urltools` package which as a dedicated `domain()` function to do exactly that.
+One last example for the road. 'Want to extract links domains? You can sure use regex, or even try to split the string using "/" as a separator OR you can use the more reliable `urltools` package which as a dedicated `domain()` function to do exactly that.
 
 ```r
 # Installing and Loading Package

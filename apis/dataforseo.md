@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# DataForSeo
+# Use DataForSeo API
 
 ### What is DataForSeo?
 

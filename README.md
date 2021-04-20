@@ -4,17 +4,16 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 # Intro - R for SEO
 
-_François JOLY_
-
-_2021-02-02_
-
 _This guide, **in the course of writing**_, _is dedicated to all those who share their knowledge online and especially Hamlet Batista. I'm not a Python user like him and I just came across the guy once but his disappearance made us all remember that sharing is caring and that life is fucking short._
+
+_2021-02-02 - François JOLY_
 
 ### 1.1 Motivation & Limite
 
 Even though R'  is a terrific option for SEO, there are simply not enough resources out there. 
 
-This guide is not here to deliver a course about R, there are plenty already. This guide is meant to be as practical as possible. How things should be done in an "R-ish way" is not the purpose of this guide. Grab what you want to grab and feel free to submit your own solution.
+This guide is not here to deliver a course about R, there are plenty already. This guide is meant to be as practical as possible. How things should be done in an "R-ish way" is not the purpose of this guide.   
+Grab what you want to grab and feel free to reach if you have a better solution, I'll add it giving you credit.
 
 ### 1.3 Project home
 
