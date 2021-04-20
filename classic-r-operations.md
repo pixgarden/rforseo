@@ -8,7 +8,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 R can be downloaded from the [CRAN website](https://cran.r-project.org/)
 
-After the installation, you can use R on the command line by typing R but it's a bit dry as you can see.
+After the installation, you can use R on the command line by typing `r` but it's a bit dry as you can see.
 
 ![Using R in the Mac OS Terminal](.gitbook/assets/zcnnht77ss.gif)
 
@@ -20,7 +20,7 @@ the best way to use R is to use a development environment and the most widely us
 
 After this installation, you are ready to go 🙌
 
-before starting running some R code, I would suggest reading [this small explanation](https://bookdown.org/ndphillips/YaRrr/the-four-rstudio-windows.html) about the RStudio interface.
+Here is a [small explanation](https://bookdown.org/ndphillips/YaRrr/the-four-rstudio-windows.html) about the RStudio panels.
 
 For your culture, you should know that it is also possible to [execute code online.](ressources/execute-r-code-online.md)
 
