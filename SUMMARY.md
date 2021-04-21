@@ -8,8 +8,8 @@
 ## Crawl and extract data <a id="crawl"></a>
 
 * [What's crawling and why is it useful? X](crawl/purposes.md)
-* [Download and check XML sitemaps ✔️](crawl/download-xml-sitemaps.md)
 * [Crawling with rvest ✔️](crawl/untitled.md)
+* [Download and check XML sitemaps ✔️](crawl/download-xml-sitemaps.md)
 * [SEO Crawling with Rcrawler ✔️](crawl/rcrawler.md)
 * [Perform automatic browser tests with RSelenium ✔️](crawl/perform-automatic-browser-tests-with-rselenium.md)
 

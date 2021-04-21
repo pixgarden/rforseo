@@ -35,9 +35,10 @@ battles$Year <- as.numeric(battles$Year)
 and displayed on a plot
 
 ```r
+devtools::install_github('bbc/bbplot')
 library(ggplot2)
 library(bbplot)
-devtools::install_github('bbc/bbplot')
+
 battles %>%
  filter(Victor %in% c("England", "France")) %>%
  ggplot() +
