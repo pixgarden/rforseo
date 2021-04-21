@@ -15,10 +15,10 @@
 
 ## Grabbing data from APIs <a id="apis"></a>
 
-* [Export Google Analytics Data](apis/web-analytics-google-analytics.md)
-* [Use DataForSeo API](apis/dataforseo.md)
-* [Export Google Search Console Data x](apis/searchconsoler-x.md)
-* [ahrefs API](apis/ahref.md)
+* [Grab Google Analytics Data](apis/web-analytics-google-analytics.md)
+* [Grab 'DataForSeo' API data](apis/dataforseo.md)
+* [Grab Google Search Console Data x](apis/searchconsoler-x.md)
+* [Grab 'ahrefs' API data](apis/ahref.md)
 * [other APIs x](apis/other-apis.md)
 
 ## Export and read Data <a id="export-data"></a>

@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Export Google Search Console Data x
+# Grab Google Search Console Data x
 
 ## SearchConsoleR
 

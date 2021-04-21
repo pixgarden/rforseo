@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Export Google Analytics Data
+# Grab Google Analytics Data
 
 [googleAnalyticsR](https://code.markedmondson.me/googleAnalyticsR/) is an amazing package by Mark Edmondson
 

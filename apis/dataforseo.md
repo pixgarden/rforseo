@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Use DataForSeo API
+# Grab 'DataForSeo' API data
 
 ### What is DataForSeo?
 
