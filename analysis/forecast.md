@@ -6,8 +6,6 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 For this one will be using a Forcast library done by Facebook called [Prophet](https://facebook.github.io/prophet/)
 
-
-
 ```text
 path <- file.choose()
 
