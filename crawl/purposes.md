@@ -16,7 +16,7 @@ You can also respectfully crawl your competitors' website to better understand t
 
 ### Crawling is also interesting to grab data. 
 
-There are some great public datasets out there, even wikipedia is a great source. Let's take this nice recap of [battles between England en France](https://en.wikipedia.org/wiki/List_of_Hundred_Years%27_War_battles) for example, it can be crawled   
+There are some great public datasets out there, even wikipedia is a great source. Let's take this nice recap of [Hundred Years' War battles](https://en.wikipedia.org/wiki/List_of_Hundred_Years%27_War_battles) for example, it can be crawled   
 
 
 ```r
@@ -30,9 +30,6 @@ battles <- url %>%
   as.data.frame()
 
 battles$Year <- as.numeric(battles$Year)
-
-
-
 ```
 
 and displayed on a plot
@@ -40,9 +37,7 @@ and displayed on a plot
 ```r
 library(ggplot2)
 library(bbplot)
-
 devtools::install_github('bbc/bbplot')
-
 battles %>%
  filter(Victor %in% c("England", "France")) %>%
  ggplot() +
@@ -51,6 +46,8 @@ battles %>%
  scale_fill_hue() +
  bbc_style()
 ```
+
+et voila
 
 ![](../.gitbook/assets/rplot%20%281%29.png)
 
