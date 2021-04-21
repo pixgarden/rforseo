@@ -51,7 +51,7 @@ et voila
 
 ![](../.gitbook/assets/rplot%20%281%29.png)
 
-It's not really SEO, but it can be useful. I've used it to check the quality of the data on the sites I look after: products prices, count of images, etc.
+It's not really SEO, but it can be useful. I've also been using it to check the quality of the data on the sites I look after: products prices, count of images, etc.
 
 #### 
 
