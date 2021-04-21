@@ -34,7 +34,7 @@
 * [Hunt down keyword cannibalization x](analysis/keyword-cannibalization.md)
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
 * [Page ranks x](analysis/page-ranks.md)
-* [Forecast 🚀 x](analysis/forecast.md)
+* [SEO traffic Forecast x](analysis/forecast.md)
 
 ## Data Viz
 
