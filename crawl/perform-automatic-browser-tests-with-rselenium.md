@@ -2,13 +2,13 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Perform automatic browser tests with RSelenium ✔️
+# Perform automatic browser tests with RSelenium
 
 ## What's **Selenium?**
 
 Selenium is a classic tool for [QA](https://en.wikipedia.org/wiki/Quality_assurance) and it can help perform automatic checks on a website. 
 
-This is an intro of how to use it:  
+This is an intro of how to use it  
   
 The first step is, as always, to install and load the RSelenium package
 
@@ -22,7 +22,7 @@ We’ll launch a selenium server with a Firefox browser in a controlled mode.
   
 It will take quite some time the first time but after it will load in a few seconds.
 
-_here is the command:_
+_here is the R command:_
 
 ```r
 rd <- rsDriver(browser = "firefox", port = 4444L)

@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Download and check XML sitemaps ✔️
+# Download and check XML sitemaps
 
 It's not required to submit an XML sitemap to have a successful website but it's definitely a SEO nice to have. 
 

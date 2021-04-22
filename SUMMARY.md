@@ -7,11 +7,11 @@
 
 ## Crawl and extract data <a id="crawl"></a>
 
-* [What's crawling and why is it useful? X](crawl/purposes.md)
-* [Crawling with rvest ✔️](crawl/untitled.md)
-* [Download and check XML sitemaps ✔️](crawl/download-xml-sitemaps.md)
-* [SEO Crawling with Rcrawler ✔️](crawl/rcrawler.md)
-* [Perform automatic browser tests with RSelenium ✔️](crawl/perform-automatic-browser-tests-with-rselenium.md)
+* [What's crawling and why is it useful?](crawl/purposes.md)
+* [Crawling with rvest](crawl/untitled.md)
+* [Download and check XML sitemaps](crawl/download-xml-sitemaps.md)
+* [SEO Crawling with Rcrawler](crawl/rcrawler.md)
+* [Perform automatic browser tests with RSelenium](crawl/perform-automatic-browser-tests-with-rselenium.md)
 
 ## Grabbing data from APIs <a id="apis"></a>
 

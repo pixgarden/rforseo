@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# What's crawling and why is it useful? X
+# What's crawling and why is it useful?
 
 ### What is crawling?
 
