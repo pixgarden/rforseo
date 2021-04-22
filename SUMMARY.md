@@ -27,7 +27,7 @@
 * [Send your data by email x](export-data/send-your-data-by-email.md)
 * [Send and read  SEO data to Google Sheet x](export-data/send-and-read-seo-data-to-google-sheet.md)
 
-## analysis
+## data wrangling & analysis <a id="analysis"></a>
 
 * [How to join datasets x](analysis/joins.md)
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
@@ -35,7 +35,7 @@
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
 * [Page ranks x](analysis/page-ranks.md)
 * [SEO traffic Forecast x](analysis/forecast.md)
-* [URL categorization](analysis/url-categorization.md)
+* [URLs categorization](analysis/url-categorization.md)
 * [Load a batch of csv files and](analysis/load-a-batch-of-csv-files-and.md)
 
 ## Data Viz
