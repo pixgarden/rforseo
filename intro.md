@@ -6,7 +6,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 ### What is R?
 
-R is a free programming language and software environment for statistical computing and graphics supported by not for profit organization.
+R is a free programming language and software environment for statistical computing and graphics supported by a not-for-profit organization.
 
 ### What is SEO?
 
@@ -20,15 +20,17 @@ When you have understood the fundamentals, R' is also quite easy to read and wri
 
 ### When should you be using R for SEO?
 
-R become useful when you start to deal with big websites with thousands of pages. I'm a big fan of automation but the relevance needs to be properly evaluated. 
+R becomes useful when you start to deal with big websites with thousands of pages. I'm a big fan of automation but the relevance needs to be properly evaluated. 
 
 There are also a lot of great SEO tools out there, R' will never replace them but it's will a very nice addition to your set of tools.
 
 ### So... Why not Python?
 
-Python is an extraordinary programing language, very versatile, in many cases faster.  Python is better than R, 90% of the time. The 10% where R is superior is data visualisation syntax \(nothing beats ggplot2\) and easy to use data manipulation \(thanks to Dyplr \). Finally, it's less wordy,  easier to read.
+Python is an extraordinary programing language, very versatile, in many cases faster.  Python is better than R, 90% of the time. The 10% where R is superior is data visualization syntax \(nothing beats `ggplot2`\) and easy-to-use data manipulation \(thanks to `Dyplr` \). Finally, it's less wordy,  often easier to read.
 
 Using R is a pragmatic choice, R is often used by academics and people that have another job, full-time dev logically learns Python. 
 
+### Using R for SEO, what to expect?
 
+👉  [See next chapter](r-intro.md)
 
