@@ -35,6 +35,8 @@
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
 * [Page ranks x](analysis/page-ranks.md)
 * [SEO traffic Forecast x](analysis/forecast.md)
+* [URL categorization](analysis/url-categorization.md)
+* [Load a batch of csv files and](analysis/load-a-batch-of-csv-files-and.md)
 
 ## Data Viz
 
