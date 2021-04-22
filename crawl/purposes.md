@@ -48,7 +48,7 @@ battles %>%
  bbc_style()
 ```
 
-et voila
+_et voila_
 
 ![](../.gitbook/assets/rplot%20%281%29.png)
 
