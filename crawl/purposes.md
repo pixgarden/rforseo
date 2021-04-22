@@ -52,7 +52,9 @@ et voila
 
 ![](../.gitbook/assets/rplot%20%281%29.png)
 
-It's not really SEO, but it can be useful. I've also been using it to check the quality of the data on the sites I look after: products prices, count of images, etc.
+It's not really SEO, but it can be useful. I've also been using it to check the quality of the data on the sites, like product prices, image availability, etc.
+
+Again, Screamingfrog or another crawler might be a better choice, it depends on how integrated you want that to be.
 
 #### 
 
