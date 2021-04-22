@@ -8,7 +8,9 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 R can be downloaded from the [CRAN website](https://cran.r-project.org/)
 
-After the installation, you can use R on the command line by typing `r` but it's a bit dry as you can see.
+After the installation, you'll be able use R on the command line by typing `r.`
+
+It's a bit dry as you can see.
 
 ![Using R in the Mac OS Terminal](.gitbook/assets/zcnnht77ss.gif)
 
