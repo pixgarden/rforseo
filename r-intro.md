@@ -183,13 +183,13 @@ The community is smaller than other programming languages but people are more wi
 
 If you've seen some R' code before and you might have been surprised to see this "&lt;-"  being used. it's just a legacy thing, historically R differentiate  "assignation"  and "comparison", example:
 
-If you want to set the value of X to 3.   _assignation_
+_assignation -_ If you want to set the value of X to 3.   
 
 ```r
 x <- 3
 ```
 
-if you want to make a comparison. _comparison_
+_comparison -_ Is X equal to 3?
 
 ```r
 if (x = 3) {
@@ -204,7 +204,7 @@ x = 3
 x <- 3
 ```
 
-\(these are actually [very little difference](https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-assignment-operators-in-r) between two but if you are new to R it's not important at all.\)
+\(these are actually [little differences](https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-assignment-operators-in-r) between the two but if you are new to R it's not important at all.\)
 
 #### The %&gt;%
 
