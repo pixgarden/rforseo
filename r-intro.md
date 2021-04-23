@@ -92,7 +92,7 @@ A few examples of plots done using `ggplot2`
 
 ![by Thorsten Sprenger https://twitter.com/spren9er](.gitbook/assets/screenshot-2021-04-19-at-6.35.44-pm.png)
 
-More
+More examples:
 
 * [The R Graph Gallery](https://www.r-graph-gallery.com/)
 * [ggplot Wizardry Hands-On](https://z3tt.github.io/OutlierConf2021/)
