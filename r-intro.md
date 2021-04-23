@@ -54,13 +54,13 @@ The real power of R relies on R packages. What's a package you may ask?  It's an
 
 ### ggplot2
 
-It's one most famous package, it allows to build advanced plots. To use it you just have to install it once like this
+It's one of the most famous packages. it can be used to build advanced charts and plots. To use it, you just have to install it once like this
 
 ```r
 install.packages("ggplot2")
 ```
 
-and load it
+to load it
 
 ```r
 library("ggplot2")
@@ -78,7 +78,7 @@ ggplot(internal_linking)+
     scale_y_log10()
 ```
 
-![http code plot with a log axis](.gitbook/assets/rplot.png)
+![this is http code plotted with a log axis](.gitbook/assets/rplot.png)
 
 Let's not go into details for now, but believe it or not, I'm not capable of writing this code, I just googled: "Bar charts chart ggplot" , "flip axis ggplot", "log axis ggplot", ... shamelessly copy-paste the codes.
 
