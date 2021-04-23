@@ -157,11 +157,11 @@ View(table(internal_linking$domain))
 ### Where to find packages?
 
 Good question! All the previous package has been downloaded from CRAN that contains [thousands of packages](https://cran.r-project.org/web/packages/available_packages_by_date.html). Github is also a great source of great packages.   
-The problem will be open to pick the right one for you. The best way is usually to ask around using
+there are so many that often the problem is to find the best one. The way to go it usually to ask around using:
 
 * Twitter using the \#rstats hashtag
-* [reddit](https://www.reddit.com/r/rstats/) , rstudio [forum](https://community.rstudio.com/) are not a bad option
-* there are some nice slacks
+* [reddit](https://www.reddit.com/r/rstats/) , [rstudio forum](https://community.rstudio.com/) are not a bad option
+* There are some nice slacks
 
 The community is smaller than other programming languages but people are more willing to help, it compensates.
 
