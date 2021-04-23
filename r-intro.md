@@ -208,7 +208,7 @@ x <- 3
 
 #### The %&gt;%
 
- **%&gt;%** operator, introduced by [magrittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) package, allow operations to be carried out successively. Meaning the results of the previous command are the entries for the next one. Like the **&gt;** \( “pipe”\) command line for terminal if some know about it.
+ **%&gt;%** operator, introduced by [magrittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) package, allows operations to be carried out successively. Meaning the results of the previous command are the entries for the next one. Like the **&gt;** \( “pipe”\) command line for terminal if you have come across it.
 
 Always better with an example, let's take the first line of code of this page
 
@@ -216,7 +216,7 @@ Always better with an example, let's take the first line of code of this page
 View(read.csv(file.choose()))
 ```
 
-It's 3 functions being used on top of each other. It is not great but the readability decent. I wouldn't recommend adding a fourth.  the **%&gt;%** operator fix this problem.
+It's 3 functions being used on top of each other. It is not great but the readability is decent. I wouldn't recommend adding a fourth.  the **%&gt;%** operator fixes this soon-to-be problem.
 
 ```r
 # equivalent to the previous instruction
