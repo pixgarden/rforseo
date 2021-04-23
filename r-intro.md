@@ -222,11 +222,13 @@ It's 3 functions being used on top of each other. It is not great but the readab
 # equivalent to the previous instruction
 file.choose() %>% read.csv() %>% View()
 
-# equivalent
+# again equivalent
 file.choose() %>%
  read.csv() %>%
  View()
 ```
+
+As you can see, fairly easy to read. This operator is so practical that it's now used by a majority of R practicers. 
 
 ### R' can be slow
 
