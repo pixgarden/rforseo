@@ -28,7 +28,7 @@ Who is using R anyway?
 
 ### So... Why not Python?
 
-Python is an extraordinary programing language, very versatile, in many cases faster.  Python is better than R, 90% of the time. The 10% where R is superior is data visualization syntax \(nothing beats `ggplot2`\) and easy-to-use data manipulation \(thanks to `Dyplr` \). Finally, it's less wordy,  often easier to read.
+Python is an extraordinary programing language, very versatile, in many cases faster.  Python is better than R, 90% of the time. The 10% where R is superior is data visualization syntax \(nothing beats`ggplot2`so far\) and easy-to-use data manipulation \(thanks to `Dyplr` \). Finally, it's less wordy,  often easier to read.
 
 Using R is a pragmatic choice, R is often used by academics and people that have another job, full-time dev logically learns Python. 
 
