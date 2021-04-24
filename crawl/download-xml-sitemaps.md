@@ -4,9 +4,9 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 # Download and check XML sitemaps
 
-It's not required to submit an XML sitemap to have a successful website but it's definitely a SEO nice to have. 
+It's not required to submit an XML sitemap to have a successful website but it's definitely an SEO nice to have. 
 
-Nevertheless, if you do submit one, it's best to make sure it's error-free and as you will see its is quite straightforward using R
+Nevertheless, if you do submit one, it's best to make sure it's error-free and as you will see its is quite straightforward to extract URLs using R
 
 ### Install xsitemap R’ Package \(to be done once\) and Load
 
