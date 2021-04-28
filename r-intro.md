@@ -22,7 +22,7 @@ Let's do it with a website links file
 
 ![internal hyperlinks ](.gitbook/assets/tfobxabjri%20%281%29.gif)
 
-This is how open and **browse a file with 2.6 Million rows effortlessly**. Noticed the small search icon on the top right? Yes, you can search within it quite easily too.
+This is how you open and **browse a file with 2.6 Million rows effortlessly**. Noticed the small search icon on the top right? Yes, you can search within it quite easily too.
 
 ![search for dead links using http code](.gitbook/assets/screenshot-2021-04-10-at-12.45.14-pm.png)
 
