@@ -2,7 +2,11 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Forecast 🚀 x
+# SEO traffic Forecast x
+
+![](../.gitbook/assets/1_bviweoe5oemhju8xbv_mka.png)
+
+For this one will be using a Forcast library done by Facebook called [**Prophet**](https://facebook.github.io/prophet/)\*\*\*\*
 
 ```text
 path <- file.choose()

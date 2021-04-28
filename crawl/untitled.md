@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Crawling with rvest ✔️
+# Crawling with rvest
 
 If you want to crawl a couple of URLs for SEO purposes, there are many ways to do it but one of the most reliable and versatile packages you can use is the [rvest](https://cran.r-project.org/web/packages/rvest/) package.
 

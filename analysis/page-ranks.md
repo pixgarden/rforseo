@@ -6,9 +6,9 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 ### Compute ‘Internal Page Rank’ <a id="4-compute-internal-page-rank"></a>
 
-Many SEOs, I spoke to, seem to be very interested in this. I might as well add here the tutorial. It is very much an adaptation of [Paul Shapiro](https://twitter.com/fighto) awesome [Script](https://gist.github.com/pshapiro/616b64a4e4399326c82c34734885d5bd).
+It is very much an adaptation of [Paul Shapiro](https://twitter.com/fighto) awesome [Script](https://gist.github.com/pshapiro/616b64a4e4399326c82c34734885d5bd).
 
-But Instead of using [ScreamingFrog](https://www.screamingfrog.co.uk/) export file, we will use the previously extracted links.
+But Instead of using [ScreamingFrog](https://www.screamingfrog.co.uk/) export file, we will use the [previously extracted links.](../crawl/rcrawler.md)
 
 ```r
 links <- NetwEdges[,1:2] %>%

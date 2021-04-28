@@ -1,4 +1,16 @@
+---
+description: ⚠️ THIS IS A WORK IN PROGRESS
+---
+
 # Execute R code online
+
+### Use RPubs
+
+If the data is public and you want to show off your R skills you can use rpubs directly
+
+You'll need to install the [knitr](https://github.com/yihui/knitr#readme) package \(v0.5 or later\), there is a mini-tutorial just after registration
+
+[register](https://rpubs.com/)
 
 ### Use RStudio Cloud
 

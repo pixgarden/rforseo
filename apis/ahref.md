@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# ahrefs API
+# Grab 'ahrefs' API data
 
 ### What is ahref?
 
@@ -14,7 +14,7 @@ Ahrefs  is an [All-in-one SEO toolset](https://ahrefs.com/#seo-toolset) that all
 * Learn from your industry’s top performing content
 * Track your ranking progress
 
-We will be using  a package called [RAhrefs](https://github.com/Leszek-Sieminski/RAhrefs) by Leszek Siemiński use ahref with R
+We will be using  a package called [RAhrefs](https://github.com/Leszek-Sieminski/RAhrefs) by [Leszek Siemiński](https://twitter.com/leszek_sieminsk) use ahref with R
 
 ### Installation
 

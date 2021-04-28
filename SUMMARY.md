@@ -7,34 +7,37 @@
 
 ## Crawl and extract data <a id="crawl"></a>
 
-* [What's crawling and why is it useful? X](crawl/purposes.md)
-* [Download XML sitemaps ✔️](crawl/download-xml-sitemaps.md)
-* [Crawling with rvest ✔️](crawl/untitled.md)
-* [SEO Crawling with Rcrawler ✔️](crawl/rcrawler.md)
-* [Perform automatic browser tests with RSelenium ✔️](crawl/perform-automatic-browser-tests-with-rselenium.md)
+* [What's crawling and why is it useful?](crawl/purposes.md)
+* [Download and check XML sitemaps](crawl/download-xml-sitemaps.md)
+* [Crawling with rvest](crawl/untitled.md)
+* [SEO Crawling with Rcrawler](crawl/rcrawler.md)
+* [Perform automatic browser tests with RSelenium](crawl/perform-automatic-browser-tests-with-rselenium.md)
 
 ## Grabbing data from APIs <a id="apis"></a>
 
-* [Export Google Analytics Data](apis/web-analytics-google-analytics.md)
-* [Use DataForSeo API](apis/dataforseo.md)
-* [Export Google Search Console Data x](apis/searchconsoler-x.md)
-* [ahrefs API](apis/ahref.md)
+* [Grab Google Analytics Data](apis/web-analytics-google-analytics.md)
+* [Grab 'DataForSeo' API data](apis/dataforseo.md)
+* [Grab Google Search Console Data x](apis/searchconsoler-x.md)
+* [Grab 'ahrefs' API data](apis/ahref.md)
+* [Grab Google Custom search API Data x](apis/grab-google-custom-search-api-data-x.md)
+* [other APIs x](apis/other-apis.md)
 
 ## Export and read Data <a id="export-data"></a>
 
-* [Why this is important? x](export-data/why-this-is-important.md)
 * [Send and read SEO data to Excel ✔️](export-data/send-and-read-seo-data-to-excel.md)
 * [Send your data by email x](export-data/send-your-data-by-email.md)
 * [Send and read  SEO data to Google Sheet x](export-data/send-and-read-seo-data-to-google-sheet.md)
 
-## analysis
+## data wrangling & analysis <a id="analysis"></a>
 
 * [How to join datasets x](analysis/joins.md)
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
 * [Hunt down keyword cannibalization x](analysis/keyword-cannibalization.md)
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
 * [Page ranks x](analysis/page-ranks.md)
-* [Forecast 🚀 x](analysis/forecast.md)
+* [SEO traffic Forecast x](analysis/forecast.md)
+* [URLs categorization](analysis/url-categorization.md)
+* [Load a batch of csv files and](analysis/load-a-batch-of-csv-files-and.md)
 
 ## Data Viz
 
@@ -52,4 +55,5 @@
 * [SEO Tools x](ressources/seo-tools.md)
 * [SEO & R People x](ressources/seo-and-r-people.md)
 * [Execute R code online](ressources/execute-r-code-online.md)
+* [useful xpath's x](ressources/useful-xpaths-x.md)
 

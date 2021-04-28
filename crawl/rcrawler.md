@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# SEO Crawling with Rcrawler ✔️
+# SEO Crawling with Rcrawler
 
 This section is relying on a package called [Rcrawler](https://cran.r-project.org/web/packages/Rcrawler/Rcrawler.pdf) by Salim Khalil. It’s a very handy crawler with some nice functionalities.
 

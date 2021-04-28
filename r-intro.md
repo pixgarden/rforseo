@@ -22,7 +22,7 @@ Let's do it with a website links file
 
 ![internal hyperlinks ](.gitbook/assets/tfobxabjri%20%281%29.gif)
 
-This is how open and **browse a file with 2.6 Million rows effortlessly**. Noticed the small search icon on the top right? Yes, you can search within it quite easily too.
+This is how you open and **browse a file with 2.6 Million rows effortlessly**. Noticed the small search icon on the top right? Yes, you can search within it quite easily too.
 
 ![search for dead links using http code](.gitbook/assets/screenshot-2021-04-10-at-12.45.14-pm.png)
 
@@ -54,13 +54,13 @@ The real power of R relies on R packages. What's a package you may ask?  It's an
 
 ### ggplot2
 
-It's one most famous package, it allows to build advanced plots. To use it you just have to install it once like this
+It's one of the most famous packages. it can be used to build advanced charts and plots. To use it, you just have to install it once like this
 
 ```r
 install.packages("ggplot2")
 ```
 
-and load it
+to load it
 
 ```r
 library("ggplot2")
@@ -78,7 +78,7 @@ ggplot(internal_linking)+
     scale_y_log10()
 ```
 
-![http code plot with a log axis](.gitbook/assets/rplot.png)
+![this is http code plotted with a log axis](.gitbook/assets/rplot.png)
 
 Let's not go into details for now, but believe it or not, I'm not capable of writing this code, I just googled: "Bar charts chart ggplot" , "flip axis ggplot", "log axis ggplot", ... shamelessly copy-paste the codes.
 
@@ -92,7 +92,7 @@ A few examples of plots done using `ggplot2`
 
 ![by Thorsten Sprenger https://twitter.com/spren9er](.gitbook/assets/screenshot-2021-04-19-at-6.35.44-pm.png)
 
-More
+More examples:
 
 * [The R Graph Gallery](https://www.r-graph-gallery.com/)
 * [ggplot Wizardry Hands-On](https://z3tt.github.io/OutlierConf2021/)
@@ -135,7 +135,7 @@ Lubridate package can also help with duration, time zone, intervals, ... Have a 
 
 ### urltools
 
-One last example for the road. 'Want to extract links domains? You can sure use regex, or even try to split the string using "/" as a separator OR you can use the more reliable `urltools` package which as a dedicated `domain()` function to do exactly that.
+One last example for the road. 'Want to extract links domains? You can sure use regex, or even try to split the string using "/" as a separator... OR you can use the more reliable `urltools` package which as a dedicated `domain()` function to do exactly that.
 
 ```r
 # Installing and Loading Package
@@ -157,11 +157,11 @@ View(table(internal_linking$domain))
 ### Where to find packages?
 
 Good question! All the previous package has been downloaded from CRAN that contains [thousands of packages](https://cran.r-project.org/web/packages/available_packages_by_date.html). Github is also a great source of great packages.   
-The problem will be open to pick the right one for you. The best way is usually to ask around using
+there are so many that often the problem is to find the best one. The way to go it usually to ask around using:
 
 * Twitter using the \#rstats hashtag
-* [reddit](https://www.reddit.com/r/rstats/) , rstudio [forum](https://community.rstudio.com/) are not a bad option
-* there are some nice slacks
+* [reddit](https://www.reddit.com/r/rstats/) , [rstudio forum](https://community.rstudio.com/) are not a bad option
+* There are some nice slacks
 
 The community is smaller than other programming languages but people are more willing to help, it compensates.
 
@@ -172,7 +172,7 @@ The community is smaller than other programming languages but people are more wi
 > _Oh you do '_R programming'_, that's cool. Is it like_ Air Guitar? You do fake programming?  
 > - An anonymous member of my family
 
-"R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name. So here are few sources to help find resources
+"R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name. So here are few link to help find R resources.
 
 * [https://rseek.org/](https://rseek.org/) r search engine
 * [https://www.r-bloggers.com/](https://www.r-bloggers.com/) r blogs aggregator
@@ -183,13 +183,13 @@ The community is smaller than other programming languages but people are more wi
 
 If you've seen some R' code before and you might have been surprised to see this "&lt;-"  being used. it's just a legacy thing, historically R differentiate  "assignation"  and "comparison", example:
 
-If you want to set the value of X to 3.   _assignation_
+_assignation -_ If you want to set the value of X to 3.   
 
 ```r
 x <- 3
 ```
 
-if you want to make a comparison. _comparison_
+_comparison -_ Is X equal to 3?
 
 ```r
 if (x = 3) {
@@ -204,11 +204,11 @@ x = 3
 x <- 3
 ```
 
-\(these are actually [very little difference](https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-assignment-operators-in-r) between two but if you are new to R it's not important at all.\)
+\(these are actually [little differences](https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-assignment-operators-in-r) between the two but if you are new to R it's not important at all.\)
 
 #### The %&gt;%
 
- **%&gt;%** operator, introduced by [magrittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) package, allow operations to be carried out successively. Meaning the results of the previous command are the entries for the next one. Like the **&gt;** \( “pipe”\) command line for terminal if some know about it.
+ **%&gt;%** operator, introduced by [magrittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) package, allows operations to be carried out successively. Meaning the results of the previous command are the entries for the next one. Like the **&gt;** \( “pipe”\) command line for terminal if you have come across it.
 
 Always better with an example, let's take the first line of code of this page
 
@@ -216,17 +216,19 @@ Always better with an example, let's take the first line of code of this page
 View(read.csv(file.choose()))
 ```
 
-It's 3 functions being used on top of each other. It is not great but the readability decent. I wouldn't recommend adding a fourth.  the **%&gt;%** operator fix this problem.
+It's 3 functions being used on top of each other. It is not great but the readability is decent. I wouldn't recommend adding a fourth.  the **%&gt;%** operator fixes this soon-to-be problem.
 
 ```r
 # equivalent to the previous instruction
 file.choose() %>% read.csv() %>% View()
 
-# equivalent
+# again equivalent
 file.choose() %>%
  read.csv() %>%
  View()
 ```
+
+As you can see, fairly easy to read. This operator is so practical that it's now used by a majority of R practicers. 
 
 ### R' can be slow
 
@@ -234,5 +236,8 @@ I'm going to quote [Hadley Wickham](http://adv-r.had.co.nz/Performance.html) on 
 
 > R is not a fast language. This is not an accident. R was purposely designed to make data analysis and statistics easier for you to do. It was not designed to make life easier for your computer. While R is slow compared to other programming languages, for most purposes, it’s fast enough.
 
-My personal experience is all the times my code was really slow it was doing something it shouldn't have done, like recomputing all data to output a new record.
+My personal experience is every time my code was slow, it was because I was doing something the code shouldn't have done, like recomputing all data to output a new record.   
+  
+if you are interested in performance issue, here is a website dedicated to Put R on Prod  
+
 

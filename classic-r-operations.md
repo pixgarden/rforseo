@@ -8,7 +8,9 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 R can be downloaded from the [CRAN website](https://cran.r-project.org/)
 
-After the installation, you can use R on the command line by typing R but it's a bit dry as you can see.
+After the installation, you'll be able use R on the command line by typing `r.`
+
+It's a bit dry as you can see.
 
 ![Using R in the Mac OS Terminal](.gitbook/assets/zcnnht77ss.gif)
 
@@ -20,9 +22,12 @@ the best way to use R is to use a development environment and the most widely us
 
 After this installation, you are ready to go 🙌
 
-before starting running some R code, I would suggest reading [this small explanation](https://bookdown.org/ndphillips/YaRrr/the-four-rstudio-windows.html) about the RStudio interface.
+For the real R beginners, Here is a [small explanation](https://bookdown.org/ndphillips/YaRrr/the-four-rstudio-windows.html) about the RStudio panels. I would recommend to at least to check out in your app where are:
 
-For your culture, you should know that it is also possible to [execute code online.](ressources/execute-r-code-online.md)
+* the Console panel, where you can execute code that is not meant to be store 
+* the Source panel, where you can execute R file code. Where any piece of code [can be selected and executed](https://www.youtube.com/watch?v=MGHjnpj46IU&t=181s)
+
+For your culture, you should know that it is also possible to [execute R code online.](ressources/execute-r-code-online.md)
 
 
 
