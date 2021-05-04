@@ -32,7 +32,7 @@ rating <- lego_movie %>%
    as.numeric()
 ```
 
-For those who don’t know **%&gt;%** operator is like the _**\|**_ \( “pipe”\) for a terminal command line. The operations are carried out successively. Meaning the results of the previous command are the entries for the next one.  
+For those who don’t know **%&gt;%** operator here is [simple explanation](../r-intro.md#the-greater-than)  
   
 _html\_nodes_\(\) function will extract from our webpage, HTML tags that match CSS style query selector. In this case, we are looking for a &lt;span&gt; tag whose parent is a &lt;strong&gt; tag.  
 then script will extract the inner text value using _html\_text_\(\) then convert it to a number using _as.numeric_\(\).
