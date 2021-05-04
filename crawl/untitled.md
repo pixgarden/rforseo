@@ -6,7 +6,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 If you want to crawl a couple of URLs for SEO purposes, there are many ways to do it but one of the most reliable and versatile packages you can use is the [rvest](https://cran.r-project.org/web/packages/rvest/) package.
 
-Here is a simple demo from the package documentation using the IMDb website:
+Here is a [simple demo](https://stat4701.github.io/edav/2015/04/02/rvest_tutorial/) from the package documentation using the IMDb website:
 
 ```r
 # Package installation, instruction to be run only once

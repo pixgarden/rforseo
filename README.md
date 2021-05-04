@@ -1,5 +1,5 @@
 ---
-description: ⚠️ THIS IS A WORK IN PROGRESS
+description: chapitre 0
 ---
 
 # Intro - R for SEO
