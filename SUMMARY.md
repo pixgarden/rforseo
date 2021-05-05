@@ -55,5 +55,5 @@
 * [SEO Tools x](ressources/seo-tools.md)
 * [SEO & R People x](ressources/seo-and-r-people.md)
 * [Execute R code online](ressources/execute-r-code-online.md)
-* [useful xpath's x](ressources/useful-xpaths-x.md)
+* [useful SEO XPath's & CSS selectors X](ressources/useful-xpaths-x.md)
 
