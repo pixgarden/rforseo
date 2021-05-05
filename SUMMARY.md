@@ -46,7 +46,7 @@
 
 ---
 
-* [Explore data with rPivotTable ✔️](rpivottable.md)
+* [Explore data with rPivotTable](rpivottable.md)
 
 ## Ressources
 
