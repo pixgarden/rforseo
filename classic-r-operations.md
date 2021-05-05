@@ -25,5 +25,9 @@ For the real R beginners, Here is a [small explanation](https://bookdown.org/ndp
 
 For your culture, you should know that it is also possible to [execute R code online.](ressources/execute-r-code-online.md)
 
+## Next?
+
+Choose from the menu on the left what you want to do
+
 
 
