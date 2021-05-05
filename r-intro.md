@@ -1,7 +1,3 @@
----
-description: ⚠️ THIS IS A WORK IN PROGRESS
----
-
 # Using R for SEO, what to expect?
 
 ## The power of R. What's different about it?
