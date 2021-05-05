@@ -1,7 +1,3 @@
----
-description: ⚠️ THIS IS A WORK IN PROGRESS
----
-
 # Execute R code online
 
 ### Use RPubs to publish R code
