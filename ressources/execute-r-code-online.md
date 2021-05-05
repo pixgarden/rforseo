@@ -4,15 +4,15 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 # Execute R code online
 
-### Use RPubs
+### Use RPubs to publish R code
 
 If the data is public and you want to show off your R skills you can use rpubs directly
 
 You'll need to install the [knitr](https://github.com/yihui/knitr#readme) package \(v0.5 or later\), there is a mini-tutorial just after registration
 
-[register](https://rpubs.com/)
+[Create an account ](https://rpubs.com/)
 
-### Use RStudio Cloud
+### Use RStudio Cloud to publish private code.
 
 There is a 'Cloud' version of RStudio, perfect for a quick demo. For more serious work, there is some [dedicated plans](https://rstudio.cloud/plans/free).
 
@@ -20,7 +20,7 @@ There is a 'Cloud' version of RStudio, perfect for a quick demo. For more seriou
 
 Create an account here [https://rstudio.cloud/](https://rstudio.cloud/)
 
-### Use GoogleColab
+### Use GoogleColab for collaborative work
 
 This is a little-known option but it's possible to use R inside GoogleColab
 
@@ -45,7 +45,10 @@ x
 
 #### Native R on GoogleColab
 
-[https://youtu.be/huAWa0bqxtA](https://youtu.be/huAWa0bqxtA)
+there is an undocumented feature that allows running R code natively  
+[more info here https://youtu.be/huAWa0bqxtA](https://youtu.be/huAWa0bqxtA)
+
+I wouldn't rely on it, as it might disappear
 
 
 
