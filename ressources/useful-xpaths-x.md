@@ -63,6 +63,6 @@ names <- c("viewport",
 | Value | xpath | CSS |
 | :--- | :--- | :--- |
 | canonical tag | //link\[@rel='canonical'\]/@href | head &gt; link\[rel="canonical"\] |
-| Page Title | //title | title |
+| Page Title | //title | head &gt; title |
 | Meta Description | //meta\[@name='description'\]/@content | head &gt; meta\[name="description"\] |
 
