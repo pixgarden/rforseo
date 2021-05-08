@@ -75,7 +75,7 @@ ggplot(internal_linking)+
 
 ![](.gitbook/assets/rplot014.png)
 
-Because we only want to see the problematic http code, we are going to filter 
+Because we only want to see the problematic http codes, we are going to filter 
 
 ```r
 internal_linking_filtered <- filter(internal_linking, !(Status %in% c("200 no error", "Not checked","999 LinkedIn blocking automated testing")))
