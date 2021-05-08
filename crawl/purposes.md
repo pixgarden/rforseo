@@ -16,45 +16,47 @@ You can also respectfully crawl your competitors' website to better understand t
 
 ### Crawling is also interesting to grab data. 
 
-There are some great public datasets out there, even wikipedia is a great source. Let's take this nice recap of [Hundred Years' War battles](https://en.wikipedia.org/wiki/List_of_Hundred_Years%27_War_battles) for example, it can be crawled   
+There are some great public datasets out there, even wikipedia is a great source. Let's take this [world population data](https://en.wikipedia.org/wiki/World_population) that can be crawled:  
 
 
 ```r
 library(dplyr)
 library(rvest)
-url <- "https://en.wikipedia.org/wiki/List_of_Hundred_Years%27_War_battles"
-battles <- url %>%
+url <- "https://en.wikipedia.org/wiki/World_population"
+population <- url %>%
   read_html() %>%
-  html_nodes(xpath='//*[@id="mw-content-text"]/div[1]/center/table') %>%
+  html_nodes(xpath='//*[@id="mw-content-text"]/div[1]/table[7]') %>%
   html_table() %>%
   as.data.frame()
 
-battles$Year <- as.numeric(battles$Year)
+#removing extra row
+population = population[-1,]
+
+# convert to numeric
+population$Population <- as.numeric(gsub(",","",population$Population))
+population$Year <- as.numeric(population$Year)
+
+
 ```
 
-and displayed on a plot
+and displayed as a plot
 
 ```r
-devtools::install_github('bbc/bbplot')
 library(ggplot2)
-library(bbplot)
-
-battles %>%
- filter(Victor %in% c("England", "France")) %>%
- ggplot() +
- aes(x = Year, fill = Victor) +
- geom_bar() +
- scale_fill_hue() +
- bbc_style()
+ggplot(population) +
+  aes(x = Year, y = Population) +
+  geom_point() +
+  theme_minimal() +
+  scale_y_continuous(labels = scales::comma)
 ```
 
 _et voila_
 
-![](../.gitbook/assets/rplot%20%281%29.png)
+![](../.gitbook/assets/rplot02%20%281%29.png)
 
-It's not really SEO, but it can be useful. I've also been using it to check the quality of the data on  websites, like product prices, image availability, etc.
+It's not really SEO, but it can be useful. I've also been using it to check the quality of the data on websites, like product prices, image availability, etc.
 
-Again, Screamingfrog or another crawler might be a better choice, it depends on how integrated you want that to be.
+Again, [Screamingfrog](https://www.screamingfrog.co.uk/) or another crawler might be a better choice, it depends on how integrated you want that to be and how custom those checks should be.
 
 #### 
 
