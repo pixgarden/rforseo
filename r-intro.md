@@ -48,7 +48,7 @@ Of course, these are just some silly examples. There is countless way to do this
 
 The real power of R relies on R packages. What's a package you may ask?  It's an on-demand library of functions you can load to help you in specialised tasks. Again let's take some examples.
 
-### ggplot2
+### `ggplot2`
 
 It's one of the most famous packages. it can be used to build advanced charts and plots. To use it, you just have to install it once like this
 
@@ -109,7 +109,7 @@ To see more examples:
 
 Let's look at another package
 
-### Lubridate
+### `Lubridate`
 
 [Lubridate](https://lubridate.tidyverse.org/) will help to deal with our timestamp values. After the now-classic installing and loading
 
@@ -124,11 +124,13 @@ It can be used to guess and transform this `Time.stamp`into a real date format
 internal_linking$real_date = dmy_hms(internal_linking$Time.stamp)
 ```
 
-The Format has been transformed to a classic format. No more "at" in the middle or "am/pm". It's now easy to read and to sort.  the function guessed sucessfully that the "at" was useless.
+Values have been transformed into a true `Date` format. 
 
 ![before and after using Lubridate function](.gitbook/assets/screenshot-2021-04-14-at-11.27.50-pm.png)
 
-now that those are real dates and not string, we can plot them using ggplot
+No more "at" in the middle or "am/pm". It's now easier to read and to sort.  The function guessed successfully that the "at" was useless.  
+
+Now that those are real dates and no longer character string, we can plot them using `ggplot`
 
 ```r
 ggplot(internal_linking) +
@@ -141,9 +143,9 @@ ggplot(internal_linking) +
 
 
 
-Lubridate package can also help with duration, time zone, intervals, ... Have a look at the [cheatsheets](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf) it is a bit complex to get into but so much less than trying to do it yourself. I've lost literally days of my working life, trying to that this kind of stuff badly in Excel/Google Sheet.
+`Lubridate` package can also help with duration, time zone, intervals, ... Have a look at the [cheatsheets](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf). It is a bit complex to get into but so much less than trying to do it yourself. I've lost literally days of my working life, trying to that this kind of stuff badly in Excel/Google Sheet.
 
-### urltools
+### `urltools`
 
 One last example for the road. 'Want to extract links domains? You can sure use regex, or even try to split the string using "/" as a separator... OR you can use the more reliable `urltools` package which as a dedicated `domain()` function to do exactly that.
 
@@ -156,7 +158,7 @@ internal_linking$domain <- domain(internal_linking$URL)
 
 ```
 
-Let's check out the values, nearly same code as before:
+Let's check out the values, nearly the same code as before:
 
 ```r
 View(table(internal_linking$domain))
@@ -166,12 +168,12 @@ View(table(internal_linking$domain))
 
 ### Where to find packages?
 
-Good question! All the previous package has been downloaded from CRAN that contains [thousands of packages](https://cran.r-project.org/web/packages/available_packages_by_date.html). Github is also a great source of great packages.   
-there are so many that often the problem is to find the best one. The way to go it usually to ask around using:
+Good question! All the previous package has been downloaded from CRAN. It's a repository that contains [thousands of packages](https://cran.r-project.org/web/packages/available_packages_by_date.html). Github is also a great source. There are so many that often the problem is to find the best one. The way to go is usually to ask around using:
 
 * Twitter using the \#rstats hashtag
-* [reddit](https://www.reddit.com/r/rstats/) , [rstudio forum](https://community.rstudio.com/) are not a bad option
-* There are some nice slacks
+* [rstats subreddit](https://www.reddit.com/r/rstats/)
+* [rstudio forum](https://community.rstudio.com/)
+* There are a couple of nice slacks like the [Measurecamp's one](http://join.measure.chat/)
 
 The community is smaller than other programming languages but people are more willing to help, it compensates.
 
@@ -182,14 +184,14 @@ The community is smaller than other programming languages but people are more wi
 > _Oh you do '_R programming'_, that's cool. Is it like_ Air Guitar? You do fake programming?  
 > - An anonymous member of my family
 
-"R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name. So here are few link to help find R resources.
+"R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name. So here are few links to help find R resources.
 
 * [https://rseek.org/](https://rseek.org/) r search engine
 * [https://www.r-bloggers.com/](https://www.r-bloggers.com/) r blogs aggregator
 * [https://www.bigbookofr.com/](https://www.bigbookofr.com/) all the R free books
 * [https://github.com/search?l=R&q=seo&type=code](https://github.com/search?l=R&q=seo&type=code) github r source code search
 
-### the &lt;- 
+### the `<-` 
 
 If you've seen some R' code before and you might have been surprised to see this "&lt;-"  being used. it's just a legacy thing, historically R differentiate  "assignation"  and "comparison", example:
 
@@ -216,9 +218,9 @@ x <- 3
 
 \(these are actually [little differences](https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-assignment-operators-in-r) between the two but if you are new to R it's not important at all.\)
 
-#### The %&gt;%
+#### The `%>%`
 
- **%&gt;%** operator, introduced by [magrittr](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) package, allows operations to be carried out successively. Meaning the results of the previous command are the entries for the next one. Like the **&gt;** \( “pipe”\) command line for terminal if you have come across it.
+The `%>%` operator allows operations to be carried out successively. Meaning the results of the previous command are the entries for the next one. Like the **&gt;** \( “pipe”\) command line for terminal if you have come across it.
 
 Always better with an example, let's take the first line of code of this page
 
@@ -248,6 +250,6 @@ I'm going to quote [Hadley Wickham](http://adv-r.had.co.nz/Performance.html) on 
 
 My personal experience is every time my code was slow, it was because I was doing something the code shouldn't have done, like recomputing all data to output a new record.   
   
-if you are interested in performance issue, here is a website dedicated to Put R on Prod  
+if you are interested in performance issue, here is a website dedicated to [Put R on Prod](https://putrinprod.com/)  
 
 
