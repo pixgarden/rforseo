@@ -66,29 +66,43 @@ and after that, you can now use it
 
 ```r
 ggplot(internal_linking)+
-    aes(x = Status, fill = Status) +
-    geom_bar() +
-    scale_fill_hue() +
-    coord_flip() +
-    theme_minimal() +
-    scale_y_log10()
+  aes(x = Status, fill = Status) +
+  geom_bar() +
+  scale_fill_hue() +
+  theme_minimal()+ 
+  coord_flip()
 ```
 
-![this is http code plotted with a log axis](.gitbook/assets/rplot.png)
+![](.gitbook/assets/rplot014.png)
 
-Let's not go into details for now, but believe it or not, I'm not capable of writing this code, I just googled: "Bar charts chart ggplot" , "flip axis ggplot", "log axis ggplot", ... shamelessly copy-paste the codes.
+Because we only want to see the problematic http code, we are going to filter 
+
+```r
+internal_linking_filtered <- filter(internal_linking, !(Status %in% c("200 no error", "Not checked","999 LinkedIn blocking automated testing")))
+ggplot(internal_linking_filtered)+
+  aes(x = Status, fill = Status) +
+  geom_bar() +
+  scale_fill_hue() +
+  theme_minimal()+ 
+  coord_flip()
+
+```
+
+![](.gitbook/assets/rplot01%20%281%29.png)
+
+Let's not go into details for now, but believe it or not, I'm not capable of writing this code, I just googled: "Bar charts chart ggplot" , "flip axis ggplot", ... shamelessly copy-paste the codes.
 
 gggplot2 is powerful, it can make basically every chart you can think of
 
 A few examples of plots done using `ggplot2`
 
-![ggplot + ggplotly](.gitbook/assets/0pscthcioa.gif)
+![GDP per capita](.gitbook/assets/0pscthcioa.gif)
 
 ![](.gitbook/assets/screenshot-2021-04-16-at-11.03.24-am.png)
 
 ![by Thorsten Sprenger https://twitter.com/spren9er](.gitbook/assets/screenshot-2021-04-19-at-6.35.44-pm.png)
 
-More examples:
+To see more examples:
 
 * [The R Graph Gallery](https://www.r-graph-gallery.com/)
 * [ggplot Wizardry Hands-On](https://z3tt.github.io/OutlierConf2021/)
