@@ -4,7 +4,7 @@ description: chapitre 0
 
 # Intro - R for SEO
 
-_This guide, **in the course of writing**_, _is dedicated to all those who share their knowledge online and especially Hamlet Batista. I'm not a Python user like him and I just came across the guy once but his disappearance made us all remember that sharing is caring and that life is fucking short._
+_This guide, **in the course of writing**_, _is dedicated to all those who share their knowledge online and especially Hamlet Batista. I'm not a Python user like him and I just came across the guy once but his disappearance made us all remember that sharing is caring and that_ Life is so damn short_._
 
 _2021-02-02 - François JOLY_
 
