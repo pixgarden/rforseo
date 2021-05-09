@@ -1,6 +1,6 @@
-# Load a batch of csv files and
+# Load a batch of csv files
 
-Aggregate several csv files into one using file name as a column
+Aggregate several CSV files into one using file name as a column
 
 ```text
 library(plyr)
@@ -8,8 +8,6 @@ library(readr)
 library(purrr)
 
 setwd("./Downloads/test/")
-
-
 
 
 
@@ -21,4 +19,6 @@ Tbl <- list.files(path = "./",
 
 View(Tbl)
 ```
+
+
 

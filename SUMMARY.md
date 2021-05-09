@@ -37,7 +37,7 @@
 * [Page ranks x](analysis/page-ranks.md)
 * [SEO traffic Forecast x](analysis/forecast.md)
 * [URLs categorization](analysis/url-categorization.md)
-* [Load a batch of csv files and](analysis/load-a-batch-of-csv-files-and.md)
+* [Load a batch of csv files](analysis/load-a-batch-of-csv-files-and.md)
 
 ## Data Viz
 

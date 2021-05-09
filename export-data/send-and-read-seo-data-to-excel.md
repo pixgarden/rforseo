@@ -67,5 +67,5 @@ Another good one that I like is to send the excel file to a Shared folder direct
 setwd("/Users/me/Dropbox/Public")
 ```
 
-Of course, replace the file path by yours.
+Of course, replace the file path with yours.
 
