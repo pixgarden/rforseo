@@ -12,7 +12,6 @@
 * [Crawling with rvest](crawl/untitled.md)
 * [SEO Crawling with Rcrawler](crawl/rcrawler.md)
 * [Perform automatic browser tests with RSelenium](crawl/perform-automatic-browser-tests-with-rselenium.md)
-* [Launch an R script using github actions](crawl/launch-an-r-script-using-github-actions.md)
 
 ## Grabbing data from APIs <a id="apis"></a>
 
@@ -51,6 +50,7 @@
 
 ## Ressources
 
+* [Launch an R script using github actions](ressources/launch-an-r-script-using-github-actions.md)
 * [types / class & packages x](ressources/types-class.md)
 * [Datasets x](ressources/datasets.md)
 * [SEO Tools x](ressources/seo-tools.md)
