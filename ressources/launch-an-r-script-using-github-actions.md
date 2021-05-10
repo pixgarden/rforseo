@@ -12,7 +12,7 @@ Let me explain how it works. It's basically all about two files:
 
 ### **sitemap\_scraping.R**
 
-this is the R script which will be executed automatically. It reach to this website [XML sitemap](https://www.rforseo.com/sitemap.xml) and counts the number of url submitted. It relies on rvest package \( see [artiche about rvest](../crawl/untitled.md)  \)
+this is the classic R script. It reaches this website [XML sitemap](https://www.rforseo.com/sitemap.xml) and counts the number of url submitted. It relies on `rvest` package \( see [article about rvest](../crawl/untitled.md)  \)
 
 ```r
 #Load library
