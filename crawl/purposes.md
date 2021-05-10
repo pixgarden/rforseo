@@ -12,7 +12,7 @@ It's fetching the contents of a web page using an app or a script. This is what 
 
 As someone doing SEO you need to know what you are showing to Google. What your website looks like from a \(Google\) bot perspective. You need to [check the quality of your XML sitemap](download-xml-sitemaps.md) if you are submitting one. You need to [check your website webpages and meta data](rcrawler.md). Checking the web server logs is also a good idea, to know what Google bot is doing on your website.
 
-You can also respectfully crawl your competitors' website to better understand their SEO strategy.
+You can also respectfully crawl your competitors' websites to better understand their SEO strategy.
 
 ### Crawling is also interesting to grab data. 
 
