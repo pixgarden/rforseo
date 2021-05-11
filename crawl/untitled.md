@@ -6,7 +6,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 If you want to crawl a couple of URLs for SEO purposes, there are many ways to do it but one of the most reliable and versatile packages you can use is the [rvest](https://cran.r-project.org/web/packages/rvest/) package.
 
-Here is a simple demo from the package documentation using the IMDb website:
+Here is a [simple demo](https://stat4701.github.io/edav/2015/04/02/rvest_tutorial/) from the package documentation using the IMDb website:
 
 ```r
 # Package installation, instruction to be run only once
@@ -23,7 +23,7 @@ lego_movie <- read_html("http://www.imdb.com/title/tt1490017/")
 
 Quite straightforward, isn’t it?
 
-Beware _lego\_move_ is now an _xml\_document_ that need to be parse in order to extract the data. Here is how to do it:
+_`lego_move`_ is an _xml\_document_ that need to be parse in order to extract the data. Here is how to do it:
 
 ```r
 rating <- lego_movie %>%
@@ -32,35 +32,7 @@ rating <- lego_movie %>%
    as.numeric()
 ```
 
-If you want to crawl a couple of URLs for SEO purposes, there are many many ways to do it but one of the most reliable and versatile packages you can use is [rvest](https://cran.r-project.org/web/packages/rvest/)
-
-Here is a simple demo from the package documentation using the IMDb website:
-
-```r
-# Package installation, instruction to be run only once
-install.packages("rvest") 
-# Loading rvest package
-library(rvest)
-```
-
-The first step is to crawl the URL and store the webpage inside a ‘lego\_movie’ variable.
-
-```r
-lego_movie <- read_html("http://www.imdb.com/title/tt1490017/")
-```
-
-Quite straightforward, isn’t it?  
-  
-Beware _lego\_move_ is now an xml\_document that need to be parse in order to extract the data. Here is how to do it:
-
-```r
- rating <- lego_movie %>%
-    html_nodes("strong span") %>%
-    html_text() %>%
-    as.numeric()
-```
-
-For those who don’t know **%&gt;%** operator is like the _**\|**_ \( “pipe”\) for a terminal command line. The operations are carried out successively. Meaning the results of the previous command are the entries for the next one.  
+For those who don’t know **%&gt;%** operator here is [simple explanation](../r-intro.md#the-greater-than)  
   
 _html\_nodes_\(\) function will extract from our webpage, HTML tags that match CSS style query selector. In this case, we are looking for a &lt;span&gt; tag whose parent is a &lt;strong&gt; tag.  
 then script will extract the inner text value using _html\_text_\(\) then convert it to a number using _as.numeric_\(\).

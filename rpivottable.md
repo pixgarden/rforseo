@@ -1,6 +1,6 @@
-# Explore data with rPivotTable ✔️
+# Explore data with rPivotTable
 
-[rpivotTable](https://cran.r-project.org/web/packages/rpivotTable/vignettes/rpivotTableIntroduction.html)  is a great paclage by Enzo Martoglio that allow you explore a small dataset using am HTML drag&drop interface that looks like the pivot interface from Google Sheet or Excel.
+[rpivotTable](https://cran.r-project.org/web/packages/rpivotTable/vignettes/rpivotTableIntroduction.html)  is a great package by Enzo Martoglio that allows you to explore a small dataset using an HTML drag&drop interface that looks like the pivot interface from Google Sheet or Excel.
 
 ### Install and load rPivotTable <a id="4-explore-crawled-data-with-rpivottable"></a>
 
@@ -27,6 +27,14 @@ it will open this HTML and drag and dropping KPIs from the left column
 You can also use the top dropdown list to make it display a plot instead of a table.
 
 ![It&#x2019;s also possible make some quick data viz](https://www.gokam.co.uk/wp-content/uploads/2020/08/UmtYC25Kdh.gif)
+
+To easily sort
+
+![](.gitbook/assets/sort.gif)
+
+and filter
+
+![](.gitbook/assets/filter.gif)
 
 
 

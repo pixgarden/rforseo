@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# useful xpath's x
+# useful SEO XPath's & CSS selectors X
 
 ```text
 
@@ -59,4 +59,10 @@ names <- c("viewport",
            "canonical_parent")
 
 ```
+
+| Value | xpath | CSS |
+| :--- | :--- | :--- |
+| canonical tag | //link\[@rel='canonical'\]/@href | head &gt; link\[rel="canonical"\] |
+| Page Title | //title | head &gt; title |
+| Meta Description | //meta\[@name='description'\]/@content | head &gt; meta\[name="description"\] |
 

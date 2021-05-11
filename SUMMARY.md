@@ -37,7 +37,7 @@
 * [Page ranks x](analysis/page-ranks.md)
 * [SEO traffic Forecast x](analysis/forecast.md)
 * [URLs categorization](analysis/url-categorization.md)
-* [Load a batch of csv files and](analysis/load-a-batch-of-csv-files-and.md)
+* [Load a batch of csv files](analysis/load-a-batch-of-csv-files-and.md)
 
 ## Data Viz
 
@@ -46,14 +46,15 @@
 
 ---
 
-* [Explore data with rPivotTable ✔️](rpivottable.md)
+* [Explore data with rPivotTable](rpivottable.md)
 
 ## Ressources
 
+* [Launch an R script using github actions](ressources/launch-an-r-script-using-github-actions.md)
 * [types / class & packages x](ressources/types-class.md)
 * [Datasets x](ressources/datasets.md)
 * [SEO Tools x](ressources/seo-tools.md)
 * [SEO & R People x](ressources/seo-and-r-people.md)
 * [Execute R code online](ressources/execute-r-code-online.md)
-* [useful xpath's x](ressources/useful-xpaths-x.md)
+* [useful SEO XPath's & CSS selectors X](ressources/useful-xpaths-x.md)
 

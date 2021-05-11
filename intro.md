@@ -1,7 +1,3 @@
----
-description: ⚠️ THIS IS A WORK IN PROGRESS
----
-
 # The Ws
 
 ### What is R?
