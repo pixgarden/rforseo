@@ -88,7 +88,7 @@ jobs:
 Parts you may want to modify are 
 
 * the execution frequency rule. It's the weird line with `cron.` this one means " Runs at 13:00 UTC every day." here is the full [syntax documentation](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events). 
-* If you are using packages, you need to ask Github to install them before running the script. 
+* If you are using packages, you need to ask Github to install them before running the script so be sure to include those on the list.
 
 
 
