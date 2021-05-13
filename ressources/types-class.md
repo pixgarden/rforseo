@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# types / class & packages x
+# Types / Class & packages x
 
 Its good practice to check that you are dealing with
 
@@ -10,11 +10,14 @@ Its good practice to check that you are dealing with
 
  you should use a _class_ function\(\). here are some examples
 
-```text
+```r
 x <- 2
 class(x)
+# should display "numeric"
+
 y <- "2"
 class(y)
+# should display "character"
 ```
 
 ## the classic types
@@ -23,7 +26,7 @@ class(y)
 
 
 
-## xml\_document
+### xml\_document
 
 ## advanced types
 

@@ -50,7 +50,7 @@
 ## Ressources
 
 * [Launch an R script using github actions](ressources/launch-an-r-script-using-github-actions.md)
-* [types / class & packages x](ressources/types-class.md)
+* [Types / Class & packages x](ressources/types-class.md)
 * [Datasets x](ressources/datasets.md)
 * [SEO Tools x](ressources/seo-tools.md)
 * [SEO & R People x](ressources/seo-and-r-people.md)
