@@ -1,8 +1,4 @@
----
-description: ⚠️ THIS IS A WORK IN PROGRESS
----
-
-# Join datasets x
+# Join datasets
 
 If you have crawled your website, it might be quite nice to check which of these pages got some SEO traffic. 
 

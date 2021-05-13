@@ -30,7 +30,7 @@
 
 ## data wrangling & analysis <a id="analysis"></a>
 
-* [Join datasets x](analysis/joins.md)
+* [Join datasets](analysis/joins.md)
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
 * [Hunt down keyword cannibalization x](analysis/keyword-cannibalization.md)
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
