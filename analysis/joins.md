@@ -29,7 +29,7 @@ View(INDEX)
 
 Using `googleAnalyticsR` package we grab Google Analytics SEO Landing page \(see [How so use googleAnalyticsR](../apis/web-analytics-google-analytics.md) article\)
 
-```text
+```r
 
 # Between 1 january and 1 feb 2021
 # we want the sessions
@@ -56,7 +56,7 @@ We have on the crawler data side the `Url` column and on the GA side the `landin
 
 So we need to make sure they are on the same format. So we'll remote the hostname from the Url using `urltools` package
 
-```text
+```r
 INDEX$landingPagePath <- paste0("/",urltools::path(INDEX$Url))
 
 INDEX$landingPagePath[INDEX$landingPagePath == "/NA"] <- "/"
@@ -64,9 +64,17 @@ INDEX$landingPagePath[INDEX$landingPagePath == "/NA"] <- "/"
 
 and now we can merge
 
-```text
-merge(INDEX,ga_seo)
+```r
+crawl_ga_merged <- merge(INDEX,ga_seo)
 ```
+
+Thats it really. In the same you have GA and the crawler data.
+
+```r
+View(crawl_ga_merged)
+```
+
+![](../.gitbook/assets/screenshot-2021-05-13-at-4.28.01-pm.png)
 
 
 
