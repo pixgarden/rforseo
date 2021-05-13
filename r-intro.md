@@ -106,6 +106,7 @@ To see more examples:
 
 * [The R Graph Gallery](https://www.r-graph-gallery.com/)
 * [ggplot Wizardry Hands-On](https://z3tt.github.io/OutlierConf2021/)
+* [Tidy Tuesday](https://github.com/HudsonJamie/tidy_tuesday)
 
 Let's look at another package
 
