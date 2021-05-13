@@ -90,6 +90,14 @@ Parts you may want to modify are
 * the execution frequency rule. It's the weird line with `cron.` this one means " Runs at 13:00 UTC every day." here is the full [syntax documentation](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events). 
 * If you are using packages, you need to ask Github to install them before running the script so be sure to include those on the list.
 
+the resulting CSV is updated every day and can be scrape 
+
+{% embed url="https://github.com/pixgarden/scrape-automation/blob/main/data/xml\_url\_count.csv" %}
+
+![](../.gitbook/assets/screenshot-2021-05-13-at-4.13.04-pm.png)
+
+RAW LINK: [https://raw.githubusercontent.com/pixgarden/scrape-automation/main/data/xml\_url\_count.csv](https://raw.githubusercontent.com/pixgarden/scrape-automation/main/data/xml_url_count.csv)
+
 
 
 
