@@ -2,7 +2,7 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Send and read SEO data to Excel ✔️
+# Send and read SEO data to Excel/CSV
 
 CSV and Excel file remain one of amongst the most well-used file formats for exchange data.
 
@@ -68,4 +68,31 @@ setwd("/Users/me/Dropbox/Public")
 ```
 
 Of course, replace the file path with yours.
+
+### Import and merge a batch of CSV files
+
+Aggregate several CSV files into one using file name as a column
+
+```text
+library(plyr)
+library(readr)
+library(purrr)
+
+# add the path where the csv's are located
+setwd("./Downloads/test/")
+
+# list csv files inside the directory
+# for each: import the csv (read.csv function)
+# add filename as a column
+# and merge
+
+Tbl <- list.files(path = "./",
+                  pattern="*.csv", 
+                  full.names = T) %>% 
+                  map_df(function(x) read_csv(x, col_types = cols(.default = "c")) %>%
+                  mutate(filename=gsub(".csv","",basename(x)))) 
+
+
+View(Tbl)
+```
 

@@ -24,7 +24,7 @@
 
 ## Export and read Data <a id="export-data"></a>
 
-* [Send and read SEO data to Excel ✔️](export-data/send-and-read-seo-data-to-excel.md)
+* [Send and read SEO data to Excel/CSV](export-data/send-and-read-seo-data-to-excel.md)
 * [Send your data by email x](export-data/send-your-data-by-email.md)
 * [Send and read  SEO data to Google Sheet x](export-data/send-and-read-seo-data-to-google-sheet.md)
 
@@ -37,7 +37,6 @@
 * [Page ranks x](analysis/page-ranks.md)
 * [SEO traffic Forecast x](analysis/forecast.md)
 * [URLs categorization](analysis/url-categorization.md)
-* [Load a batch of csv files](analysis/load-a-batch-of-csv-files-and.md)
 
 ## Data Viz
 
