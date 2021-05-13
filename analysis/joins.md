@@ -10,7 +10,7 @@ To do that we'll need to link or `join` the two dataset and as you'll see, its q
 
 ### First data set : Crawl data
 
-Using `rcrawler`, we've collected our pages  \(see [How to use rcrawler](../crawl/rcrawler.md)\)
+Using `rcrawler`, we've collected our pages  \(see [How to use rcrawler](../crawl/rcrawler.md) article\)
 
 ```r
 library(Rcrawler)
@@ -27,7 +27,7 @@ View(INDEX)
 
 ### Second data set : Google analytics data
 
-Using `googleAnalyticsR` package we grab Google Analytics SEO Landing page \(see [How so use googleAnalyticsR](../apis/web-analytics-google-analytics.md)\)
+Using `googleAnalyticsR` package we grab Google Analytics SEO Landing page \(see [How so use googleAnalyticsR](../apis/web-analytics-google-analytics.md) article\)
 
 ```text
 
