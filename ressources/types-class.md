@@ -4,7 +4,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 # types / class & packages x
 
-because you are trying to manipulate an object when it is not the right type. Its good practice to check that you are dealing with
+Its good practice to check that you are dealing with
 
 ## How do you check an object type?
 
