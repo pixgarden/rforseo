@@ -9,7 +9,7 @@
 
 * [What's crawling and why is it useful?](crawl/purposes.md)
 * [Download and check XML sitemaps](crawl/download-xml-sitemaps.md)
-* [Crawling with rvest](crawl/untitled.md)
+* [Crawling with rvest](crawl/rvest.md)
 * [SEO Crawling with Rcrawler](crawl/rcrawler.md)
 * [Perform automatic browser tests with RSelenium](crawl/perform-automatic-browser-tests-with-rselenium.md)
 
