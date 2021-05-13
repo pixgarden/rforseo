@@ -8,9 +8,13 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 [DataForSEO](https://dataforseo.com/) is a paid API that provides SEO data
 
-### How to launch the API?
+### How to use the API?
 
-```text
+First, you need to grab your credentials can be found inside your personal dashboard
+
+[https://app.dataforseo.com/api-dashboard](https://app.dataforseo.com/api-dashboard) 
+
+```r
 require(httr)
 
 # credentials can be found here https://app.dataforseo.com/api-dashboard
@@ -21,6 +25,13 @@ headers = c(
   `Authorization` = paste('Basic',base64_enc(paste0(username,":",password))),
   `Content-Type` = 'application/json'
 )
+```
+
+## Request a keywords position
+
+
+
+```r
 
 data = '[{"keyword":"r for seo", "location_code":2826, "language_code":"en", "device":"desktop", "os":"windows"}]'
 
@@ -31,6 +42,5 @@ res_text <- content(res, "text")
 require(jsonlite)
 res_json <- fromJSON(res_text, flatten = TRUE)
 View(res_json)
-
 ```
 

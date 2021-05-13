@@ -18,7 +18,7 @@
 * [Grab Google Analytics Data](apis/web-analytics-google-analytics.md)
 * [Grab 'DataForSeo' API data](apis/dataforseo.md)
 * [Grab Google Search Console Data x](apis/searchconsoler-x.md)
-* [Grab 'ahrefs' API data](apis/ahref.md)
+* [Grab 'ahrefs' API data x](apis/ahref.md)
 * [Grab Google Custom search API Data x](apis/grab-google-custom-search-api-data-x.md)
 * [other APIs x](apis/other-apis.md)
 
