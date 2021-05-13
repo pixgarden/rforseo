@@ -17,7 +17,7 @@ library(Rcrawler)
 Rcrawler(Website = "https://www.rforseo.com/")
 ```
 
-we now have a dataset \(dataframe\) of urls associated to their crawl depht called `INDEX`
+We now have a dataset \(dataframe\) of urls associated to their crawl depht called `INDEX`
 
 ```r
 View(INDEX)
