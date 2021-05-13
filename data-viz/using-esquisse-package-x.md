@@ -4,7 +4,7 @@ ggplots is great package but it can be a bit overwhelming to deal with. So many 
 
 Let me take an example  
   
-As always installing and loading
+As always _installing_ and _loading_
 
 ```text
 install.packages("esquisse")
