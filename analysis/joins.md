@@ -2,13 +2,15 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# How to join datasets x
+# Join datasets x
 
-If you have crawled your website, it might be quite nice to check how of these pages got some SEO traffic. To do that we'll need to link the two dataset and as you will see, its quite simple
+If you have crawled your website, it might be quite nice to check which of these pages got some SEO traffic. 
 
-### Crawl data
+To do that we'll need to link or `join` the two dataset and as you'll see, its quite simple
 
-Using [rcrawler](../crawl/rcrawler.md), we've collected our pages
+### First data set : Crawl data
+
+Using [rcrawler](../crawl/rcrawler.md), we've collected our pages  \(see [How to use rcrawler](../crawl/rcrawler.md)\)
 
 ```r
 library(Rcrawler)
@@ -23,7 +25,7 @@ View(INDEX)
 
 ![second column is the url](../.gitbook/assets/screenshot-2021-04-21-at-11.11.18-pm.png)
 
-### Google analytics data
+### Second data set : Google analytics data
 
 Using [googleAnalyticsR](https://code.markedmondson.me/googleAnalyticsR/) package we grab Google Analytics SEO Landing page \(see [How so use googleAnalyticsR](../apis/web-analytics-google-analytics.md)\)
 
