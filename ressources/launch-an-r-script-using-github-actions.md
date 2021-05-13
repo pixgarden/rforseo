@@ -85,15 +85,16 @@ jobs:
         username: github-actions
 ```
 
-the part you may want to modify is the execution frequency rule. this one means " Runs at 13:00 UTC every day." 
+Parts you may want to modify are 
 
-```r
-on:
-  schedule:
-    - cron:  '0 13 * * *'
-```
+* the execution frequency rule. It's the weird line with `cron.` this one means " Runs at 13:00 UTC every day." here is the full [syntax documentation](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events). 
+* If you are using packages, you need to ask Github to install them before running the script. 
 
-here is the full [syntax documentation](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events) if you are interested
+
+
+
+
+
 
 
 
