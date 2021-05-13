@@ -10,14 +10,14 @@ To do that we'll need to link or `join` the two dataset and as you'll see, its q
 
 ### First data set : Crawl data
 
-Using [rcrawler](../crawl/rcrawler.md), we've collected our pages  \(see [How to use rcrawler](../crawl/rcrawler.md)\)
+Using `rcrawler`, we've collected our pages  \(see [How to use rcrawler](../crawl/rcrawler.md)\)
 
 ```r
 library(Rcrawler)
 Rcrawler(Website = "https://www.rforseo.com/")
 ```
 
-we now have a dataset \(dataframe\) of url associated to their crawl depht called `INDEX`
+we now have a dataset \(dataframe\) of urls associated to their crawl depht called `INDEX`
 
 ```r
 View(INDEX)
