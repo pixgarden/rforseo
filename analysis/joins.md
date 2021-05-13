@@ -27,7 +27,7 @@ View(INDEX)
 
 ### Second data set : Google analytics data
 
-Using [googleAnalyticsR](https://code.markedmondson.me/googleAnalyticsR/) package we grab Google Analytics SEO Landing page \(see [How so use googleAnalyticsR](../apis/web-analytics-google-analytics.md)\)
+Using `googleAnalyticsR` package we grab Google Analytics SEO Landing page \(see [How so use googleAnalyticsR](../apis/web-analytics-google-analytics.md)\)
 
 ```text
 
