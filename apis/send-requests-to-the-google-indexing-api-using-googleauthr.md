@@ -1,6 +1,10 @@
 # Send requests to the Google Indexing API using googleAuthR
 
-_This guide has been written by_ [_Ruben Vezzoli_](https://twitter.com/RubenVezzoli) _in July 2020. Ruben is a 25 years old , Italian, Data Analyst checkout_[ _this website_ ](https://www.rubenvezzoli.online/)_with other interesting R scripts._
+
+
+_This guide has been written by_ [_Ruben Vezzoli_](https://twitter.com/RubenVezzoli) _in July 2020. Ruben is a 25 years old , Italian, Data Analyst checkout_[ _his website_ ](https://www.rubenvezzoli.online/)_with other interesting R scripts._
+
+\_\_
 
 Two years ago, Google introduced the **Indexing API** with the intent of solving an issue that affected jobs/streaming websites – having outdated content in the index. The [Google Developers documentation](https://developers.google.com/search/apis/indexing-api/v3/using-api) says:
 
