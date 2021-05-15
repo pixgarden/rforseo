@@ -38,7 +38,7 @@ gsc_all_queries_impr <- gsc_all_queries %>%
 
 colnames(gsc_all_queries_impr) <- c("date","impr")
 
-gsc_all_queries_states <- merge(gsc_all_queries_clicks, gsc_all_queries_impr)
+gsc_all_queries_stats <- merge(gsc_all_queries_clicks, gsc_all_queries_impr)
 
 urls <- read.csv(url("https://raw.githubusercontent.com/pixgarden/scrape-automation/main/data/xml_url_count.csv"))
 
@@ -46,7 +46,7 @@ colnames(urls)  <- c("date","urls")
 
 urls$date <- as.Date(urls$date)
 
-View(merge(gsc_all_queries_states, urls))
+View(merge(gsc_all_queries_stats, urls))
 
 
 ```
