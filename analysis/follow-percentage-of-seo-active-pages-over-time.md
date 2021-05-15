@@ -1,4 +1,4 @@
-# Follow percentage of SEO active pages over time
+# Tracking SEO active pages percentage over time
 
 ```r
 library(searchConsoleR)
