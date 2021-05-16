@@ -38,7 +38,7 @@
 * [Page ranks x](analysis/page-ranks.md)
 * [SEO traffic Forecast x](analysis/forecast.md)
 * [URLs categorization](analysis/url-categorization.md)
-* [Tracking SEO active pages percentage over time x](analysis/follow-percentage-of-seo-active-pages-over-time.md)
+* [Track SEO active pages percentage over time x](analysis/follow-percentage-of-seo-active-pages-over-time.md)
 
 ## Data Viz
 
