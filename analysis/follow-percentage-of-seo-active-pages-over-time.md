@@ -12,27 +12,28 @@ To make things even more interesting we will grab google search console data and
 
 
 
-
-
-
-
 ```r
 library(searchConsoleR)
-install.packages("searchConsoleR")
-
 library(googleAuthR)
 scr_auth()
+
 # Load
 sc_websites <- list_websites()
+
 # and display the list
 View(sc_websites)
 
+# pitck the one
 hostname <- "https://www.rforseo.com/"
 require(lubridate)
+
+#  we want data between now and 2 months ago
 beforedate <- lubridate::today()
 month(beforedate) <- month(beforedate) - 2
 day(beforedate) <- days_in_month(beforedate)
 
+
+# we ask for data with dates and pages
 gsc_all_queries <- search_analytics(hostname,
                                     beforedate, tree_days_ago,
                                     c("date", "page"), rowLimit = 80000)
