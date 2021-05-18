@@ -15,6 +15,8 @@ library(rpivottable)
 
 Imagine you want to explore a data frame called MERGED \( see  [how to create a data frame using a CSV file](export-data/send-and-read-seo-data-to-excel.md#read-your-data-from-a-csv) \)
 
+Its just one line of code:
+
 ```r
 # launch 
 rpivotTable(MERGED)
