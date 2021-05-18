@@ -221,7 +221,7 @@ x <- 3
 
 #### The `%>%`
 
-The `%>%` operator allows operations to be carried out successively. Meaning the results of the previous command are the entries for the next one. Like the **&gt;** \( “pipe”\) command line for terminal if you have come across it.
+The `%>%` operator allows operations to be carried out successively. Meaning the results of the previous command are the entries for the next one. Like the **&gt;** \( “pipe”\) command line for terminal if you came across it.
 
 Always better with an example, let's take the first line of code of this page
 
