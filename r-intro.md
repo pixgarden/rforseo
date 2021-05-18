@@ -229,7 +229,7 @@ Always better with an example, let's take the first line of code of this page
 View(read.csv(file.choose()))
 ```
 
-It's 3 functions being used on top of each other. It is not great but the readability is decent. I wouldn't recommend adding a fourth.  the **%&gt;%** operator fixes this soon-to-be problem.
+It's 3 functions being used on top of each other. The readability is decent. I wouldn't recommend adding a fourth.  the **%&gt;%** operator fixes this soon-to-be problem.
 
 ```r
 # equivalent to the previous instruction
