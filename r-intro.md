@@ -185,7 +185,7 @@ The community is smaller than other programming languages but people are more wi
 > _Oh you do '_R programming'_, that's cool. Is it like_ Air Guitar? You do fake programming?  
 > - An anonymous member of my family
 
-"R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name. So here are few links to help find R resources.
+"R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name either. So here are few links to help find R resources.
 
 * [https://rseek.org/](https://rseek.org/) r search engine
 * [https://www.r-bloggers.com/](https://www.r-bloggers.com/) r blogs aggregator
