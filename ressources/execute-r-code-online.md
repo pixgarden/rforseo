@@ -46,5 +46,11 @@ there is an undocumented feature that allows running R code natively
 
 I wouldn't rely on it, as it might disappear
 
+#### Execute R code on GitHub
+
+[See this article](launch-an-r-script-using-github-actions.md)
+
+
+
 
 
