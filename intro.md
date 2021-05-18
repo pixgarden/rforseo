@@ -20,8 +20,6 @@ R becomes useful when you start to deal with big websites with thousands of page
 
 There are also a lot of great SEO tools out there, R' will never replace them but it's will a very nice addition to your set of tools.
 
-Who is using R anyway?
-
 ### So... Why not Python?
 
 Python is an extraordinary programing language, very versatile, in many cases faster.  Python is better than R, 90% of the time. The 10% where R is superior is data visualization syntax \(nothing beats`ggplot2`so far\) and easy-to-use data manipulation \(thanks to `Dyplr` \). Finally, it's less wordy,  often easier to read.
