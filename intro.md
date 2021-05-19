@@ -16,9 +16,7 @@ When you have understood the fundamentals, R' is also quite easy to read and wri
 
 ### When should you be using R for SEO?
 
-R becomes useful when you start to deal with big websites with thousands of pages. I'm a big fan of automation but the relevance needs to be properly evaluated. 
-
-There are also a lot of great SEO tools out there, R' will never replace them but it's will a very nice addition to your set of tools.
+R becomes useful when you start to deal with big websites with thousands of pages. I'm a big fan of automation but the relevance needs to be properly evaluated. There are also a lot of great SEO tools out there, R' will never replace them but it is definitely a very nice addition to your set of tools.
 
 ### So... Why not Python?
 
