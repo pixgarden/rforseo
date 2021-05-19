@@ -9,7 +9,7 @@
 
 * [What's crawling and why is it useful?](crawl/purposes.md)
 * [Download and check XML sitemaps](crawl/download-xml-sitemaps.md)
-* [Crawling with rvest](crawl/untitled.md)
+* [Crawling with rvest](crawl/rvest.md)
 * [SEO Crawling with Rcrawler](crawl/rcrawler.md)
 * [Perform automatic browser tests with RSelenium](crawl/perform-automatic-browser-tests-with-rselenium.md)
 
@@ -18,26 +18,27 @@
 * [Grab Google Analytics Data](apis/web-analytics-google-analytics.md)
 * [Grab 'DataForSeo' API data](apis/dataforseo.md)
 * [Grab Google Search Console Data x](apis/searchconsoler-x.md)
-* [Grab 'ahrefs' API data](apis/ahref.md)
+* [Grab 'ahrefs' API data x](apis/ahref.md)
 * [Grab Google Custom search API Data x](apis/grab-google-custom-search-api-data-x.md)
 * [other APIs x](apis/other-apis.md)
+* [Send requests to the Google Indexing API using googleAuthR](apis/send-requests-to-the-google-indexing-api-using-googleauthr.md)
 
 ## Export and read Data <a id="export-data"></a>
 
-* [Send and read SEO data to Excel ✔️](export-data/send-and-read-seo-data-to-excel.md)
+* [Send and read SEO data to Excel/CSV](export-data/send-and-read-seo-data-to-excel.md)
 * [Send your data by email x](export-data/send-your-data-by-email.md)
 * [Send and read  SEO data to Google Sheet x](export-data/send-and-read-seo-data-to-google-sheet.md)
 
 ## data wrangling & analysis <a id="analysis"></a>
 
-* [How to join datasets x](analysis/joins.md)
+* [Join datasets](analysis/joins.md)
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
 * [Hunt down keyword cannibalization x](analysis/keyword-cannibalization.md)
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
 * [Page ranks x](analysis/page-ranks.md)
 * [SEO traffic Forecast x](analysis/forecast.md)
 * [URLs categorization](analysis/url-categorization.md)
-* [Load a batch of csv files](analysis/load-a-batch-of-csv-files-and.md)
+* [Track SEO active pages percentage over time x](analysis/follow-percentage-of-seo-active-pages-over-time.md)
 
 ## Data Viz
 
@@ -51,7 +52,7 @@
 ## Ressources
 
 * [Launch an R script using github actions](ressources/launch-an-r-script-using-github-actions.md)
-* [types / class & packages x](ressources/types-class.md)
+* [Types / Class & packages x](ressources/types-class.md)
 * [Datasets x](ressources/datasets.md)
 * [SEO Tools x](ressources/seo-tools.md)
 * [SEO & R People x](ressources/seo-and-r-people.md)

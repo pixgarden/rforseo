@@ -46,7 +46,7 @@ Of course, these are just some silly examples. There is countless way to do this
 
 ## _'There is a package for that'_
 
-The real power of R relies on R packages. What's a package you may ask?  It's an on-demand library of functions you can load to help you in specialised tasks. Again let's take some examples.
+The real power of R relies on R packages. What's a package you may ask?  It's an on-demand library of functions you can load to help you in specialized tasks. Again let's take some examples.
 
 ### `ggplot2`
 
@@ -106,6 +106,7 @@ To see more examples:
 
 * [The R Graph Gallery](https://www.r-graph-gallery.com/)
 * [ggplot Wizardry Hands-On](https://z3tt.github.io/OutlierConf2021/)
+* [Tidy Tuesday](https://github.com/HudsonJamie/tidy_tuesday)
 
 Let's look at another package
 
@@ -143,7 +144,7 @@ ggplot(internal_linking) +
 
 
 
-`Lubridate` package can also help with duration, time zone, intervals, ... Have a look at the [cheatsheets](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf). It is a bit complex to get into but so much less than trying to do it yourself. I've lost literally days of my working life, trying to that this kind of stuff badly in Excel/Google Sheet.
+the `Lubridate` package can also help with duration, time zone, intervals, ... Have a look at the [cheatsheets](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf). It is a bit complex to get into but so much less than trying to do it yourself. I've lost literally days of my working life, trying to do this kind of stuff badly in Excel/Google Sheet.
 
 ### `urltools`
 
@@ -184,7 +185,7 @@ The community is smaller than other programming languages but people are more wi
 > _Oh you do '_R programming'_, that's cool. Is it like_ Air Guitar? You do fake programming?  
 > - An anonymous member of my family
 
-"R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name. So here are few links to help find R resources.
+"R" is a weird name,  especially in this covid time, and it's not the most Google-friendly name either. So here are few links to help find R resources.
 
 * [https://rseek.org/](https://rseek.org/) r search engine
 * [https://www.r-bloggers.com/](https://www.r-bloggers.com/) r blogs aggregator
@@ -220,7 +221,7 @@ x <- 3
 
 #### The `%>%`
 
-The `%>%` operator allows operations to be carried out successively. Meaning the results of the previous command are the entries for the next one. Like the **&gt;** \( “pipe”\) command line for terminal if you have come across it.
+The `%>%` operator allows operations to be carried out successively. Meaning the results of the previous command are the entries for the next one. Like the **&gt;** \( “pipe”\) command line for terminal if you came across it.
 
 Always better with an example, let's take the first line of code of this page
 
@@ -228,7 +229,7 @@ Always better with an example, let's take the first line of code of this page
 View(read.csv(file.choose()))
 ```
 
-It's 3 functions being used on top of each other. It is not great but the readability is decent. I wouldn't recommend adding a fourth.  the **%&gt;%** operator fixes this soon-to-be problem.
+It's 3 functions being used on top of each other. The readability is decent. I wouldn't recommend adding a fourth.  the **%&gt;%** operator fixes this soon-to-be problem.
 
 ```r
 # equivalent to the previous instruction

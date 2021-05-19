@@ -12,7 +12,7 @@ Let me explain how it works. It's basically all about two files:
 
 ### **sitemap\_scraping.R**
 
-this is the classic R script. It reaches this website [XML sitemap](https://www.rforseo.com/sitemap.xml) and counts the number of url submitted. It relies on `rvest` package \( see [article about rvest](../crawl/untitled.md)  \)
+this is the classic R script. It reaches this website [XML sitemap](https://www.rforseo.com/sitemap.xml) and counts the number of url submitted. It relies on `rvest` package \( see [article about rvest](../crawl/rvest.md)  \)
 
 ```r
 #Load library
@@ -85,15 +85,24 @@ jobs:
         username: github-actions
 ```
 
-the part you may want to modify is the execution frequency rule. this one means " Runs at 13:00 UTC every day." 
+Parts you may want to modify are 
 
-```r
-on:
-  schedule:
-    - cron:  '0 13 * * *'
-```
+* the execution frequency rule. It's the weird line with `cron.` this one means " Runs at 13:00 UTC every day." here is the full [syntax documentation](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events). 
+* If you are using packages, you need to ask Github to install them before running the script so be sure to include those on the list.
 
-here is the full [syntax documentation](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events) if you are interested
+the resulting CSV is updated every day and can be scrape 
+
+{% embed url="https://github.com/pixgarden/scrape-automation/blob/main/data/xml\_url\_count.csv" %}
+
+![](../.gitbook/assets/screenshot-2021-05-13-at-4.13.04-pm.png)
+
+RAW LINK: [https://raw.githubusercontent.com/pixgarden/scrape-automation/main/data/xml\_url\_count.csv](https://raw.githubusercontent.com/pixgarden/scrape-automation/main/data/xml_url_count.csv)
+
+
+
+
+
+
 
 
 

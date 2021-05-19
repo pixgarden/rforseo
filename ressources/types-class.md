@@ -2,19 +2,22 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# types / class & packages x
+# Types / Class & packages x
 
-because you are trying to manipulate an object when it is not the right type. Its good practice to check that you are dealing with
+Its good practice to check that you are dealing with
 
 ## How do you check an object type?
 
  you should use a _class_ function\(\). here are some examples
 
-```text
+```r
 x <- 2
 class(x)
+# should display "numeric"
+
 y <- "2"
 class(y)
+# should display "character"
 ```
 
 ## the classic types
@@ -23,7 +26,7 @@ class(y)
 
 
 
-## xml\_document
+### xml\_document
 
 ## advanced types
 
