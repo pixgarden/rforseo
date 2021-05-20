@@ -49,13 +49,13 @@
 
 * [Explore data with rPivotTable](rpivottable.md)
 
-## Resources
+## Resources <a id="ressources"></a>
 
-* [Launch an R script using github actions](resources/launch-an-r-script-using-github-actions.md)
-* [Types / Class & packages x](resources/types-class.md)
-* [Datasets x](resources/datasets.md)
-* [SEO Tools x](resources/seo-tools.md)
-* [SEO & R People x](resources/seo-and-r-people.md)
-* [Execute R code online](resources/execute-r-code-online.md)
-* [useful SEO XPath's & CSS selectors X](resources/useful-xpaths-x.md)
+* [Launch an R script using github actions](ressources/launch-an-r-script-using-github-actions.md)
+* [Types / Class & packages x](ressources/types-class.md)
+* [Datasets x](ressources/datasets.md)
+* [SEO Tools x](ressources/seo-tools.md)
+* [SEO & R People x](ressources/seo-and-r-people.md)
+* [Execute R code online](ressources/execute-r-code-online.md)
+* [useful SEO XPath's & CSS selectors X](ressources/useful-xpaths-x.md)
 

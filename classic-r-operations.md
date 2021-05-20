@@ -25,7 +25,7 @@ For the real R beginners, I would recommend to at least to check out in your app
 
 here is [quick youtube demo](https://www.youtube.com/watch?v=MGHjnpj46IU&t=181s) that might help.
 
-For your culture, you should know that it is also possible to [execute R code online.](resources/execute-r-code-online.md)
+For your culture, you should know that it is also possible to [execute R code online.](ressources/execute-r-code-online.md)
 
 ## Next?
 
