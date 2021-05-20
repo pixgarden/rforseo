@@ -4,7 +4,7 @@ _This guide, **in the course of writing**, is dedicated to all those who share t
 
 _2021-02-02 - François JOLY_
 
-### 1.1 Motivation & Limite
+### 1.1 Motivation & limits
 
 Even though R'  is a terrific option for SEO, there are simply not enough resources out there. 
 
