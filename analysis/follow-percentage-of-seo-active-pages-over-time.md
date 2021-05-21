@@ -28,14 +28,15 @@ hostname <- "https://www.rforseo.com/"
 require(lubridate)
 
 #  we want data between now and 2 months ago
-beforedate <- lubridate::today()
-month(beforedate) <- month(beforedate) - 2
+now <- lubridate::today()-3
+month(beforedate) <- month(now) - 2
 day(beforedate) <- days_in_month(beforedate)
 
-
 # we ask for data with dates and pages
+
+
 gsc_all_queries <- search_analytics(hostname,
-                                    beforedate, tree_days_ago,
+                                    beforedate,now,
                                     c("date", "page"), rowLimit = 80000)
 
 
