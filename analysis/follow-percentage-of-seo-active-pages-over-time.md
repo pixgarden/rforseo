@@ -48,6 +48,7 @@ gsc_all_queries <- search_analytics(hostname,
 ```r
 library(dplyr)
 
+# we count url with clicks
 gsc_all_queries_clicks <- gsc_all_queries %>%
   filter(clicks != 0) %>%
   group_by(date) %>%
@@ -55,6 +56,7 @@ gsc_all_queries_clicks <- gsc_all_queries %>%
 
 colnames(gsc_all_queries_clicks) <- c("date","clicks")
 
+# we count url with impressions
 gsc_all_queries_impr <- gsc_all_queries %>%
   filter(impressions != 0) %>%
   group_by(date) %>%
@@ -62,6 +64,7 @@ gsc_all_queries_impr <- gsc_all_queries %>%
 
 colnames(gsc_all_queries_impr) <- c("date","impr")
 
+# we merge those two
 gsc_all_queries_stats <- merge(gsc_all_queries_clicks, gsc_all_queries_impr)
 
 
@@ -72,13 +75,17 @@ gsc_all_queries_stats <- merge(gsc_all_queries_clicks, gsc_all_queries_impr)
 
 
 ```r
+# we scrape the url count from github csv
 urls <- read.csv(url("https://raw.githubusercontent.com/pixgarden/scrape-automation/main/data/xml_url_count.csv"))
 
+# rename columns
 colnames(urls)  <- c("date","urls")
 
+# transform string date into real dates
 urls$date <- as.Date(urls$date)
 
-
+# merge with google search console data
+# because column names match the merge function dont need arguments
 gsc_all_queries_merged <- merge(gsc_all_queries_stats, urls)
 
 
@@ -88,10 +95,13 @@ gsc_all_queries_merged <- merge(gsc_all_queries_stats, urls)
 
 
 ```r
+# we count url with no but with impression
 gsc_all_queries_merged$impr <-gsc_all_queries_merged$impr - gsc_all_queries_merged$clicks
+# we count url with no impression and no clicks
 gsc_all_queries_merged$urls <-gsc_all_queries_merged$urls - gsc_all_queries_merged$impr
 
-colnames(gsc_all_queries_merged) <- c("date", "url-clics","url-only-impr","url-without-impr")
+# rename columns
+colnames(gsc_all_queries_merged) <- c("date", "url-with-clics","url-only-impr","url-no-impr")
 
 
 ```
