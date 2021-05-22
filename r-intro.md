@@ -169,7 +169,7 @@ View(table(internal_linking$domain))
 
 ### Where to find packages?
 
-Good question! All the previous package has been downloaded from CRAN. It's a repository that contains [thousands of packages](https://cran.r-project.org/web/packages/available_packages_by_date.html). Github is also a great source. There are so many that often the problem is to find the best one. The way to go is usually to ask around using:
+Good question! All the previous packages have been downloaded from CRAN. It's a repository that contains [thousands of packages](https://cran.r-project.org/web/packages/available_packages_by_date.html). Github is also a great source. There are so many that,  the problem is often to find the right one. The way to go is usually to ask around using:
 
 * Twitter using the \#rstats hashtag
 * [rstats subreddit](https://www.reddit.com/r/rstats/)
