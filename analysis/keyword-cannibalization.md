@@ -2,23 +2,23 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Hunt down keyword cannibalization x
+# Hunt down keyword cannibalization
 
 ### What is keyword cannibalization?
 
-if you put a lot of articles out there, at some point, some article will compete with one another for the same keywords in Google result pages. it’s what SEO people call ‘keyword cannibalization’.
+if you put a lot of articles out there, at some point, some articles will compete with one another for the same keywords in Google result pages. it’s what SEO people call ‘keyword cannibalization’.
 
-### Does it matter SEO wise?
+### Does it matter SEO-wise?
 
-Sometimes it’s perfectly normal. I hope, for your sake, that several of your webpages show up when someone is typing your brand name in Google.
+Sometimes it’s perfectly normal. I hope, for your sake, that several of your web pages show up when someone is typing your brand name in Google.
 
 Sometimes it’s not. Let me give an example:
 
 💭 Imagine you run an e-commerce website, with various page type: products, FAQ’s, blog posts, …
 
-At some point, Google decided to make a switch:  a couple of Google search queries that were sending traffic to product pages, now display a blog post of yours.
+At some point, Google decided to make a switch:  a couple of Google search queries that were sending traffic to product pages, now display a blog post of yours because of a search intent update.
 
-Inside Google Analytics, SEO sessions count is the same. Your ‘Rank Tracking’ software will not bring you up position change.
+Inside Google Analytics, SEO sessions count is the same. Your ‘Rank Tracking’ software will not bring you up any position changes.
 
 And yet, these blog post pages will be able to convert much less, and at the end of the month, this will result in a decrease in sales.
 

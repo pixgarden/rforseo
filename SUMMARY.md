@@ -33,7 +33,7 @@
 
 * [Join datasets](analysis/joins.md)
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
-* [Hunt down keyword cannibalization x](analysis/keyword-cannibalization.md)
+* [Hunt down keyword cannibalization](analysis/keyword-cannibalization.md)
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
 * [Page ranks x](analysis/page-ranks.md)
 * [SEO traffic Forecast x](analysis/forecast.md)
