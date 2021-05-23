@@ -20,8 +20,8 @@
 * [Grab Google Search Console Data x](apis/searchconsoler-x.md)
 * [Grab 'ahrefs' API data x](apis/ahref.md)
 * [Grab Google Custom search API Data x](apis/grab-google-custom-search-api-data-x.md)
-* [other APIs x](apis/other-apis.md)
 * [Send requests to the Google Indexing API using googleAuthR](apis/send-requests-to-the-google-indexing-api-using-googleauthr.md)
+* [other APIs x](apis/other-apis.md)
 
 ## Export and read Data <a id="export-data"></a>
 
