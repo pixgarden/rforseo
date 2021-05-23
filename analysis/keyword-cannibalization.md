@@ -16,11 +16,13 @@ Sometimes it’s not. Let me give an example:
 
 💭 Imagine you run an e-commerce website, with various page type: products, FAQ’s, blog posts, …
 
-At some point, Google decided to make a switch:  a couple of Google search queries that were sending traffic to product pages, now display a blog post of yours because of a search intent update.
+At some point, Google decided to make a switch:  a couple of Google search queries that were sending traffic to product pages, now display a blog post of yours.
 
 Inside Google Analytics, SEO sessions count is the same. Your ‘Rank Tracking’ software will not bring you up any position changes.
 
 And yet, these blog post pages will be able to convert much less, and at the end of the month, this will result in a decrease in sales.
+
+Sometimes it can't be fixed, the search intent is now different but sometimes it just because you neglected your product pages. Either way, it's good to know whats happening.
 
 ### How to check for keyword cannibalization?
 
