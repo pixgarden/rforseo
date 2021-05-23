@@ -52,5 +52,19 @@ It will add a dedicated column with the HTTP code filled in. You can check data 
 View(xsitemap_urls_http)
 ```
 
+![](../.gitbook/assets/screenshot-2021-05-23-at-11.31.10-am.png)
+
 or if you prefer, [generate a CSV](../export-data/send-and-read-seo-data-to-excel.md#export-your-data-into-a-csv) 
+
+Like in the [intro](../r-intro.md#the-power-of-r-whats-different-about-it), it's quite easy to count HTTP codes
+
+```r
+View(table(xsitemap_urls_http$http))
+```
+
+to discover, at the time of writing that most of the XML sitemap URLs are actually redirects...
+
+![](../.gitbook/assets/screenshot-2021-05-23-at-11.33.03-am.png)
+
+
 
