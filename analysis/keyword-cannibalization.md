@@ -26,7 +26,7 @@ And yet, these blog post pages will be able to convert much less, and at the end
 
 There are several ways to do it. Of course, SEO tools people want you to use their tools, the [method from ahref](https://ahrefs.com/blog/keyword-cannibalization/) is definitely useful. Unfortunately, this kind of tool can be sometimes imprecise, it doesn’t take into account what’s really happening.
 
-So let me show you another method using R’. Once set up, you’ll be able to check big batches of keywords in minutes. 🤖
+So let do it using R’. Once set up, you’ll be able to check big batches of keywords in minutes. 🤖
 
 
 
@@ -40,9 +40,12 @@ First, we’ll filter out queries that are not on the 2 first SERPs and that doe
 
 We’ll also remove branded search queries using a regex. As said earlier, having several positions for your brand name is pretty classic and shouldn’t be seen as a problem.
 
-| 1234 | gsc\_queries\_filtered &lt;-gsc\_all\_queries %&gt;%                             filter\(position&lt;=20\) %&gt;%                             filter\(clicks!=0\) %&gt;%                             filter\(!str\_detect\(query, 'brandname\|brand name'\)\) |
-| :--- | :--- |
-
+```r
+gsc_queries_filtered <-gsc_all_queries %>%
+    filter(position<=20) %>%
+    filter(clicks!=0) %>%
+    filter(!str_detect(query, 'brandname|brand name'))
+```
 
 _update this with your brand name_
 
@@ -53,37 +56,44 @@ We want to know for one query, what percentage of clicks are going to each landi
 First, we’ll create a new column **clicksT** with the aggregated number of clicks for each search query.  
 Then, using this value to calculate what we need inside a new **per** column.
 
-| 1234567 | gsc\_queries\_computed &lt;- gsc\_queries\_filtered %&gt;%                        group\_by\(query\) %&gt;%                        mutate\(clicksT= sum\(clicks\)\) %&gt;%                        group\_by\(page, add=TRUE\) %&gt;%                        mutate\(per=round\(100\*clicks/clicksT,2\)\) View\(gsc\_queries\_computed\) |
-| :--- | :--- |
+```r
+gsc_queries_computed <- gsc_queries_filtered %>%
+                                group_by(query) %>%
+                                mutate(clicksT= sum(clicks)) %>%
+                                group_by(page, add=TRUE) %>%
+                                mutate(per=round(100*clicks/clicksT,2)) 
 
+View(gsc_queries_computed)
+```
 
 A **per** column value of 100 means that all clicks go the same URL.
 
 Last final steps, we will sort rows
 
-| 12 | gsc\_queries\_final &lt;- gsc\_queries\_computed %&gt;%                     arrange\(desc\(clicksT\)\) |
-| :--- | :--- |
-
+```r
+gsc_queries_final <- gsc_queries_computed %>%
+                                arrange(desc(clicksT))
+```
 
 \[edit : \] It could also make sense fo remove rows where cannibalization is not significant. Where **per** column value is not very high. \[end of edit\]
 
 Removing now useless columns: click, impression and total click per query group
 
-| 1 | gsc\_queries\_final &lt;-gsc\_queries\_final\[,c\(-3,-4,-7\)\] |
-| :--- | :--- |
-
+```r
+gsc_queries_final <-gsc_queries_final[,c(-3,-4,-7)]
+```
 
 Now it’s your choice to display it inside rstudio
 
-| 1 | View\(gsc\_queries\_final\) |
-| :--- | :--- |
-
+```r
+View(gsc_queries_final)
+```
 
 Or write a CSV file to open it elsewhere
 
-| 1 | write.csv\(gsc\_queries\_final,"./gsc\_queries\_final.csv"\) |
-| :--- | :--- |
-
+```r
+write.csv(gsc_queries_final,"./gsc_queries_final.csv")
+```
 
 Here is my rstudio view \(anonymized sorry 🙊\)
 
@@ -97,18 +107,18 @@ To help you deal with this, let’s check the first one’s
 
 ![](https://www.gokam.fr/wp-content/uploads/2019/03/seqrch-query-1.jpg)
 
-_For Search query 1:_  
+_**For Search query 1:**_  
 97% of click are going to the same page. Their is no Keyword cannibalization here. It’s interesting to notice that the ‘second’ landing page, only earn 1,4% of clicks, even though, it got an average position of 1,5. Users really don’t like the second ‘Langing page’. Page metadata probably sucks.
 
 Check if the first landing page is the right one and we should move on.
 
 ![](https://www.gokam.fr/wp-content/uploads/2019/03/seqrch-query-2.jpg)
 
-_For Search query 2:_  
-63% of click are going to the first landing page. 36% to the second page. This is Keyword cannibalization.  
-It could make sense to adapt internal linking between involved landing page to influence which one should rank before the other one’s, depending on your goals, pages bounce rates, etc.
+_**For Search query 2:**_  
+63% of clicks are going to the first landing page. 36% to the second page. This is Keyword cannibalization.  
+It could make sense to adapt internal linking between involved landing pages to influence which one should rank before the other one’s, depending on your goals, pages bounce rates, etc.
 
 And so on…
 
-This is it my friends, I hope you’ll find it be useful!
+This is it, my friends, I hope you’ll find it be useful!
 
