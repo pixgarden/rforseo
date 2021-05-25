@@ -22,7 +22,7 @@ This is how you open and **browse a file with 2.6 Million rows effortlessly**. N
 
 ![search for dead links using http code](.gitbook/assets/screenshot-2021-04-10-at-12.45.14-pm.png)
 
-Want to count HTTP code? We will do this in two steps, first we load the CSV file and save it as a variable. Nearly the same as before:
+Want to count HTTP code? We will do this in two steps, first we load the same CSV file and save it as a variable. Nearly the same as before:
 
 ```r
 internal_linking = read.csv(file.choose())
@@ -169,7 +169,7 @@ View(table(internal_linking$domain))
 
 ### Where to find packages?
 
-Good question! All the previous package has been downloaded from CRAN. It's a repository that contains [thousands of packages](https://cran.r-project.org/web/packages/available_packages_by_date.html). Github is also a great source. There are so many that often the problem is to find the best one. The way to go is usually to ask around using:
+Good question! All the previous packages have been downloaded from CRAN. It's a repository that contains [thousands of packages](https://cran.r-project.org/web/packages/available_packages_by_date.html). Github is also a great source. There are so many that,  the problem is often to find the right one. The way to go is usually to ask around using:
 
 * Twitter using the \#rstats hashtag
 * [rstats subreddit](https://www.reddit.com/r/rstats/)

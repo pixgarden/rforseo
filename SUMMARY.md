@@ -20,8 +20,8 @@
 * [Grab Google Search Console Data x](apis/searchconsoler-x.md)
 * [Grab 'ahrefs' API data x](apis/ahref.md)
 * [Grab Google Custom search API Data x](apis/grab-google-custom-search-api-data-x.md)
-* [other APIs x](apis/other-apis.md)
 * [Send requests to the Google Indexing API using googleAuthR](apis/send-requests-to-the-google-indexing-api-using-googleauthr.md)
+* [other APIs x](apis/other-apis.md)
 
 ## Export and read Data <a id="export-data"></a>
 
@@ -33,7 +33,7 @@
 
 * [Join datasets](analysis/joins.md)
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
-* [Hunt down keyword cannibalization x](analysis/keyword-cannibalization.md)
+* [Hunt down keyword cannibalization](analysis/keyword-cannibalization.md)
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
 * [Page ranks x](analysis/page-ranks.md)
 * [SEO traffic Forecast x](analysis/forecast.md)
@@ -49,7 +49,7 @@
 
 * [Explore data with rPivotTable](rpivottable.md)
 
-## Ressources
+## Resources <a id="ressources"></a>
 
 * [Launch an R script using github actions](ressources/launch-an-r-script-using-github-actions.md)
 * [Types / Class & packages x](ressources/types-class.md)
