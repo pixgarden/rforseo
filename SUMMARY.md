@@ -31,7 +31,7 @@
 
 ## data wrangling & analysis <a id="analysis"></a>
 
-* [Join datasets](analysis/joins.md)
+* [Join Craw data with Google Analytics Data](analysis/joins.md)
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
 * [Hunt down keyword cannibalization](analysis/keyword-cannibalization.md)
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
