@@ -1,10 +1,12 @@
 # Join datasets
 
-If you have crawled your website, it might be quite nice to check which of these pages got some SEO traffic. 
+The SEO data to be analyzed often comes from different sources that why its better to know how to connect them. This is what we will see in this article  
+  
+Let''s imagine we have crawled your website, it might be quite nice to check which one of these pages got some SEO traffic. 
 
-To do that we'll need to link or `join` the two dataset and as you'll see, its quite simple
+To do that we'll need to `merge` or `join` the two "datasets" :
 
-### First data set : Crawl data
+### First dataset: Crawl data
 
 Using `rcrawler`, we've collected our pages  \(see [How to use rcrawler](../crawl/rcrawler.md) article\)
 
@@ -21,7 +23,7 @@ View(INDEX)
 
 ![second column is the url](../.gitbook/assets/screenshot-2021-04-21-at-11.11.18-pm.png)
 
-### Second data set : Google analytics data
+### Second dataset: Google analytics data
 
 Using `googleAnalyticsR` package we grab Google Analytics SEO Landing page \(see [How so use googleAnalyticsR](../apis/web-analytics-google-analytics.md) article\)
 
