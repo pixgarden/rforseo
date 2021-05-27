@@ -104,9 +104,8 @@ A few examples of plots done using `ggplot2`
 
 To see more examples:
 
-* [The R Graph Gallery](https://www.r-graph-gallery.com/)
-* [ggplot Wizardry](https://www.cedricscherer.com/slides/useR2021.pdf)
-* [Tidy Tuesday](https://github.com/HudsonJamie/tidy_tuesday)
+* [The R Graph Gallery](https://www.r-graph-gallery.com/) = nice to copy paste the code of every basic charts\)
+* [ggplot Wizardry](https://www.cedricscherer.com/slides/useR2021.pdf) / [Tidy Tuesday](https://github.com/HudsonJamie/tidy_tuesday)  = nice to see how far you can push ggplot
 
 Let's look at another package
 
