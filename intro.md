@@ -10,7 +10,7 @@ Search engine optimization \(SEO\) is the process of improving the quality and q
 
 ### Why using R for SEO?
 
-R is specialized in data mining, statistical and data analysis, and data visualization. It also has a very decent capacity for crawling. Basically, everything that is useful for doing some SEO.
+R is specialized in data mining, statistical and data analysis, and data visualization. It also has a good capacity for crawling. Basically, everything that is useful for doing some SEO.
 
 When you have understood the fundamentals, R' is also quite easy to read and write. Even if you don't want to really learn it, just copy/paste 3 lines of code, you can crawl a website or extract some Google Analytics data and export CSV.
 
