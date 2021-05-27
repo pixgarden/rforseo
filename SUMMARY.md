@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Intro - R for SEO](README.md)
+* [R for SEO - The Cookbook](README.md)
 * [The Ws](intro.md)
 * [Using R for SEO, what to expect?](r-intro.md)
 * [Getting started](classic-r-operations.md)
