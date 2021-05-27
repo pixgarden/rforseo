@@ -40,7 +40,8 @@ First, we’ll load `searchConsoleR` package by [Mark Edmondson](https://github.
 This will allow us to send requests to Google ‘Search Console API’ very easily.
 
 ```r
-install.packages("searchConsoleR")library(searchConsoleR)
+install.packages("searchConsoleR")
+library(searchConsoleR)
 ```
 
 Then let’s load _tidyverse_.  For those who don’t know about it, it’s a very popular master package that will allow us to work with data frames and in a graceful way.
@@ -202,5 +203,5 @@ It could make sense to adapt internal linking between involved landing pages to 
 
 And so on…
 
-This is it, my friends, I hope you’ll find it be useful!
+This is it, I hope you’ll find it be useful.
 
