@@ -4,9 +4,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 # Compute ‘Internal Page Rank’
 
-It is very much an adaptation of [Paul Shapiro](https://twitter.com/fighto) awesome [Script](https://gist.github.com/pshapiro/616b64a4e4399326c82c34734885d5bd).
-
-But Instead of using [ScreamingFrog](https://www.screamingfrog.co.uk/) export file, we will use the data from [Rcrawler](../crawl/rcrawler.md)
+It is very much an adaptation of [Paul Shapiro](https://twitter.com/fighto) awesome [Script](https://gist.github.com/pshapiro/616b64a4e4399326c82c34734885d5bd) but Instead of using ScreamingFrog export file, we will use the data from [Rcrawler](../crawl/rcrawler.md)
 
 Lets crawl with the link data enabled
 
