@@ -64,13 +64,15 @@ and now we can merge
 crawl_ga_merged <- merge(INDEX,ga_seo)
 ```
 
-Thats it really. In the same you have GA and the crawler data.
+That's it really. Lets display the data
 
 ```r
 View(crawl_ga_merged)
 ```
 
 ![](../.gitbook/assets/screenshot-2021-05-13-at-4.28.01-pm.png)
+
+
 
 
 
