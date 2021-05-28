@@ -35,7 +35,7 @@
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
 * [Hunt down keyword cannibalization](analysis/keyword-cannibalization.md)
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
-* [Page ranks x](analysis/page-ranks.md)
+* [Compute ‘Internal Page Rank’](analysis/page-ranks.md)
 * [SEO traffic Forecast x](analysis/forecast.md)
 * [URLs categorization](analysis/url-categorization.md)
 * [Track SEO active pages percentage over time x](analysis/follow-percentage-of-seo-active-pages-over-time.md)

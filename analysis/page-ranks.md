@@ -2,13 +2,21 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Page ranks x
-
-### Compute ‘Internal Page Rank’ <a id="4-compute-internal-page-rank"></a>
+# Compute ‘Internal Page Rank’
 
 It is very much an adaptation of [Paul Shapiro](https://twitter.com/fighto) awesome [Script](https://gist.github.com/pshapiro/616b64a4e4399326c82c34734885d5bd).
 
-But Instead of using [ScreamingFrog](https://www.screamingfrog.co.uk/) export file, we will use the [previously extracted links.](../crawl/rcrawler.md)
+But Instead of using [ScreamingFrog](https://www.screamingfrog.co.uk/) export file, we will use the data from [Rcrawler](../crawl/rcrawler.md)
+
+Lets crawl with the link data enabled
+
+```r
+Rcrawler(Website = "https://www.rforseo.com",  NetworkData = TRUE)
+```
+
+When it's done, The links will be stored in `NetwEdges` variable.  
+  
+We only want to first 2 column:
 
 ```r
 links <- NetwEdges[,1:2] %>%
