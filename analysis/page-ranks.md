@@ -22,8 +22,10 @@ We only want to first 2 column:
 links <- NetwEdges[,1:2] %>%
    #grabing the first two columns
    distinct() 
+
 # loading igraph package
  library(igraph)
+
 # Loading website internal links inside a graph object
  g <- graph.data.frame(links)
  
