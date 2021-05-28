@@ -14,7 +14,7 @@ Lets crawl with the link data enabled
 Rcrawler(Website = "https://www.rforseo.com",  NetworkData = TRUE)
 ```
 
-When it's done, The links will be stored in `NetwEdges` variable.  
+When it's done, The links will be stored in the `NetwEdges` variable.  
   
 We only want to first 2 column:
 
