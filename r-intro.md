@@ -2,7 +2,7 @@
 
 ## The power of R. What's different about it?
 
-if we were to talk about only one benefit of R, it's a language High-level programming language that mainly focuses on data analysis. Meaning it's "specialized". With one or a few lines of code, you can do a lot. Let me give you an example:
+if we were to talk about only one benefit of R, it's a High-level programming language that mainly focuses on data analysis. Meaning it's "specialized". With one or a few lines of code, you can do a lot. Let me give you an example:
 
 ```r
 View(read.csv(file.choose()))
