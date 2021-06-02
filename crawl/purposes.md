@@ -59,6 +59,8 @@ It's not really SEO, but it can be useful. I've also been using it to check the 
 
 Again, [Screamingfrog](https://www.screamingfrog.co.uk/) or another crawler might be a better choice, it depends on how integrated you want that to be and how custom those checks should be.
 
+Let's move to a more practical use case, Download and [check XML sitemap quality](download-xml-sitemaps.md)
+
 #### 
 
 
