@@ -16,8 +16,9 @@ You can also respectfully crawl your competitors' websites to better understand 
 
 ### Crawling is also interesting to grab data. 
 
-There are some great public datasets out there, even wikipedia is a great source. Let's take this [world population data](https://en.wikipedia.org/wiki/World_population) that can be crawled:  
+There are some great public datasets out there, even wikipedia is a great source. Let's take this [world population data](https://en.wikipedia.org/wiki/World_population) that can be crawled:
 
+![](../.gitbook/assets/screenshot-2021-06-02-at-11.26.06-am.png)
 
 ```r
 library(dplyr)
