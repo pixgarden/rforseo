@@ -1,4 +1,4 @@
-# Using R for SEO, what to expect?
+# Using R for SEO, What to expect?
 
 ## The power of R. What's different about it?
 

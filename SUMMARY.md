@@ -2,7 +2,7 @@
 
 * [R for SEO - The Cookbook](README.md)
 * [What is this?](intro.md)
-* [Using R for SEO, what to expect?](r-intro.md)
+* [Using R for SEO, What to expect?](r-intro.md)
 * [Getting started](classic-r-operations.md)
 
 ## Crawl and extract data <a id="crawl"></a>

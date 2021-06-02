@@ -24,5 +24,5 @@ Python is an extraordinary programing language, very versatile, in many cases fa
 
 Using R is a pragmatic choice, R is often used by academics and people that have another job, full-time dev logically learns Python. 
 
-### 👉    [Using R for SEO, what to expect?](r-intro.md)
+### 👉    [Using R for SEO, What to expect?](r-intro.md)
 
