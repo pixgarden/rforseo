@@ -25,6 +25,8 @@ View(NetwEdges)
 We only want to first 2 column:
 
 ```r
+library(dplyr)
+
 links <- NetwEdges[,1:2] %>%
    #grabing the first two columns
    distinct() 
