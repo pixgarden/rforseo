@@ -96,16 +96,19 @@ gggplot2 is powerful, it can make basically every chart you can think of
 
 A few examples of plots done using `ggplot2`
 
-![GDP per capita](.gitbook/assets/0pscthcioa.gif)
+![](.gitbook/assets/roeder-feature-lawschools1.png)
 
-![](.gitbook/assets/screenshot-2021-04-16-at-11.03.24-am.png)
+![](.gitbook/assets/ggplot_masterlist_29.png)
 
-![by Thorsten Sprenger https://twitter.com/spren9er](.gitbook/assets/screenshot-2021-04-19-at-6.35.44-pm.png)
+![](.gitbook/assets/ggplot_masterlist_42.png)
 
 To see more examples:
 
-* [The R Graph Gallery](https://www.r-graph-gallery.com/) = nice to copy paste the code of every basic charts\)
-* [ggplot Wizardry](https://www.cedricscherer.com/slides/useR2021.pdf) / [Tidy Tuesday](https://github.com/HudsonJamie/tidy_tuesday)  = nice to see how far you can push ggplot
+* [The R Graph Gallery](https://www.r-graph-gallery.com/)`/` [Top 50 ggplot2 Visualizations](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html%20)
+
+   =  some nice code to copy-paste 
+
+* [ggplot Wizardry](https://www.cedricscherer.com/slides/useR2021.pdf) / [Tidy Tuesday](https://github.com/HudsonJamie/tidy_tuesday)   = nice to see how far ggplot2 can be pushed
 
 Let's look at another package
 
