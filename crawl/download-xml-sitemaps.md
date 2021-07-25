@@ -41,9 +41,9 @@ If it’s an **index** XML sitemap, the process will get back from the start wit
 
 This will produce a data frame with all the information extracted. 
 
-### \(optional\) Check URLs HTTP code
+### Check URLs HTTP code
 
-Another interesting function allows you to crawl the sitemap URLs and verify if your web pages send proper 200 HTTP codes \(HEAD Requests\)
+Another interesting function allows you to crawl the sitemap URLs and verify if your web pages send proper 200 HTTP codes, using HEAD Requests \(easier on the website server\)
 
 It can take some time depending on the number of URLs. It took several hours for [https://www.gov.uk/](https://www.gov.uk/) for example.
 
@@ -75,9 +75,9 @@ to discover, at the time of writing that most of the XML sitemap URLs are actual
 
 ### Plot the years the pages were added
 
-You might have noticed that in this XML sitemap with a "lastmod" field. This an optional field which explicitly declares to google the date of the last modification of the url. This allows theoretically Google to optimise website crawls
+You might have noticed that in this XML sitemap with a "lastmod" field. This an optional field which explicitly declares to Google the date of the last modification of the url. This allows theoretically Google to optimise website crawls
 
-It also allow us to understand how fresh is one's website content. We can plot it
+It also allow us to understand how fresh is one's website content as we can plot it
 
 ```r
 library(ggplot2)
@@ -97,7 +97,7 @@ Let's try to get a clearer picture by extracting years
 
 ```r
 # We extract from the Date the year and
-# make another column called 'year'
+# store the value into a new column called 'year'
 xsitemap_urls$year <- format(xsitemap_urls$lastmod,"%Y")
 
 
