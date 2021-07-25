@@ -43,5 +43,5 @@ Last and foremost, it gives you the code to generate this plot + some extra expo
 
 ![](../.gitbook/assets/screenshot-2021-04-17-at-10.56.13-pm.png)
 
-Esquisse is not capable of doing every available ggplots but for a simple graph, it's agreat way to speed up everything.
+Esquisse is not capable of doing every available ggplots but for a simple graph, it's a great way to speed up the processs.
 

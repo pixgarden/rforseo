@@ -11,12 +11,17 @@ Nevertheless, if you do submit one, it's best to make sure it's error-free and a
 ### Install xsitemap R’ Package \(to be done once\) and Load
 
 ```r
+# Installing libraries
 install.packages("devtools")
-library(devtools)
 install_github("pixgarden/xsitemap")
+
+# Loading libraries
+library(devtools)
 library(xsitemap)
 
 ```
+
+### 
 
 ### Find and fetch XML sitemaps
 
@@ -56,6 +61,8 @@ View(xsitemap_urls_http)
 
 or if you prefer, [generate a CSV](../export-data/send-and-read-seo-data-to-excel.md#export-your-data-into-a-csv) 
 
+### Count HTTP codes
+
 Like in the [intro](../r-intro.md#the-power-of-r-whats-different-about-it), it's quite easy to count HTTP codes
 
 ```r
@@ -66,5 +73,52 @@ to discover, at the time of writing that most of the XML sitemap URLs are actual
 
 ![](../.gitbook/assets/screenshot-2021-05-23-at-11.33.03-am.png)
 
+### Plot the years the pages were added
 
+You might have noticed that in this XML sitemap with a "lastmod" field. This an optional field which explicitly declares to google the date of the last modification of the url. This allows theoretically Google to optimise website crawls
+
+It also allow us to understand how fresh is one's website content. We can plot it
+
+```r
+library(ggplot2)
+
+
+ggplot(xsitemap_urls) +
+ aes(x = lastmod) +
+ geom_histogram(bins = 90L, fill = "#112446") +
+ theme_minimal()
+```
+
+_\(I've got help from the_ [_esquisse_](../data-viz/using-esquisse-package-x.md) _library\)_
+
+![Most of the content originated from 2014-2015, The oldest page have been updated in 2001](../.gitbook/assets/screenshot-2021-07-25-at-12.19.55-pm.png)
+
+Let's try to get a clearer picture by extracting years
+
+```r
+# We extract from the Date the year and
+# make another column called 'year'
+xsitemap_urls$year <- format(xsitemap_urls$lastmod,"%Y")
+
+
+# Removing not available values (NA's)
+# and ploting the url by year
+xsitemap_urls %>%
+ filter(!is.na(year)) %>%
+  ggplot() +
+  aes(x = year) +
+  geom_bar(fill = "#112446") +
+  theme_minimal()
+  
+```
+
+![](../.gitbook/assets/screenshot-2021-07-25-at-12.35.03-pm.png)
+
+if if you prefere a % cumulative view:
+
+```r
+plot(ecdf(xsitemap_urls$year))
+```
+
+![](../.gitbook/assets/rplot%20%283%29.png)
 
