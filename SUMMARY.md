@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Intro - R for SEO](README.md)
-* [The Ws](intro.md)
-* [Using R for SEO, what to expect?](r-intro.md)
+* [R for SEO - The Cookbook](README.md)
+* [What is this?](intro.md)
+* [Using R for SEO, What to expect?](r-intro.md)
 * [Getting started](classic-r-operations.md)
 
 ## Crawl and extract data <a id="crawl"></a>
@@ -10,13 +10,13 @@
 * [What's crawling and why is it useful?](crawl/purposes.md)
 * [Download and check XML sitemaps](crawl/download-xml-sitemaps.md)
 * [Crawling with rvest](crawl/rvest.md)
-* [SEO Crawling with Rcrawler](crawl/rcrawler.md)
+* [Website Crawling and SEO extraction with Rcrawler](crawl/rcrawler.md)
 * [Perform automatic browser tests with RSelenium](crawl/perform-automatic-browser-tests-with-rselenium.md)
 
 ## Grabbing data from APIs <a id="apis"></a>
 
-* [Grab Google Analytics Data](apis/web-analytics-google-analytics.md)
-* [Grab 'DataForSeo' API data](apis/dataforseo.md)
+* [Grab Google Analytics Data x](apis/web-analytics-google-analytics.md)
+* [Grab 'DataForSeo' API data x](apis/dataforseo.md)
 * [Grab Google Search Console Data x](apis/searchconsoler-x.md)
 * [Grab 'ahrefs' API data x](apis/ahref.md)
 * [Grab Google Custom search API Data x](apis/grab-google-custom-search-api-data-x.md)
@@ -31,11 +31,11 @@
 
 ## data wrangling & analysis <a id="analysis"></a>
 
-* [Join datasets](analysis/joins.md)
+* [Join Craw data with Google Analytics Data](analysis/joins.md)
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
 * [Hunt down keyword cannibalization](analysis/keyword-cannibalization.md)
 * [Duplicate content analysis x](analysis/duplicate-content-analysis.md)
-* [Page ranks x](analysis/page-ranks.md)
+* [Compute ‘Internal Page Rank’](analysis/page-ranks.md)
 * [SEO traffic Forecast x](analysis/forecast.md)
 * [URLs categorization](analysis/url-categorization.md)
 * [Track SEO active pages percentage over time x](analysis/follow-percentage-of-seo-active-pages-over-time.md)

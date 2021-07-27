@@ -2,20 +2,38 @@
 description: ⚠️ THIS IS A WORK IN PROGRESS
 ---
 
-# Page ranks x
+# Compute ‘Internal Page Rank’
 
-### Compute ‘Internal Page Rank’ <a id="4-compute-internal-page-rank"></a>
+It is very much an adaptation of [Paul Shapiro](https://twitter.com/fighto) awesome [Script](https://gist.github.com/pshapiro/616b64a4e4399326c82c34734885d5bd) but Instead of using ScreamingFrog export file, we will use the data from a [Rcrawler](../crawl/rcrawler.md) crawl.
 
-It is very much an adaptation of [Paul Shapiro](https://twitter.com/fighto) awesome [Script](https://gist.github.com/pshapiro/616b64a4e4399326c82c34734885d5bd).
-
-But Instead of using [ScreamingFrog](https://www.screamingfrog.co.uk/) export file, we will use the [previously extracted links.](../crawl/rcrawler.md)
+Lets crawl with the link data enabled
 
 ```r
+Rcrawler(Website = "https://www.rforseo.com",  NetworkData = TRUE)
+```
+
+When it's done, The links will be stored in the `NetwEdges` variable.
+
+```r
+View(NetwEdges)
+```
+
+![](../.gitbook/assets/screenshot-2021-05-28-at-11.04.27-am.png)
+
+  
+  
+We only want to first 2 column:
+
+```r
+library(dplyr)
+
 links <- NetwEdges[,1:2] %>%
    #grabing the first two columns
    distinct() 
+
 # loading igraph package
  library(igraph)
+
 # Loading website internal links inside a graph object
  g <- graph.data.frame(links)
  

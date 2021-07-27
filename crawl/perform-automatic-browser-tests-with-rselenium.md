@@ -6,10 +6,16 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 ## What's **Selenium?**
 
-Selenium is a classic tool for [QA](https://en.wikipedia.org/wiki/Quality_assurance) and it can help perform automatic checks on a website. 
+Selenium is a classic tool for [QA](https://en.wikipedia.org/wiki/Quality_assurance) and it can help perform automatic checks on a website. This is an intro to how to use it
 
-This is an intro of how to use it  
+## **Why Selenium is an interesting solution?**
+
+One of the great advantages of using Selenium is that **you can alternate automatic and manual actions** in the same session.  
   
+For example, you can log on somewhere and run an automatic script after pretty easily or… fill in a captcha and run your script.
+
+### Let's start
+
 The first step is, as always, to install and load the RSelenium package
 
 ```r
@@ -50,7 +56,7 @@ remDr$navigate("http://www.bbc.com")
 You will notice the robot head icon which means that it is a remote-controlled browser  
 
 
-_Here are some useful commands:_
+Here are some useful commands:
 
 ```r
 # find a dom element using the class selector and grab inner text
@@ -85,12 +91,6 @@ rm(rd)
 ```
 
 Otherwise, it’s gonna be a mess when you’ll get back on it
-
-## **Why Selenium is an interesting solution?**
-
-One of the great advantages of using Selenium is that **you can alternate automatic and manual actions** in the same session.  
-  
-For example, you can log on somewhere and run an automatic script after pretty easily or… fill in a captcha and run your script.
 
 ## **How to quickly** configure a **Selenium scenario?**
 

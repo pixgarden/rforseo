@@ -1,8 +1,8 @@
-# Using R for SEO, what to expect?
+# Using R for SEO, What to expect?
 
 ## The power of R. What's different about it?
 
-if we were to talk about only one benefit of R, it's a language High-level programming language that mainly focuses on data analysis. Meaning it's "specialized". With one or a few lines of code, you can do a lot. Let me give you an example:
+if we were to talk about only one benefit of R, it's a High-level programming language that mainly focuses on data analysis. Meaning it's "specialized". With one or a few lines of code, you can do a lot. Let me give you an example:
 
 ```r
 View(read.csv(file.choose()))
@@ -96,17 +96,19 @@ gggplot2 is powerful, it can make basically every chart you can think of
 
 A few examples of plots done using `ggplot2`
 
-![GDP per capita](.gitbook/assets/0pscthcioa.gif)
+![](.gitbook/assets/roeder-feature-lawschools1.png)
 
-![](.gitbook/assets/screenshot-2021-04-16-at-11.03.24-am.png)
+![](.gitbook/assets/ggplot_masterlist_29.png)
 
-![by Thorsten Sprenger https://twitter.com/spren9er](.gitbook/assets/screenshot-2021-04-19-at-6.35.44-pm.png)
+![](.gitbook/assets/ggplot_masterlist_42.png)
 
 To see more examples:
 
-* [The R Graph Gallery](https://www.r-graph-gallery.com/)
-* [ggplot Wizardry Hands-On](https://z3tt.github.io/OutlierConf2021/)
-* [Tidy Tuesday](https://github.com/HudsonJamie/tidy_tuesday)
+* [The R Graph Gallery](https://www.r-graph-gallery.com/)`/` [Top 50 ggplot2 Visualizations](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html%20)
+
+   =  some nice code to copy-paste 
+
+* [ggplot Wizardry](https://www.cedricscherer.com/slides/useR2021.pdf) / [Tidy Tuesday](https://github.com/HudsonJamie/tidy_tuesday)   = nice to see how far ggplot2 can be pushed
 
 Let's look at another package
 

@@ -1,4 +1,4 @@
-# Intro - R for SEO
+# R for SEO - The Cookbook
 
 _This guide, **in the course of writing**, is dedicated to all those who share their knowledge online and especially Hamlet Batista. I'm not a Python user like him and I just came across the guy once but his disappearance made us all remember that sharing is caring and that Life is so damn short._
 

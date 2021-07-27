@@ -16,8 +16,9 @@ You can also respectfully crawl your competitors' websites to better understand 
 
 ### Crawling is also interesting to grab data. 
 
-There are some great public datasets out there, even wikipedia is a great source. Let's take this [world population data](https://en.wikipedia.org/wiki/World_population) that can be crawled:  
+There are some great public datasets out there, even wikipedia is a great source. Let's take this [world population data](https://en.wikipedia.org/wiki/World_population) that can be crawled:
 
+![](../.gitbook/assets/screenshot-2021-06-02-at-11.26.06-am.png)
 
 ```r
 library(dplyr)
@@ -57,6 +58,8 @@ _et voila_
 It's not really SEO, but it can be useful. I've also been using it to check the quality of the data on websites, like product prices, image availability, etc.
 
 Again, [Screamingfrog](https://www.screamingfrog.co.uk/) or another crawler might be a better choice, it depends on how integrated you want that to be and how custom those checks should be.
+
+Let's move to a more practical use case, Download and [check XML sitemap quality](download-xml-sitemaps.md)
 
 #### 
 
