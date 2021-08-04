@@ -4,18 +4,18 @@
 
 ### Install and load rPivotTable <a id="4-explore-crawled-data-with-rpivottable"></a>
 
-as usual the instruction are quite
+as usual the instruction are quite straightforward
 
 ```r
-#install package rpivottable ONLY the first time
+#install package rpivottable to be done once
 install.packages("rpivottable")
 # And loading 
-library(rpivottable)
+Library(rpivottable)
 ```
 
 Imagine you want to explore a data frame called MERGED \( see  [how to create a data frame using a CSV file](export-data/send-and-read-seo-data-to-excel.md#read-your-data-from-a-csv) \)
 
-Its just one line of code:
+**Its just one line of code**
 
 ```r
 # launch 
