@@ -6,7 +6,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 If the data to send is not too big, another interesting idea is to send it by email using the ‘gmailr’ package.
 
-```text
+```r
 #install.packages("gmailr")
 #install.packages("tableHTML")
  
@@ -36,4 +36,6 @@ Here are the data you requested:<code>", msg,"<br /><br />Kind regards,<br />Fra
 # end send it
 gm_send_message(test_email)
 ```
+
+
 
