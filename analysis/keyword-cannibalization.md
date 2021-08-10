@@ -157,7 +157,7 @@ gsc_queries_final <- gsc_queries_computed %>%
                                 arrange(desc(clicksT))
 ```
 
-\[edit : \] It could also make sense fo remove rows where cannibalization is not significant. Where **per** column value is not very high. \[end of edit\]
+It could also make sense to remove rows where cannibalization is not significant. Where **per** column value is not very high. 
 
 Removing now useless columns: click, impression and total click per query group
 
