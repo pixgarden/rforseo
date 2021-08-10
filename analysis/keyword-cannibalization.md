@@ -30,9 +30,7 @@ There are several ways to do it. Of course, SEO tools people want you to use the
 
 So let do it using Google Search Console and R’. Once set up, you’ll be able to check big batches of keywords in minutes. 
 
-### step 0: install R & rstudio
-
-see [Getting started](../classic-r-operations.md)
+### step 0: [install R & rstudio](../classic-r-operations.md#install-r)
 
 ### step 1: install the necessary packages
 

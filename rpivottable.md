@@ -1,8 +1,8 @@
 # Explore data with rPivotTable
 
-[rpivotTable](https://cran.r-project.org/web/packages/rpivotTable/vignettes/rpivotTableIntroduction.html)  is a great package by Enzo Martoglio that allows you to explore a small dataset using an HTML drag&drop interface that looks like the pivot interface from Google Sheet or Excel.
+[rpivotTable](https://cran.r-project.org/web/packages/rpivotTable/vignettes/rpivotTableIntroduction.html) is a great package by Enzo Martoglio that allows you to explore a small dataset using an HTML drag&drop interface that looks like the pivot interface from Google Sheet or Excel.
 
-### Install and load rPivotTable <a id="4-explore-crawled-data-with-rpivottable"></a>
+## Install and load rPivotTable <a id="4-explore-crawled-data-with-rpivottable"></a>
 
 as usual the instruction are quite straightforward
 
@@ -13,7 +13,7 @@ install.packages("rpivottable")
 Library(rpivottable)
 ```
 
-Imagine you want to explore a data frame called MERGED \( see  [how to create a data frame using a CSV file](export-data/send-and-read-seo-data-to-excel.md#read-your-data-from-a-csv) \)
+Imagine you want to explore a data frame called MERGED \( see [how to create a data frame using a CSV file](export-data/send-and-read-seo-data-to-excel.md#read-your-data-from-a-csv) \)
 
 **Its just one line of code**
 
@@ -37,8 +37,6 @@ To easily sort
 and filter
 
 ![](.gitbook/assets/filter.gif)
-
-
 
 [Here is a demo HTNL file ](https://www.gokam.co.uk/rpivottable.html)to try it yourself.
 

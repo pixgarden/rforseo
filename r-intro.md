@@ -16,7 +16,7 @@ This line of code, executed inside [RStudio](classic-r-operations.md#install-and
 
 Let's do it with a website links file
 
-![internal hyperlinks ](.gitbook/assets/tfobxabjri%20%281%29.gif)
+![internal hyperlinks ](.gitbook/assets/tfobxabjri.gif)
 
 This is how you open and **browse a file with 2.6 Million rows effortlessly**. Noticed the small search icon on the top right? Yes, you can search within it quite easily too.
 
