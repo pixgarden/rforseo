@@ -69,7 +69,8 @@ This will create a **sc.oauth** file inside your working directory. It stores yo
 Let’s list all websites we are allowed to send requests about:
 
 ```r
-sc_websites <- list_websites()View(sc_websites)
+sc_websites <- list_websites()
+View(sc_websites)
 ```
 
 and pick one
