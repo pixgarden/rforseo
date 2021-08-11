@@ -42,7 +42,7 @@ data = '[{"keyword":"r for seo",
 
 We are asking  for the position of the keyword "**r for seo**" from an IP in England \(code 2826\) 
 
-all the location code are available [here](https://docs.dataforseo.com/v3/serp/google/locations/?bash)
+all the location codes are available [here](https://docs.dataforseo.com/v3/serp/google/locations/?bash)
 
 ```r
 
