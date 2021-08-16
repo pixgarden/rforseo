@@ -11,17 +11,13 @@ Nevertheless, if you do submit one, it's best to make sure it's error-free and a
 ### Install xsitemap R’ Package \(to be done once\) and Load
 
 ```r
-# Installing libraries
+# Installing libraries and Loading libraries
 install.packages("devtools")
-install_github("pixgarden/xsitemap")
-
-# Loading libraries
 library(devtools)
+install_github("pixgarden/xsitemap")
 library(xsitemap)
 
 ```
-
-### 
 
 ### Find and fetch XML sitemaps
 
