@@ -245,14 +245,32 @@ file.choose() %>%
 
 As you can see, fairly easy to read. This operator is so practical that it's now used by a majority of R practicers. 
 
-### R' can be slow
+### R' rely a lot on vectors which are confusing
 
-I'm going to quote [Hadley Wickham](http://adv-r.had.co.nz/Performance.html) on this one:
+```r
+#this instruction Combine 3 numbers for make a vector and define the x variable.
+x <- c(1,2,3) 
 
-> R is not a fast language. This is not an accident. R was purposely designed to make data analysis and statistics easier for you to do. It was not designed to make life easier for your computer. While R is slow compared to other programming languages, for most purposes, it’s fast enough.
+# this will display our vector
+x
 
-My personal experience is every time my code was slow, it was because I was doing something the code shouldn't have done, like recomputing all data to output a new record.   
-  
-if you are interested in performance issue, here is a website dedicated to [Put R on Prod](https://putrinprod.com/)  
+# this will concatenate the x vector twice
+c(x,x) 
 
+# Unlike tables, vectors first element need to be called with 1
+x[1]
+```
+
+the good part is you don't need to make a loop every time you need to make some basic operations 
+
+```r
+#this will add one to every vector elements
+y <- x+1
+
+#want to add up 2 vectors with each other? this will work
+x+y
+
+# it also works with function
+x <- as.double(x)
+```
 
