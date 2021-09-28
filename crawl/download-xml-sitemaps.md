@@ -110,7 +110,7 @@ xsitemap_urls %>%
 
 ![](../.gitbook/assets/screenshot-2021-07-25-at-12.35.03-pm.png)
 
-If you prefere a % cumulative view:
+If you prefer a % cumulative view:
 
 ```r
 plot(ecdf(xsitemap_urls$year))
