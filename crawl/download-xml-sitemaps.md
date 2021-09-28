@@ -67,9 +67,9 @@ to discover, at the time of writing that most of the XML sitemap URLs are actual
 
 ### Plot the years the pages were added
 
-You might have noticed that in this XML sitemap with a "lastmod" field. This an optional field which explicitly declares to Google the date of the last modification of the url. This allows theoretically Google to optimise website crawls
+You might have noticed that in this XML sitemap with a "lastmod" field. This is an optional field that explicitly declares to Google last modification date. This allows theoretically Google to optimise website crawls.
 
-It also allow us to understand how fresh is one's website content as we can plot it
+It also allows us to understand how fresh is one's website content as we can plot it
 
 ```r
 library(ggplot2)
