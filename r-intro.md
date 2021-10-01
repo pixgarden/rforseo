@@ -208,7 +208,7 @@ _comparison -_ Is X equal to 3?
 
 ```r
 if (x = 3) {
-    return "the value of X is 3"
+    message("the value of X is 3")
 }
 ```
 
