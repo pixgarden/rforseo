@@ -46,9 +46,9 @@ ga <- google_analytics(ga_id,
 ga_seo <- ga %>% filter(medium == "organic")
 ```
 
-### Fuuuuu...sion!
+### 3. Fuuuuu...sion!
 
-The first step is to define what's the common ground. We have on the crawler data side the `Url `column and on the GA side the `landingPagePath`
+First, you need to define what's the common ground. We have on the crawler data side the `Url `column and on the GA side the `landingPagePath`
 
 So we need to make a conversion.  We'll remove the hostname from the Url using the `path` function `urltools` package.&#x20;
 
