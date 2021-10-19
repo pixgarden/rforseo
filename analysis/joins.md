@@ -1,21 +1,21 @@
-# Join Craw data with Google Analytics Data
+# Join Crawl data with Google Analytics Data
 
-The SEO data to be analyzed often comes from different sources that why it's better to know how to connect them. This is what we will see in this article  
-  
-Let's imagine we have crawled your website, it might be quite nice to check which one of these pages got some SEO traffic. 
+The SEO data to be analyzed often comes from different sources that why it's better to know how to connect or merge them. \
+\
+Let's imagine we have crawled your website, it might be quite nice to check which one of these pages got some SEO traffic.&#x20;
 
-To do that we'll need to `merge` or `join` the two "datasets" :
+To do that we'll need to `merge` or `join` the two "datasets"&#x20;
 
 ### 1. Crawl data
 
-Using `rcrawler`, we've collected our pages  \(see [How to use rcrawler](../crawl/rcrawler.md) article\)
+Using `rcrawler`, we've collected our pages  (see [How to use rcrawler](../crawl/rcrawler.md) article)
 
 ```r
 library(Rcrawler)
 Rcrawler(Website = "https://www.rforseo.com/")
 ```
 
-We now have a dataset \(dataframe\) of urls associated to their crawl depht called `INDEX`
+We now have a dataset (dataframe) of urls associated to their crawl depht called `INDEX`
 
 ```r
 View(INDEX)
@@ -25,7 +25,7 @@ View(INDEX)
 
 ### 2. Google analytics data
 
-Using `googleAnalyticsR` package we grab Google Analytics SEO Landing page \(see [How so use googleAnalyticsR](../apis/web-analytics-google-analytics.md) article\)
+Using `googleAnalyticsR` package we grab Google Analytics SEO Landing page (see [How so use googleAnalyticsR](../apis/web-analytics-google-analytics.md) article)
 
 ```r
 
@@ -48,9 +48,9 @@ ga_seo <- ga %>% filter(medium == "organic")
 
 ### Fuuuuu...sion!
 
-The first step is to define what's the common ground. We have on the crawler data side the `Url` column and on the GA side the `landingPagePath`
+The first step is to define what's the common ground. We have on the crawler data side the `Url `column and on the GA side the `landingPagePath`
 
-So we need to make a conversion.  We'll remove the hostname from the Url using the `path` function `urltools` package. 
+So we need to make a conversion.  We'll remove the hostname from the Url using the `path` function `urltools` package.&#x20;
 
 ```r
 INDEX$landingPagePath <- paste0("/",urltools::path(INDEX$Url))
@@ -71,8 +71,6 @@ View(crawl_ga_merged)
 ```
 
 ![](../.gitbook/assets/screenshot-2021-05-13-at-4.28.01-pm.png)
-
-
 
 
 
