@@ -6,12 +6,12 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 ## What's **Selenium?**
 
-Selenium is a classic tool for [QA](https://en.wikipedia.org/wiki/Quality_assurance) and it can help perform automatic checks on a website. This is an intro to how to use it
+Selenium is a classic tool for [QA](https://en.wikipedia.org/wiki/Quality\_assurance) and it can help perform automatic checks on a website. This is an intro to how to use it
 
 ## **Why Selenium is an interesting solution?**
 
-One of the great advantages of using Selenium is that **you can alternate automatic and manual actions** in the same session.  
-  
+One of the great advantages of using Selenium is that **you can alternate automatic and manual actions** in the same session.\
+\
 For example, you can log on somewhere and run an automatic script after pretty easily or… fill in a captcha and run your script.
 
 ### Let's start
@@ -24,8 +24,8 @@ install.packages("RSelenium")
 library(RSelenium)
 ```
 
-We’ll launch a selenium server with a Firefox browser in a controlled mode.  
-  
+We’ll launch a selenium server with a Firefox browser in a controlled mode.\
+\
 It will take quite some time the first time but after it will load in a few seconds.
 
 _here is the R command:_
@@ -44,7 +44,7 @@ Then we’ll grab the instance to be able to control our browser
 remDr <- rd[["client"]]
 ```
 
-It’s now possible to send action to our browser.   
+It’s now possible to send action to our browser. \
 To open a website URL just type
 
 ```r
@@ -53,7 +53,7 @@ remDr$navigate("http://www.bbc.com")
 
 ![](https://www.gokam.fr/wp-content/uploads/2019/11/Screenshot-2019-11-17-21.08.32.png)
 
-You will notice the robot head icon which means that it is a remote-controlled browser  
+You will notice the robot head icon which means that it is a remote-controlled browser\
 
 
 Here are some useful commands:
@@ -75,8 +75,8 @@ remDr$findElement(using ="tag", value = "h1")$getElementText()
 remDr$refresh() 
 ```
 
-  
-When you are done with it, don’t forget to 
+\
+When you are done with it, don’t forget to&#x20;
 
 ```r
 # close browser
@@ -94,11 +94,9 @@ Otherwise, it’s gonna be a mess when you’ll get back on it
 
 ## **How to quickly** configure a **Selenium scenario?**
 
-You can check the [documentation](https://cran.r-project.org/web/packages/RSelenium/vignettes/basics.html) to learn all the function to find DOM elements and action but there is a quicker way:
+You can check the [documentation](https://cran.r-project.org/web/packages/RSelenium/vignettes/basics.html) to learn all the functions to find DOM elements and actions but there is a quicker way:
 
-Use a chrome extension like [Katalon recorder](https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid#:~:text=Katalon%20Recorder%20is%20the%20most,%2C%20automating%20games%2C%20etc.%20%E2%80%94), record and copy/paste the instructions directly
+Use a chrome extension like [Katalon recorder](https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid#:\~:text=Katalon%20Recorder%20is%20the%20most,%2C%20automating%20games%2C%20etc.%20%E2%80%94), record and copy/paste the instructions directly
 
 ![](../.gitbook/assets/screenshot-2021-03-04-at-6.40.48-pm.png)
-
-
 

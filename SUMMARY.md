@@ -1,11 +1,11 @@
 # Table of contents
 
-* [R for SEO - The Cookbook](README.md)
-* [What is this?](intro.md)
-* [Using R for SEO, What to expect?](r-intro.md)
+* [Using R for SEO, What to expect?](README.md)
 * [Getting started](classic-r-operations.md)
+* [What is R? What is SEO?](intro.md)
+* [About this Book](r-intro.md)
 
-## Crawl and extract data <a href="crawl" id="crawl"></a>
+## Crawl and extract data <a href="#crawl" id="crawl"></a>
 
 * [What's crawling and why is it useful?](crawl/purposes.md)
 * [Download and check XML sitemaps](crawl/download-xml-sitemaps.md)
@@ -13,7 +13,7 @@
 * [Website Crawling and SEO extraction with Rcrawler](crawl/rcrawler.md)
 * [Perform automatic browser tests with RSelenium](crawl/perform-automatic-browser-tests-with-rselenium.md)
 
-## Grabbing data from APIs <a href="apis" id="apis"></a>
+## Grabbing data from APIs <a href="#apis" id="apis"></a>
 
 * [Grab Google Analytics Data x](apis/web-analytics-google-analytics.md)
 * [Grab 'DataForSeo' API data x](apis/dataforseo.md)
@@ -23,13 +23,13 @@
 * [Send requests to the Google Indexing API using googleAuthR](apis/send-requests-to-the-google-indexing-api-using-googleauthr.md)
 * [other APIs x](apis/other-apis.md)
 
-## Export and read Data <a href="export-data" id="export-data"></a>
+## Export and read Data <a href="#export-data" id="export-data"></a>
 
 * [Send and read SEO data to Excel/CSV](export-data/send-and-read-seo-data-to-excel.md)
 * [Send your data by email x](export-data/send-your-data-by-email.md)
 * [Send and read  SEO data to Google Sheet x](export-data/send-and-read-seo-data-to-google-sheet.md)
 
-## data wrangling & analysis <a href="analysis" id="analysis"></a>
+## data wrangling & analysis <a href="#analysis" id="analysis"></a>
 
 * [Join Crawl data with Google Analytics Data](analysis/joins.md)
 * [Count words, n-grams, shingles x](analysis/count-words-n-grams-shingles.md)
@@ -49,7 +49,7 @@
 
 * [Explore data with rPivotTable](rpivottable.md)
 
-## Resources <a href="ressources" id="ressources"></a>
+## Resources <a href="#ressources" id="ressources"></a>
 
 * [Launch an R script using github actions](ressources/launch-an-r-script-using-github-actions.md)
 * [Types / Class & packages x](ressources/types-class.md)

@@ -10,13 +10,13 @@ It's fetching the contents of a web page using an app or a script. This is what 
 
 ### How crawling is useful for SEO?
 
-As someone doing SEO you need to know what you are showing to Google. What your website looks like from a \(Google\) bot perspective. You need to [check the quality of your XML sitemap](download-xml-sitemaps.md) if you are submitting one. You need to [check your website webpages and meta data](rcrawler.md). Checking the web server logs is also a good idea, to know what Google bot is doing on your website.
+As someone doing SEO you need to know what you are showing to Google. What your website looks like from a (Google) bot perspective. You need to [check the quality of your XML sitemap](download-xml-sitemaps.md) if you are submitting one. You need to [check your website webpages and meta data](rcrawler.md). Checking the web server logs is also a good idea, to know what Google bot is doing on your website.
 
 You can also respectfully crawl your competitors' websites to better understand their SEO strategy.
 
-### Crawling is also interesting to grab data. 
+### Crawling is also interesting to grab data.&#x20;
 
-There are some great public datasets out there, even wikipedia is a great source. Let's take this [world population data](https://en.wikipedia.org/wiki/World_population) that can be crawled:
+There are some great public datasets out there, even wikipedia is a great source. Let's take this [world population data](https://en.wikipedia.org/wiki/World\_population) that can be crawled:
 
 ![](../.gitbook/assets/screenshot-2021-06-02-at-11.26.06-am.png)
 
@@ -53,15 +53,13 @@ ggplot(population) +
 
 _et voila_
 
-![](../.gitbook/assets/rplot02%20%281%29.png)
+![](<../.gitbook/assets/rplot02 (1).png>)
 
 It's not really SEO, but it can be useful. I've also been using it to check the quality of the data on websites, like product prices, image availability, etc.
 
-Again, [Screamingfrog](https://www.screamingfrog.co.uk/) or another crawler might be a better choice, it depends on how integrated you want that to be and how custom those checks should be.
+Again, [Screamingfrog](https://www.screamingfrog.co.uk) or other crawlers might be a better choice, it depends on how integrated you want that to be and how custom those checks should be.
 
 Let's move to a more practical use case, Download and [check XML sitemap quality](download-xml-sitemaps.md)
 
-#### 
-
-
+####
 

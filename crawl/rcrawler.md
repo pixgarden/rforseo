@@ -8,7 +8,7 @@ This section is relying on a package called [Rcrawler](https://cran.r-project.or
 
 ### Installation
 
-After [R](https://www.r-project.org/) is being installed and [rstudio](https://www.rstudio.com/) launched, same as always, we’ll install and load our package:
+After [R](https://www.r-project.org) is being installed and [rstudio](https://www.rstudio.com) launched, same as always, we’ll install and load our package:
 
 ```r
 #install to be run once 
@@ -17,7 +17,7 @@ install.packages("Rcrawler")
 library(Rcrawler)
 ```
 
-### Crawl an entire website with Rcrawler <a id="1-crawl-an-entire-website"></a>
+### Crawl an entire website with Rcrawler <a href="#1-crawl-an-entire-website" id="1-crawl-an-entire-website"></a>
 
 To launch a simple website analysis, you only need this line of code:
 
@@ -29,7 +29,7 @@ It will crawl the entire website and provide you with the data
 
 ![Less than 30s to crawl a small website](https://www.gokam.fr/wp-content/uploads/2020/03/V0goQ3vuzC.gif)
 
-\_\_
+__
 
 After the crawl is being done, you’ll have access to:
 
@@ -45,15 +45,15 @@ View(INDEX)
 
 ![INDEX data frame](https://www.gokam.fr/wp-content/uploads/2020/03/Screenshot-2020-03-09-18.02.35-1024x476.png)
 
-\_\_
+__
 
 Most of the columns are self-explanatory. Usually, the most interesting ones are ‘**Http Resp**‘ and ‘**Level**‘
 
 The Level is what SEOs call “crawl depth” or “page depth”. With it, you can easily check how far from the homepage some webpages are.
 
-Quick example with [BrightonSEO](https://www.brightonseo.com/) website, let’s do a quick ‘ggplot’ and we’ll be able to see pages 
+Quick example with [BrightonSEO](https://www.brightonseo.com) website, let’s do a quick ‘ggplot’ and we’ll be able to see pages&#x20;
 
-![page count by level](https://www.gokam.co.uk/wp-content/uploads/2020/08/brightonSEO_crawl_depht_2020.png)
+![page count by level](https://www.gokam.co.uk/wp-content/uploads/2020/08/brightonSEO\_crawl\_depht\_2020.png)
 
 ```r
 #here the code to run to see the plot
@@ -84,13 +84,13 @@ table(INDEX$Level)
 
 **HTML Files**
 
-By default, the rcrawler function also store HTML files in your ‘working directory’. Update location by running setwd\(\) function
+By default, the rcrawler function also store HTML files in your ‘working directory’. Update location by running setwd() function
 
 ![](https://www.gokam.fr/wp-content/uploads/2020/03/Screenshot-2020-03-09-19.05.35-1024x386.png)
 
 Let’s go deeper into options by replying to the most commons questions:
 
-### So how to extract metadata while crawling? <a id="2-extract-metadata-while-crawling"></a>
+### So how to extract metadata while crawling? <a href="#2-extract-metadata-while-crawling" id="2-extract-metadata-while-crawling"></a>
 
 It’s possible to extract any elements from webpages, using a CSS or XPath selector. We’ll have to use 2 new parameters
 
@@ -124,7 +124,7 @@ You can access the scraped data in two ways:
 
 * **option 1 =** **DATA** – it’s an environment variable that you can directly access using the console. A small warning, it’s a ‘list’ a little less easy to read
 
-![View\(DATA\) will display something like that](https://www.gokam.fr/wp-content/uploads/2020/03/Screenshot-2020-03-15-16.14.38-1024x670.png)
+![View(DATA) will display something like that](https://www.gokam.fr/wp-content/uploads/2020/03/Screenshot-2020-03-15-16.14.38-1024x670.png)
 
 If you want to convert it to a data frame, easier to deal with, here the code:
 
@@ -132,7 +132,9 @@ If you want to convert it to a data frame, easier to deal with, here the code:
 NEWDATA <- data.frame(matrix(unlist(DATA), nrow=length(DATA), byrow=T))
 ```
 
-* **option 2 =** **extracted\_data.csv**  It’s a CSV file that has been saved inside your working directory along with the HTML files.
+* **option 2 =** **extracted\_data.csv**\
+  \
+  It’s a CSV file that has been saved inside your working directory along with the HTML files.
 
 It might be useful to merge INDEX and NEWDATA files, here the code
 
@@ -177,7 +179,7 @@ p
 
 ```
 
-![Count of Pagetype per level](https://www.gokam.co.uk/wp-content/uploads/2020/08/brightonSEO_plot_pagetype_2020.png)
+![Count of Pagetype per level](https://www.gokam.co.uk/wp-content/uploads/2020/08/brightonSEO\_plot\_pagetype\_2020.png)
 
 Want to see something even cooler?
 
@@ -194,7 +196,7 @@ ggplotly(p, tooltip = c("count","pagetype_short"))
 
 This is a static HTML file that can be store anywhere, even on [my shared hosting](https://www.gokam.co.uk/pagetype.html)
 
-### Explore Crawled Data with rpivottable <a id="4-explore-crawled-data-with-rpivottable"></a>
+### Explore Crawled Data with rpivottable <a href="#4-explore-crawled-data-with-rpivottable" id="4-explore-crawled-data-with-rpivottable"></a>
 
 ```r
 #install package rpivottable the first time
@@ -205,17 +207,17 @@ library(rpivottable)
 toolrpivotTable(MERGED)
 ```
 
-![This create a drag &amp; drop pivot explorer](https://www.gokam.co.uk/wp-content/uploads/2020/08/LgfVsFu6NL.gif)
+![This create a drag & drop pivot explorer](https://www.gokam.co.uk/wp-content/uploads/2020/08/LgfVsFu6NL.gif)
 
-![It&#x2019;s also possible make some quick data viz](https://www.gokam.co.uk/wp-content/uploads/2020/08/UmtYC25Kdh.gif)
+![It’s also possible make some quick data viz](https://www.gokam.co.uk/wp-content/uploads/2020/08/UmtYC25Kdh.gif)
 
 Full [DEMO – see by yourself](https://www.gokam.co.uk/rpivottable.html)
 
-### Extract more data without having to recrawl <a id="4-extract-more-data-without-having-to-recrawl"></a>
+### Extract more data without having to recrawl <a href="#4-extract-more-data-without-having-to-recrawl" id="4-extract-more-data-without-having-to-recrawl"></a>
 
 All the HTML files are stored in your hard drive, so if you need more data extracted, it’s entirely possible.
 
-You can list your recent crawl by using ListProjects\(\) function,
+You can list your recent crawl by using ListProjects() function,
 
 ![it displays 2 recent crawling projects](https://www.gokam.fr/wp-content/uploads/2020/03/Screenshot-2020-03-24-21.32.24.png)
 
@@ -233,7 +235,7 @@ colnames(LastHTMLDATA) <- 'html'
 LastHTMLDATA$html <- as.character(LastHTMLDATA$html)
 ```
 
-Let’s say you forgot to grab h2’s and h3’s you can extract them again using the ContentScraper\(\) also included inside rcrawler package.
+Let’s say you forgot to grab h2’s and h3’s you can extract them again using the ContentScraper() also included inside rcrawler package.
 
 ```r
 for(i in 1:nrow(LastHTMLDATA)) {
@@ -246,7 +248,7 @@ for(i in 1:nrow(LastHTMLDATA)) {
 
 ![](https://www.gokam.fr/wp-content/uploads/2020/03/Screenshot-2020-03-25-22.46.42-1024x427.png)
 
-### Categorize URLs using Regex <a id="5-categorize-urls-using-regex"></a>
+### Categorize URLs using Regex <a href="#5-categorize-urls-using-regex" id="5-categorize-urls-using-regex"></a>
 
 For those not afraid of regex, here is a complimentary script to categorize URLs. Be careful the regex order is important, some values can overwrite others. Usually, it’s a good idea to place the home page last
 
@@ -286,7 +288,7 @@ for(i in 1:length(category_name)){
 View(INDEX)
 ```
 
-### What if I want to follow robots.txt rules? <a id="4-what-if-i-want-to-follow-robotstxt-rules"></a>
+### What if I want to follow robots.txt rules? <a href="#4-what-if-i-want-to-follow-robotstxt-rules" id="4-what-if-i-want-to-follow-robotstxt-rules"></a>
 
 just had **Obeyrobots** parameter
 
@@ -295,7 +297,7 @@ just had **Obeyrobots** parameter
 Rcrawler(Website = "https://www.gokam.co.uk/", Obeyrobots = TRUE)
 ```
 
-### What if I want to limit crawling speed? <a id="3-limit-crawling-speed"></a>
+### What if I want to limit crawling speed? <a href="#3-limit-crawling-speed" id="3-limit-crawling-speed"></a>
 
 By default, this crawler is rather quick and can grab a lot of webpage in no times. To every advantage an inconvenience, it’s fairly easy to wrongly detected as a DOS. To limit the risks, I suggest you use the parameter **RequestsDelay**. it’s the time interval between each round of parallel HTTP requests, in seconds. Example
 
@@ -306,11 +308,11 @@ Rcrawler(Website = "https://www.example.com/", RequestsDelay=10)
 
 Other interesting limitation options:
 
-**no\_cores**: specify the number of clusters \(logical cpu\) for parallel crawling, by default it’s the numbers of available cores.
+**no\_cores**: specify the number of clusters (logical cpu) for parallel crawling, by default it’s the numbers of available cores.
 
 **no\_conn**: it’s the number of concurrent connections per one core, by default it takes the same value of no\_cores.
 
-### What if I want to crawl only a subfolder? <a id="7-what-if-i-want-to-crawl-only-a-subfolder"></a>
+### What if I want to crawl only a subfolder? <a href="#7-what-if-i-want-to-crawl-only-a-subfolder" id="7-what-if-i-want-to-crawl-only-a-subfolder"></a>
 
 2 parameters help you do that. _crawlUrlfilter_ will limit the crawl, _dataUrlfilter_ will tell from which URLs data should be extracted
 
@@ -318,14 +320,14 @@ Other interesting limitation options:
 Rcrawler(Website = "http://www.glofile.com/sport/", dataUrlfilter ="/sport/", crawlUrlfilter="/sport/" )
 ```
 
-### How to change user-agent? <a id="6-how-to-change-user-agent"></a>
+### How to change user-agent? <a href="#6-how-to-change-user-agent" id="6-how-to-change-user-agent"></a>
 
 ```r
 #as simply as that
 Rcrawler(Website = "http://www.example.com/", Useragent="Mozilla 3.11")
 ```
 
-### What if my IP is banned? <a id="6-what-if-my-ip-is-banned"></a>
+### What if my IP is banned? <a href="#6-what-if-my-ip-is-banned" id="6-what-if-my-ip-is-banned"></a>
 
 **option 1: Use a VPN on your computer**
 
@@ -342,7 +344,7 @@ Rcrawler(Website = "https://www.gokam.co.uk/", use_proxy = proxy)
 
 Where to find proxy? It’s been a while I didn’t need one so I don’t know.
 
-### Where are the internal Links? <a id="4-where-are-the-internal-links"></a>
+### Where are the internal Links? <a href="#4-where-are-the-internal-links" id="4-where-are-the-internal-links"></a>
 
 By default, RCrawler doesn’t save internal links, you have to ask for them explicitly by using **NetworkData** option, like that:
 
@@ -352,7 +354,8 @@ Rcrawler(Website = "https://www.gokam.co.uk/",  NetworkData = TRUE)
 
 Then you’ll have two new variables available at the end of the crawling:
 
-* **NetwIndex** var that is simply all the webpage URLs. The row number are the same than locally stored HTML files, so row n°1 = homepage = 1.html
+* **NetwIndex** var that is simply all the webpage URLs. The row number are the same than locally stored HTML files, so\
+  row n°1 = homepage = 1.html
 
 ![](https://www.gokam.fr/wp-content/uploads/2020/03/Screenshot-2020-03-15-20.14.14.png)**NetwIndex** data frame
 
@@ -360,20 +363,20 @@ Then you’ll have two new variables available at the end of the crawling:
 
 ![](https://www.gokam.fr/wp-content/uploads/2020/03/Screenshot-2020-03-15-20.16.20.png)**NetwEdges** data frame
 
-Each row is a link. **From** and **To** columns indicate “from” which page “to” which page are each link.  
-  
-On the image above:  
-row n°1 is a link from homepage \(page n°1\) to homepage  
-row n°2 is a link from homepage to webpage n°2. According to NetwIndex variable, page n°2 is the article about [rvest](https://www.gokam.co.uk/crawling-with-r-using-rvest-package/).  
+Each row is a link. **From** and **To** columns indicate “from” which page “to” which page are each link.\
+\
+On the image above:\
+row n°1 is a link from homepage (page n°1) to homepage\
+row n°2 is a link from homepage to webpage n°2. According to NetwIndex variable, page n°2 is the article about [rvest](https://www.gokam.co.uk/crawling-with-r-using-rvest-package/).\
 etc…
 
-**Weight** is the Depth level where the link connection has been discovered. All the first rows are from the homepage so Level 0.  
-  
+**Weight** is the Depth level where the link connection has been discovered. All the first rows are from the homepage so Level 0.\
+\
 **Type** is either 1 for internal hyperlinks or 2 for external hyperlinks
 
-### Count Links <a id="6-count-links"></a>
+### Count Links <a href="#6-count-links" id="6-count-links"></a>
 
-I guess you guys are interested in counting links. Here is the code to do it. I won’t go into too many explanations, it would be too long. if you are interested \(and motivated\) go and check out the [dplyr](https://dplyr.tidyverse.org/) package and specifically [Data Wrangling functions](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+I guess you guys are interested in counting links. Here is the code to do it. I won’t go into too many explanations, it would be too long. if you are interested (and motivated) go and check out the [dplyr](https://dplyr.tidyverse.org) package and specifically [Data Wrangling functions](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
 **Count outbound links**
 
@@ -389,7 +392,7 @@ View(count_from)
 # we want to view the results
 ```
 
-![the homepage \(n&#xB0;1\) has 13 outbound links](https://www.gokam.fr/wp-content/uploads/2020/03/Screenshot-2020-03-17-23.22.18.png)
+![the homepage (n°1) has 13 outbound links](https://www.gokam.fr/wp-content/uploads/2020/03/Screenshot-2020-03-17-23.22.18.png)
 
 To make it more readable let’s replace page IDs with URLs
 
@@ -429,13 +432,13 @@ count_to$To <- NetwIndexView(count_to)
 
 So the useless ‘[author page](https://www.gokam.co.uk/author/gokam/)‘ has 14 links pointing at it, as many as the homepage… Maybe I should fix this one day.
 
-### Compute ‘Internal Page Rank’ <a id="4-compute-internal-page-rank"></a>
+### Compute ‘Internal Page Rank’ <a href="#4-compute-internal-page-rank" id="4-compute-internal-page-rank"></a>
 
 [section moved here](https://www.rforseo.com/analysis/page-ranks)
 
-### What if a website is using a JavaScript framework like React or Angular? <a id="5-what-if-my-website-is-using-a-javascript-framework-like-react-or-angular"></a>
+### What if a website is using a JavaScript framework like React or Angular? <a href="#5-what-if-my-website-is-using-a-javascript-framework-like-react-or-angular" id="5-what-if-my-website-is-using-a-javascript-framework-like-react-or-angular"></a>
 
-RCrawler handly includes **Phantom JS**, the classic headless browser.  
+RCrawler handly includes **Phantom JS**, the classic headless browser.\
 Here is how to to use
 
 ```r
@@ -462,12 +465,11 @@ This _Browser_ option can also be used with the other Rcrawler functions.
 
 ⚠️ Rendering webpage means every Javascript files will be run, including **Web Analytics tags**. If you don’t take the necessary precaution, it’ll change your Web Analytics data
 
-### So what’s the catch? <a id="6-perform-automatic-browser-tests-with-selenium"></a>
+### So what’s the catch? <a href="#6-perform-automatic-browser-tests-with-selenium" id="6-perform-automatic-browser-tests-with-selenium"></a>
 
-Rcrawler is a great tool but it’s far from being perfect. SEO will definitely miss a couple of things like there is no internal dead links report, It doesn’t grab nofollow attributes on Links and there is always a couple of bugs here and there, but overall it’s a great tool to have.  
-  
+Rcrawler is a great tool but it’s far from being perfect. SEO will definitely miss a couple of things like there is no internal dead links report, It doesn’t grab nofollow attributes on Links and there is always a couple of bugs here and there, but overall it’s a great tool to have.\
+\
 Another concern is the [git repo](https://github.com/salimk/Rcrawler) which is quite inactive. This is it. I hope you did find this article useful, reach to me for slow support, bugs/corrections or ideas for new articles. Take care.
 
-ref:  
-_Khalil, S., & Fakir, M. \(2017\). RCrawler: An R package for parallel web crawling and scraping. SoftwareX, 6, 98-106._
-
+ref:\
+_Khalil, S., & Fakir, M. (2017). RCrawler: An R package for parallel web crawling and scraping. SoftwareX, 6, 98-106._

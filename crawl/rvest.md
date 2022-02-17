@@ -6,7 +6,7 @@ description: ⚠️ THIS IS A WORK IN PROGRESS
 
 If you want to crawl a couple of URLs for SEO purposes, there are many ways to do it but one of the most reliable and versatile packages you can use is the [rvest](https://cran.r-project.org/web/packages/rvest/) package.
 
-Here is a [simple demo](https://stat4701.github.io/edav/2015/04/02/rvest_tutorial/) from the package documentation using the IMDb website:
+Here is a [simple demo](https://stat4701.github.io/edav/2015/04/02/rvest\_tutorial/) from the package documentation using the IMDb website:
 
 ```r
 # Package installation, instruction to be run only once
@@ -32,10 +32,10 @@ rating <- lego_movie %>%
    as.numeric()
 ```
 
-For those who don’t know **%&gt;%** operator here is [simple explanation](../r-intro.md#the-greater-than)  
-  
-_html\_nodes_\(\) function will extract from our webpage, HTML tags that match CSS style query selector. In this case, we are looking for a &lt;span&gt; tag whose parent is a &lt;strong&gt; tag.  
-then script will extract the inner text value using _html\_text_\(\) then convert it to a number using _as.numeric_\(\).
+For those who don’t know **%>%** operator here is [simple explanation](../r-intro.md#the-greater-than)\
+\
+_html\_nodes_() function will extract from our webpage, HTML tags that match CSS style query selector. In this case, we are looking for a \<span> tag whose parent is a \<strong> tag.\
+then script will extract the inner text value using _html\_text_() then convert it to a number using _as.numeric_().
 
 Finally, it will store this value inside _rating_ variable to display the value just write:
 
@@ -44,9 +44,9 @@ rating
 # it should display > [1] 7.8
 ```
 
-Let’s take another example. This time we are going to grab the movies’ cast.  
-  
-Having a look at the HTML DOM, it seems that we need to grab an HTML &lt;img&gt; tag who’s parent tag have ‘titleCast’ as an id and ‘primary\_photo’ as a class name and then we’ll need to extract the alt attribute
+Let’s take another example. This time we are going to grab the movies’ cast.\
+\
+Having a look at the HTML DOM, it seems that we need to grab an HTML \<img> tag who’s parent tag have ‘titleCast’ as an id and ‘primary\_photo’ as a class name and then we’ll need to extract the alt attribute
 
 ```r
 cast <- lego_movie %>%
@@ -58,7 +58,7 @@ cast
 
 ```
 
-Last example, we want the movie poster url. First step is to grab &lt;img&gt; tag who’s parent have a class name ‘poster’ Then extract src attribute and display it
+Last example, we want the movie poster url. First step is to grab \<img> tag who’s parent have a class name ‘poster’ Then extract src attribute and display it
 
 ```r
 poster <- lego_movie %>%
@@ -79,16 +79,16 @@ Here are the ones’ for[ **All in one SEO**](https://en-gb.wordpress.org/plugin
 
 Very useful to follow if your favourite plugin new release is well received [or not.](https://twitter.com/tuf/status/1229363279388082176)
 
-But before that, a little warning, the source code I’m about to show you has been made by me. It’s full of flaws, couple of stack overflow copypasta but… it works. 😅 So Dear practitioners please don’t judge me  
+But before that, a little warning, the source code I’m about to show you has been made by me. It’s full of flaws, couple of stack overflow copypasta but… it works. 😅 So Dear practitioners please don’t judge me\
 It’s one of the beauties of R, you get your ends relatively easily.
 
-\(but I gladly accept any ideas to make this code easier for beginner, don’t hesitate to contact me\)
+(but I gladly accept any ideas to make this code easier for beginner, don’t hesitate to contact me)
 
 So let’s get to it, the first step is to grab a [reviews page](https://wordpress.org/support/plugin/wp-fastest-cache/reviews/) URL. On this one, we have 49 pages of reviews.
 
 We’ll have to make a loop to run into each pagination. Another problem is that no dates are being displayed but only durations, so we’ll have to convert them.
 
-As usual, we’ll first load the necessary packages. If there are not installed yet, run the install.packages\(\) function as seen before.
+As usual, we’ll first load the necessary packages. If there are not installed yet, run the install.packages() function as seen before.
 
 ```r
 #Loading packages
@@ -198,6 +198,4 @@ ggplot(all_reviews, aes(x=day, fill=note))+
 
 ![](https://www.gokam.fr/wp-content/uploads/2020/03/Rplot.png)
 
-  
-
-
+\

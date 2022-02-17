@@ -20,8 +20,8 @@ View(NetwEdges)
 
 ![](../.gitbook/assets/screenshot-2021-05-28-at-11.04.27-am.png)
 
-  
-  
+\
+\
 We only want to first 2 column:
 
 ```r
@@ -71,4 +71,3 @@ values$url <- NetwIndex
 ![](https://www.gokam.fr/wp-content/uploads/2020/03/Screenshot-2020-03-18-00.09.37.png)
 
 On 15 webpages website, it’s not very impressive but I encourage you to try on a bigger website.
-
